@@ -1,0 +1,15 @@
+# Build outputs
+docs/.next/
+docs/.docs/
+docs/out/
+docs/public/search-index.json
+docs/node_modules/
+node_modules/
+.turbo/
+*.tsbuildinfo
+
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+GROK.md
+QWEN.md
