@@ -1,0 +1,118 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate-zips:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Validate ZIP format
+      run: |
+        echo "Validating ZIP proposal format..."
+        for file in ZIPs/*.md; do
+          echo "Checking $file"
+          # Check for required frontmatter
+          if ! grep -q "^zip:" "$file"; then
+            echo "Error: Missing 'zip:' field in $file"
+            exit 1
+          fi
+          if ! grep -q "^title:" "$file"; then
+            echo "Error: Missing 'title:' field in $file"
+            exit 1
+          fi
+          if ! grep -q "^author:" "$file"; then
+            echo "Error: Missing 'author:' field in $file"
+            exit 1
+          fi
+          if ! grep -q "^status:" "$file"; then
+            echo "Error: Missing 'status:' field in $file"
+            exit 1
+          fi
+        done
+        echo "All ZIPs validated successfully!"
+    
+    - name: Check markdown formatting
+      run: |
+        npm install -g markdownlint-cli
+        markdownlint ZIPs/*.md --config .markdownlint.yml || true
+    
+    - name: Check for broken links
+      run: |
+        npm install -g markdown-link-check
+        find ZIPs -name "*.md" -exec markdown-link-check {} \; || true
+    
+    - name: Generate ZIP index
+      run: |
+        echo "# ZIP Index" > zip-index.md
+        echo "" >> zip-index.md
+        echo "| ZIP | Title | Status | Author |" >> zip-index.md
+        echo "|-----|-------|--------|--------|" >> zip-index.md
+        
+        for file in ZIPs/*.md; do
+          zip=$(grep "^zip:" "$file" | cut -d' ' -f2)
+          title=$(grep "^title:" "$file" | cut -d' ' -f2-)
+          status=$(grep "^status:" "$file" | cut -d' ' -f2)
+          author=$(grep "^author:" "$file" | cut -d' ' -f2-)
+          echo "| $zip | $title | $status | $author |" >> zip-index.md
+        done
+        
+        cat zip-index.md
+
+  security-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Run security checks
+      run: |
+        echo "Checking for sensitive data..."
+        # Check for potential secrets
+        if grep -r "sk-" ZIPs/ 2>/dev/null; then
+          echo "Warning: Potential API key found"
+        fi
+        if grep -r "private_key" ZIPs/ 2>/dev/null; then
+          echo "Warning: Potential private key reference found"
+        fi
+        echo "Security check complete"
+    
+    - name: License check
+      run: |
+        if [ ! -f LICENSE ]; then
+          echo "Warning: No LICENSE file found"
+        fi
+
+  build-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install mkdocs mkdocs-material
+    
+    - name: Build documentation
+      run: |
+        if [ -f mkdocs.yml ]; then
+          mkdocs build
+        else
+          echo "No mkdocs.yml found, skipping docs build"
+        fi
