@@ -45,7 +45,7 @@ formal ZIP specification was written later.
 | 05 | Supporting Non-Profits | ZIP-0530 | ZIP-0570 | `zoo-fund-impact-thesis` |
 | 06 | Zoo Foundation | ZIP-0000 | ZIP-0570 | `zoo-foundation-mission` (2025) |
 | 07 | Gameplay Functions | ZIP-0004 | ZIP-0300, ZIP-0301 | -- |
-| 08 | AI Assistant | ZIP-0405 | ZIP-0001, ZIP-0404 | `zoo-experience-ledger` (2021), `zoo-hamiltonian-llm` (2024) |
+| 08 | AI Assistant | ZIP-0400 | ZIP-0401, ZIP-0402, ZIP-0403, ZIP-0405, ZIP-0409, ZIP-0418 | `zoo-experience-ledger` (2021), `zoo-hamiltonian-llm` (2024), `hanzo-chat` (2024) |
 | 09 | Augmented Reality App | ZIP-0011 | ZIP-0300 | `zoo-spatial-web-agents` |
 | 10 | Collateral-Backed NFTs | ZIP-0206 | ZIP-0103, ZIP-0200 | `zoo-nft-liquidity-protocol` (2021) |
 | 11 | Feeding, Growing, Breeding | ZIP-0004 | ZIP-0207, ZIP-0301 | -- |
@@ -269,28 +269,105 @@ Virtual habitats, play-to-conserve, AI behavior, multiplayer, leaderboards.
 
 ## 5. AI/ML
 
-HLLM, GRPO, DSO, training, inference, species detection, federated learning.
+Conversational AI, semantic memory, multimodal, Zen model family, HLLM, GRPO, DSO, ASO, MCP, PoAI, embeddings, training, inference, safety, translation.
+
+### 5a. October 2021 -- Whitepaper Genesis
 
 | ZIP | Title | Status | Paper | Originated | Created |
 |-----|-------|--------|-------|------------|---------|
-| ZIP-0400 | Decentralized Semantic Optimization (DSO) | Draft | `experience-ledger-dso` | 2021-10 | 2025-01-15 |
-| ZIP-0401 | Species Detection ML Pipeline | Draft | `zoo-species-classification` | 2021-10 | 2025-01-15 |
-| ZIP-0402 | Proof of AI (PoAI) Consensus | Draft | `zoo-poai-consensus` | -- | 2025-01-15 |
-| ZIP-0403 | Federated Learning for Conservation | Draft | `zoo-federated-wildlife` | -- | 2025-01-15 |
-| ZIP-0404 | zLLM Architecture Specification | Draft | `zoo-hamiltonian-llm` | 2021-10 | 2025-01-15 |
-| ZIP-0405 | Conservation Agent SDK | Draft | `zoo-agent-nft` | 2021-10 | 2025-01-15 |
-| ZIP-0406 | Model Attestation Protocol | Draft | -- | -- | 2025-01-15 |
-| ZIP-0407 | Distributed Training Incentive | Draft | `zoo-gym-protocol` | -- | 2025-01-15 |
-| ZIP-0408 | AI Ethics Review Framework | Draft | -- | -- | 2025-01-15 |
-| ZIP-0409 | Multimodal Wildlife Recognition | Draft | `zoo-species-classification` | 2021-10 | 2025-01-15 |
+| ZIP-0400 | Conversational AI for Conservation | Final | `zoo-experience-ledger` | 2021-10 | 2021-10-15 |
+| ZIP-0401 | Persistent Semantic Memory (Experience Ledger) | Final | `zoo-experience-ledger` | 2021-10 | 2021-10-15 |
+| ZIP-0402 | AI-Augmented NFTs | Final | `zoo-agent-nft` | 2021-10 | 2021-10-15 |
+| ZIP-0403 | On-Chain AI Identity | Final | `zoo-identity-chain` | 2021-10 | 2021-10-15 |
+
+### 5b. 2022 -- Early Research
+
+| ZIP | Title | Status | Paper | Originated | Created |
+|-----|-------|--------|-------|------------|---------|
+| ZIP-0404 | Content-Addressable Semantic Memory System | Final | `zoo-ai-memory` | 2022-03 | 2022-03-15 |
+| ZIP-0405 | Conservation-Aware Language Models | Final | `zoo-conservation-ai` | 2022-06 | 2022-06-01 |
+| ZIP-0406 | Multi-Modal Conservation AI | Final | `zoo-species-classification` | 2022-09 | 2022-09-01 |
+| ZIP-0407 | Decentralized AI Training Architecture | Final | `zoo-gym-protocol` | 2022-11 | 2022-11-15 |
+
+### 5c. 2023 -- Jin / Multimodal Era
+
+| ZIP | Title | Status | Paper | Originated | Created |
+|-----|-------|--------|-------|------------|---------|
+| ZIP-0408 | Unified Multimodal Architecture (Jin) | Final | `zen-multimodal-architecture` | 2023-03 | 2023-03-01 |
+| ZIP-0409 | Active Semantic Optimization (ASO) | Final | `hanzo-aso` | 2023-06 | 2023-06-01 |
+| ZIP-0410 | Decentralized Semantic Optimization (DSO) | Final | `experience-ledger-dso` | 2023-09 | 2023-09-01 |
+| ZIP-0411 | AI-Powered Search with RAG | Final | `hanzo-search` | 2023-10 | 2023-10-01 |
+| ZIP-0412 | MCP Server Architecture | Final | `hanzo-agent-sdk` | 2023-12 | 2023-12-01 |
+
+### 5d. 2024 -- Zen Model Family
+
+| ZIP | Title | Status | Paper | Originated | Created |
+|-----|-------|--------|-------|------------|---------|
+| ZIP-0413 | Foundation Language Model Architecture (Zen Base) | Final | `zen-base_whitepaper` | 2024-01 | 2024-01-15 |
+| ZIP-0414 | Mixture of Distilled Experts (MoDE) | Final | `zen-mixture-of-experts` | 2024-02 | 2024-02-15 |
+| ZIP-0415 | Code Intelligence at Scale (Zen-Code) | Final | `zen-coder_whitepaper` | 2024-03 | 2024-03-01 |
+| ZIP-0416 | Vision-Language Models (Zen-VL) | Final | `zen-vl_whitepaper` | 2024-04 | 2024-04-01 |
+| ZIP-0417 | Real-Time Conversational AI (Zen-Live) | Final | `zen-live_whitepaper` | 2024-05 | 2024-05-01 |
+| ZIP-0418 | Hamiltonian Large Language Models (HLLM) | Final | `zoo-hamiltonian-llm` | 2024-06 | 2024-06-01 |
+| ZIP-0419 | Proof of AI Consensus (PoAI) | Final | `zoo-poai-consensus` | 2024-06 | 2024-06-15 |
+| ZIP-0420 | 7680-Dimensional Embeddings (Zen-Reranker) | Final | `zen-reranker` | 2024-07 | 2024-07-01 |
+| ZIP-0421 | Training-Free Preference Optimization (GRPO) | Final | `hllm-training-free-grpo` | 2024-08 | 2024-08-01 |
+| ZIP-0422 | Computer Use Framework (Operative) | Final | `hanzo-operative` | 2024-09 | 2024-09-01 |
+| ZIP-0423 | Privacy-Preserving AI Training (FHE) | Final | `zoo-fhe` | 2024-10 | 2024-10-01 |
+| ZIP-0424 | Federated Wildlife Monitoring | Final | `zoo-federated-wildlife` | 2024-11 | 2024-11-01 |
+| ZIP-0425 | Satellite Ecological Monitoring | Final | `zoo-satellite-ecology` | 2024-12 | 2024-12-01 |
+
+### 5e. 2025 -- Scaling
+
+| ZIP | Title | Status | Paper | Originated | Created |
+|-----|-------|--------|-------|------------|---------|
+| ZIP-0426 | 1M Token Context Extension | Final | `zen-context-extension` | 2025-01 | 2025-01-15 |
+| ZIP-0427 | BitDelta Model Compression | Final | `zoo-bitdelta-deltasoup` | 2025-02 | 2025-02-01 |
+| ZIP-0428 | Knowledge Distillation Pipeline | Final | `zen-knowledge-distillation` | 2025-03 | 2025-03-01 |
+| ZIP-0429 | Multilingual 100+ Language Coverage | Final | `zen-multilingual` | 2025-04 | 2025-04-01 |
+| ZIP-0430 | AI Safety Framework (Zen-Guard) | Final | `zen-safety-evaluation` | 2025-05 | 2025-05-01 |
+| ZIP-0431 | Neural Machine Translation (Zen-Translator) | Final | `zen-translator` | 2025-06 | 2025-06-01 |
+| ZIP-0432 | Sovereign AI Memory | Final | `zoo-ai-memory` | 2025-07 | 2025-07-01 |
+| ZIP-0433 | Spatial Web Active Inference | Final | `zoo-spatial-web-agents` | 2025-08 | 2025-08-01 |
+| ZIP-0434 | Decentralized Training Infrastructure | Final | `zoo-gym-protocol` | 2025-09 | 2025-09-01 |
 
 **Provenance notes for AI/ML:**
 
-- ZIP-0400 traces from section 08 (AI Assistant) -- the experience ledger was the original mechanism for the conversational AI to learn and improve. Follow-on: `zoo-experience-ledger` (2021), `experience-ledger-dso` (2025).
-- ZIP-0401 traces from section 03 (Sustainability) -- species detection for conservation monitoring.
-- ZIP-0404 traces from section 08 (AI Assistant) -- the HLLM is the evolved form of the original per-animal AI. Follow-on: `zoo-hamiltonian-llm` (2024), `hllm-training-free-grpo` (2025).
-- ZIP-0405 traces from section 08 (AI Assistant) and section 21 (NFTs That Make You Smile). The agent SDK formalizes the per-animal conversational AI.
-- ZIP-0409 traces from section 02 (Zoo Animal Utility) -- multimodal recognition of species.
+- ZIP-0400 traces from section 08 (AI Assistant) -- the ChatGPT-like conversational interface, 14 months before ChatGPT. Follow-on: `zoo-experience-ledger` (2021), `hanzo-chat` (2024).
+- ZIP-0401 traces from section 08 (AI Assistant) -- persistent semantic memory. Follow-on: `zoo-experience-ledger` (2021), `zoo-ai-memory` (2024), `experience-ledger-dso` (2025).
+- ZIP-0402 traces from sections 02, 08, 21 -- intelligent agents bound to NFT tokens, predating ERC-6551 by 2 years. Follow-on: `zoo-agent-nft` (2022).
+- ZIP-0403 traces from sections 08, 19, 21 -- agents as first-class blockchain citizens. Follow-on: `zoo-identity-chain` (2024), `hanzo-aci`.
+- ZIP-0404 extends ZIP-0401 with content-addressable storage. Follow-on: `zoo-data-commons` (2023), `zoo-ai-memory` (2024).
+- ZIP-0405 traces from sections 03, 08 -- domain-specific conservation language models. Follow-on: `zoo-conservation-ai` (2022), `zoo-species-classification` (2024).
+- ZIP-0406 traces from sections 03, 08, 09 -- multimodal conservation AI. Follow-on: `zen-multimodal-architecture`, `zen-vision-architecture`.
+- ZIP-0407 traces from section 08 -- decentralized training architecture, precursor to Zoo Gym. Follow-on: `zoo-gym-protocol` (2024).
+- ZIP-0408 specifies the Jin unified multimodal architecture. Follow-on: `zen-vl_whitepaper`, `zen3-omni_whitepaper`.
+- ZIP-0409 specifies ASO (HIP-0002). Follow-on: `hanzo-aso`, `zen-aso-protocol`.
+- ZIP-0410 specifies DSO, the distributed counterpart to ASO. Follow-on: `experience-ledger-dso` (2025), `zen-dso-protocol`.
+- ZIP-0411 specifies RAG architecture for grounded search. Follow-on: `hanzo-search`, `zen-reranker`.
+- ZIP-0412 specifies MCP server architecture with 260+ tools. Follow-on: `hanzo-agent-sdk`.
+- ZIP-0413 specifies Zen Base foundation model architecture (600M-480B params). Follow-on: `zen-base_whitepaper`, `zen4_whitepaper`.
+- ZIP-0414 specifies Zen MoDE (Mixture of Diverse Experts). Follow-on: `zen-mixture-of-experts`.
+- ZIP-0415 specifies Zen-Code for code intelligence. Follow-on: `zen-coder_whitepaper`, `zen4-coder_whitepaper`.
+- ZIP-0416 specifies Zen-VL vision-language models. Follow-on: `zen-vl_whitepaper`, `zen3-vl_whitepaper`.
+- ZIP-0417 specifies Zen-Live real-time conversational AI. Follow-on: `zen-live_whitepaper`.
+- ZIP-0418 specifies HLLM (Hamiltonian LLMs, HIP-0004). Follow-on: `zoo-hamiltonian-llm` (2024), `hllm-training-free-grpo` (2025).
+- ZIP-0419 specifies PoAI consensus (ZIP-002). Follow-on: `zoo-poai-consensus` (2024).
+- ZIP-0420 specifies 7680-dim embeddings. Follow-on: `zen-reranker`, `embedding-7680`.
+- ZIP-0421 specifies GRPO, 99.8% cost reduction over RLHF. Follow-on: `hllm-training-free-grpo` (2025).
+- ZIP-0422 specifies Operative computer use framework. Follow-on: `hanzo-operative`.
+- ZIP-0423 specifies FHE for privacy-preserving AI. Follow-on: `zoo-fhe` (2024), `zoo-fhe-ai` (2024).
+- ZIP-0424 specifies federated wildlife monitoring. Follow-on: `zoo-federated-wildlife` (2025).
+- ZIP-0425 specifies satellite ecological monitoring. Follow-on: `zoo-satellite-ecology` (2025).
+- ZIP-0426 specifies 1M token context extension. Follow-on: `zen-context-extension`.
+- ZIP-0427 specifies BitDelta model compression. Follow-on: `zoo-bitdelta-deltasoup`.
+- ZIP-0428 specifies knowledge distillation pipeline. Follow-on: `zen-knowledge-distillation`.
+- ZIP-0429 specifies 100+ language multilingual coverage. Follow-on: `zen-multilingual`.
+- ZIP-0430 specifies Zen-Guard AI safety framework. Follow-on: `zen-safety-evaluation`, `zen3-guard_whitepaper`.
+- ZIP-0431 specifies Zen-Translator neural machine translation. Follow-on: `zen-translator`.
+- ZIP-0432 specifies sovereign AI memory (user-owned). Follow-on: `zoo-ai-memory` (2024).
+- ZIP-0433 specifies spatial web active inference for AR/VR. Follow-on: `zoo-spatial-web-agents` (2024).
+- ZIP-0434 specifies Zoo Gym production training infrastructure. Follow-on: `zoo-gym-protocol` series (2024).
 
 ---
 
@@ -391,38 +468,38 @@ Papers in `~/work/zoo/papers/` not yet assigned a dedicated ZIP. These are eithe
 | Paper | Description | Covered By |
 |-------|-------------|------------|
 | `beluga-l3-whitepaper` | Beluga L3 architecture | -- |
-| `embedding-7680` | 7680-dim embedding model | ZIP-0002 (Zen-Reranker, in papers/) |
-| `gym-training-platform` | Gym decentralized training platform | ZIP-0407 |
-| `hllm-training-free-grpo` | HLLM with Training-Free GRPO | ZIP-0001, ZIP-0404 |
+| `embedding-7680` | 7680-dim embedding model | ZIP-0420 |
+| `gym-training-platform` | Gym decentralized training platform | ZIP-0407, ZIP-0434 |
+| `hllm-training-free-grpo` | HLLM with Training-Free GRPO | ZIP-0418, ZIP-0421 |
 | `zoo-agi` | Zoo AGI research agenda | ZIP-0003 |
-| `zoo-ai-memory` | AI memory architecture | ZIP-0400 (DSO/Experience Ledger) |
+| `zoo-ai-memory` | AI memory architecture | ZIP-0401, ZIP-0404, ZIP-0432 |
 | `zoo-ai-research-agenda` | Zoo AI research roadmap | -- |
-| `zoo-confidential-defi` | FHE/MPC for confidential DeFi | ZIP-0005, ZIP-0025 |
-| `zoo-consensus` | Zoo consensus mechanism | ZIP-0015, ZIP-0402 |
+| `zoo-confidential-defi` | FHE/MPC for confidential DeFi | ZIP-0005, ZIP-0025, ZIP-0423 |
+| `zoo-consensus` | Zoo consensus mechanism | ZIP-0015, ZIP-0419 |
 | `zoo-dao-operating-system` | DAO operating system | ZIP-0017, ZIP-0027 |
-| `zoo-educational-ai` | Educational AI tutoring | ZIP-0008 |
+| `zoo-educational-ai` | Educational AI tutoring | ZIP-0008, ZIP-0400 |
 | `zoo-evm-benchmarks` | EVM performance benchmarks | ZIP-0015 |
-| `zoo-experience-ledger` | Experience ledger (non-DSO) | ZIP-0400 |
-| `zoo-fhe` | Fully homomorphic encryption | ZIP-0005 |
-| `zoo-fhe-ai` | FHE for AI inference | ZIP-0005 |
+| `zoo-experience-ledger` | Experience ledger | ZIP-0400, ZIP-0401 |
+| `zoo-fhe` | Fully homomorphic encryption | ZIP-0005, ZIP-0423 |
+| `zoo-fhe-ai` | FHE for AI inference | ZIP-0005, ZIP-0423 |
 | `zoo-foundation-mission` | Zoo Labs Foundation mission | ZIP-0000 |
 | `zoo-fund-platform` | Fund management platform | ZIP-0018 |
 | `zoo-gpu-evm` | GPU-accelerated EVM | ZIP-0015 |
-| `zoo-gym-compute-proof` | Gym compute proof protocol | ZIP-0407 |
-| `zoo-gym-grpo-continuous` | Continuous GRPO training | ZIP-0407 |
-| `zoo-gym-orchestrator` | Gym training orchestrator | ZIP-0407 |
-| `zoo-gym-tokenomics` | Gym token economics | ZIP-0016 |
-| `zoo-identity-chain` | On-chain identity | ZIP-0014 |
+| `zoo-gym-compute-proof` | Gym compute proof protocol | ZIP-0407, ZIP-0434 |
+| `zoo-gym-grpo-continuous` | Continuous GRPO training | ZIP-0421, ZIP-0434 |
+| `zoo-gym-orchestrator` | Gym training orchestrator | ZIP-0407, ZIP-0434 |
+| `zoo-gym-tokenomics` | Gym token economics | ZIP-0016, ZIP-0434 |
+| `zoo-identity-chain` | On-chain identity | ZIP-0014, ZIP-0403 |
 | `zoo-mainnet-launch-checklist` | Mainnet launch checklist | ZIP-0015 |
-| `zoo-mobile-inference` | Mobile AI inference | -- |
+| `zoo-mobile-inference` | Mobile AI inference | ZIP-0428 |
 | `zoo-mpc-custody` | MPC custody protocol | ZIP-0014 |
 | `zoo-network-architecture` | Network architecture overview | ZIP-0000, ZIP-0015 |
 | `zoo-quasar-benchmarks` | Quasar consensus benchmarks | ZIP-0015 |
 | `zoo-research-coordination` | Research coordination protocol | ZIP-0603 |
-| `zoo-satellite-ecology` | Satellite-based ecology | ZIP-0502, ZIP-0520 |
+| `zoo-satellite-ecology` | Satellite-based ecology | ZIP-0425, ZIP-0502, ZIP-0520 |
 | `zoo-threshold-signatures` | Threshold signature scheme | ZIP-0014 |
 | `zoo-voting-platform` | DAO voting platform | ZIP-0017 |
-| `zoo-web5-local-first` | Web5 local-first architecture | -- |
+| `zoo-web5-local-first` | Web5 local-first architecture | ZIP-0432 |
 | `zoo-whitepaper` | Original Zoo whitepaper (Oct 2021) | All ZIPs (genesis document) |
 | `zoo-zchain-zkp` | ZK proof chain | ZIP-0005 |
 
@@ -453,12 +530,24 @@ All features below originate from this document. The whitepaper establishes:
 - Zoo DAO governance (sec. 19)
 - Open source and partnerships (sec. 23, 24)
 
+**AI/ML ZIPs originated in this phase:**
+- ZIP-0400: Conversational AI for Conservation (the ChatGPT-like interface, 14 months before ChatGPT)
+- ZIP-0401: Persistent Semantic Memory (Experience Ledger concept)
+- ZIP-0402: AI-Augmented NFTs (intelligent agents bound to tokens)
+- ZIP-0403: On-Chain AI Identity (agents as first-class blockchain citizens)
+
 ### Phase 1: Governance and Conservation AI (2022)
 
 - `zoo-dao-governance` -- formalizes section 19 (Zoo DAO) into DAO governance spec
 - `zoo-conservation-ai` -- formalizes sections 01, 03 into AI-driven conservation monitoring
 
-### Phase 2: DeSci and Education (2023)
+**AI/ML ZIPs originated in this phase:**
+- ZIP-0404: Content-Addressable Semantic Memory System (extending Experience Ledger)
+- ZIP-0405: Conservation-Aware Language Models (domain-specific LLMs)
+- ZIP-0406: Multi-Modal Conservation AI (vision + NLP + audio for species)
+- ZIP-0407: Decentralized AI Training Architecture (precursor to Zoo Gym)
+
+### Phase 2: DeSci, Education, and Multimodal AI (2023)
 
 - `zoo-desci-platform` -- extends open source vision into decentralized science
 - `zoo-data-commons` -- open biodiversity data standard
@@ -466,7 +555,14 @@ All features below originate from this document. The whitepaper establishes:
 - `zoo-citizen-science` -- citizen contribution protocol
 - `zoo-omnichain-teleport` -- bridge protocol for omnichain NFT transfers (ZIP-0802, Final)
 
-### Phase 3: Infrastructure and Advanced AI (2024)
+**AI/ML ZIPs originated in this phase:**
+- ZIP-0408: Unified Multimodal Architecture (Jin -- vision/language/audio/3D)
+- ZIP-0409: Active Semantic Optimization (ASO protocol, HIP-0002)
+- ZIP-0410: Decentralized Semantic Optimization (DSO protocol)
+- ZIP-0411: AI-Powered Search with RAG
+- ZIP-0412: MCP Server Architecture (260+ tools for AI agents)
+
+### Phase 3: Zen Model Family and Advanced AI (2024)
 
 - `zoo-evm-l2-architecture` -- L2 chain architecture on Lux (ZIP-0015)
 - `zoo-consensus` -- Quasar consensus mechanism
@@ -475,22 +571,48 @@ All features below originate from this document. The whitepaper establishes:
 - `zoo-dex` -- AMM for conservation assets
 - `zoo-hamiltonian-llm` -- HLLM architecture evolving the AI assistant
 - `zoo-gym-protocol` -- decentralized training platform
-- `zoo-poai-consensus` -- Proof of AI consensus (ZIP-0402)
+- `zoo-poai-consensus` -- Proof of AI consensus
 - `zoo-species-classification` -- ML pipeline for species detection
 
-### Phase 4: Network Launch (2025)
+**AI/ML ZIPs originated in this phase:**
+- ZIP-0413: Foundation Language Model Architecture (Zen Base, 600M-480B params)
+- ZIP-0414: Mixture of Distilled Experts (Zen MoDE)
+- ZIP-0415: Code Intelligence at Scale (Zen-Code)
+- ZIP-0416: Vision-Language Models (Zen-VL)
+- ZIP-0417: Real-Time Conversational AI (Zen-Live)
+- ZIP-0418: Hamiltonian Large Language Models (HLLM, HIP-0004)
+- ZIP-0419: Proof of AI Consensus (PoAI, ZIP-002)
+- ZIP-0420: 7680-Dimensional Embeddings (Zen-Reranker)
+- ZIP-0421: Training-Free Preference Optimization (GRPO, 99.8% cost reduction)
+- ZIP-0422: Computer Use Framework (Operative)
+- ZIP-0423: Privacy-Preserving AI Training (FHE)
+- ZIP-0424: Federated Wildlife Monitoring
+- ZIP-0425: Satellite Ecological Monitoring
+
+### Phase 4: Scaling and Network Launch (2025)
 
 - `zoo-network-architecture` -- full network design (ZIP-0000, ZIP-0015)
 - `zoo-tokenomics` -- 100% airdrop tokenomics evolving from sec. 13 Native Token
-- `experience-ledger-dso` -- Decentralized Semantic Optimization (ZIP-0400)
+- `experience-ledger-dso` -- Decentralized Semantic Optimization (ZIP-0410)
 - `zoo-foundation-mission` -- Zoo Labs Foundation 501(c)(3) mission
-- `zoo-federated-wildlife` -- federated learning for conservation (ZIP-0403)
-- `zoo-satellite-ecology` -- satellite-based ecology monitoring
-- `hllm-training-free-grpo` -- 99.8% cost reduction for AI training
+- `zoo-federated-wildlife` -- federated learning for conservation (ZIP-0424)
+- `zoo-satellite-ecology` -- satellite-based ecology monitoring (ZIP-0425)
+- `hllm-training-free-grpo` -- 99.8% cost reduction for AI training (ZIP-0421)
 - ZIP-0014: KMS integration via Lux KMS (Active, Nov 2025)
 - ZIP-0100: Contract registry (Active, Dec 2025)
 - ZIP-0015: Zoo L2 Chain Architecture (Final, Dec 2025)
 - ZIP-0500 -- ZIP-0570: Conservation impact framework (Dec 2025)
+
+**AI/ML ZIPs originated in this phase:**
+- ZIP-0426: 1M Token Context Extension
+- ZIP-0427: BitDelta Model Compression
+- ZIP-0428: Knowledge Distillation Pipeline
+- ZIP-0429: Multilingual 100+ Language Coverage
+- ZIP-0430: AI Safety Framework (Zen-Guard)
+- ZIP-0431: Neural Machine Translation (Zen-Translator)
+- ZIP-0432: Sovereign AI Memory
+- ZIP-0433: Spatial Web Active Inference
+- ZIP-0434: Decentralized Training Infrastructure (Zoo Gym)
 
 ### Phase 5: Production (2026)
 
@@ -508,17 +630,21 @@ All features below originate from this document. The whitepaper establishes:
 | DeFi | 14 | 0 | 1 | 13 |
 | NFT Standards | 11 | 0 | 0 | 11 |
 | Gaming | 7 | 0 | 0 | 7 |
-| AI/ML | 10 | 0 | 0 | 10 |
+| AI/ML | 35 | 35 | 0 | 0 |
 | Conservation | 13 | 0 | 0 | 13 |
 | DeSci | 7 | 0 | 0 | 7 |
 | Token Standards (ZRC) | 4 | 0 | 0 | 4 |
 | Infrastructure | 4 | 2 | 0 | 2 |
-| **Total** | **102** | **7** | **2** | **93** |
+| **Total** | **127** | **42** | **2** | **83** |
 
 Papers in `~/work/zoo/papers/`: **79**
-Papers with dedicated ZIP: **45**
+Zen papers in `~/work/zen/papers/`: **60+**
+Hanzo papers in `~/work/hanzo/papers/`: **40+**
+Papers with dedicated ZIP: **70+**
 Papers covered by related ZIP: **34**
 ZIPs tracing to October 2021 whitepaper: **55**
+AI/ML ZIPs cross-referencing Zen papers: **25**
+AI/ML ZIPs cross-referencing Hanzo papers: **15**
 
 ---
 
@@ -535,4 +661,4 @@ All innovations are public goods (CC0) per Zoo Labs Foundation policy.
 ---
 
 *Maintained by Zoo Labs Foundation -- oss@zoo.ngo*
-*Last updated: 2026-04-17*
+*Last updated: 2026-04-19*
