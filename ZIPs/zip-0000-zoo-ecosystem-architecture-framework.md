@@ -294,6 +294,36 @@ contract NonProfitTreasury {
 - **Q3**: Metaverse alpha; advanced DeFi strategies; DAO v2
 - **Q4**: Full integration; enterprise partners; global expansion
 
+## 21.5. 2025-12-15 Architecture Update
+
+As of the 2025-12-15 spec freeze and 2025-12-25 Quasar 3.0 activation,
+the ecosystem architecture is canonically extended along five planks:
+
+1. **Updated team and mission** — see `zips/team.md` for the canonical
+   team page. Founder: Antje Worring. Chief Scientist: Zach Kelling.
+   Mission: "an open AI protocol for research aligned with
+   environment-saving, endangered AI, and the intersection of AI,
+   blockchain, metaverse and gaming."
+2. **$113T digital-securities positioning** — Zoo as open AI / wildlife /
+   metaverse layer; Lux as regulated chain infrastructure; Liquidity
+   as exclusive partner for retail-scale securities trading
+   (regulated ATS, broker-dealer, transfer agent perimeter).
+3. **Quasar 3.0 quantum-secure settlement** — three independent
+   hardness assumptions (BLS12-381 / Ringtail Ring-LWE / ML-DSA-65 via
+   Z-Chain Groth16 rollup); per Lux LP-020, LP-070, LP-073, LP-075,
+   LP-105.
+4. **Homomorphic / Holographic Consensus DAO** — FHE vote tally on
+   F-Chain (Lux LP-013); threshold key custody on M-Chain (Lux LP-019);
+   weighted voting w(p) = α·advocacy + β·involvement + γ·contribution
+   + δ·stake, defaults (0.20, 0.30, 0.40, 0.10); see ZIP-0017 update.
+5. **Democratized end-to-end information access** — per-LLM chains
+   (papers/zoo-per-llm-chains §11), public TEE-attested inference
+   receipts on Hanzo AI Chain (anchor on Lux A-Chain per LP-134),
+   zero-knowledge selective disclosure on Z-Chain.
+
+Companion papers: `papers/zoo-2025-securities-and-dao` (full
+treatment) and `papers/zoo-per-llm-chains` (§11).
+
 ## 22. References
 
 1. **IRS Pub 1771** – Substantiation & disclosure (quid-pro-quo) and receipts

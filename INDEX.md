@@ -162,6 +162,8 @@ Network architecture, consensus, EVM, PQ crypto, tokenomics, governance.
 | ZIP-0028 | Zoo SDK Specification | Draft | -- | 2021-10 | 2025-01-15 |
 | ZIP-0029 | Gasless Transactions for Conservation | Draft | -- | -- | 2025-01-15 |
 | ZIP-0030 | On-Chain Species Registry | Draft | -- | 2021-10 | 2025-01-15 |
+| ZIP-0033 | Zoo Decentralized Identification Service (DID) | Draft | -- | 2021-10 | 2025-12-15 |
+| ZIP-0034 | Zoo XP & Quests Protocol | Draft | -- | 2021-10 | 2025-12-15 |
 | ZIP-0042 | Cross-Ecosystem Interoperability Standard | Draft | -- | -- | 2025-01-15 |
 
 **Provenance notes for Core Protocol:**
@@ -182,6 +184,8 @@ Network architecture, consensus, EVM, PQ crypto, tokenomics, governance.
 - ZIP-0027 traces from section 19 (Zoo DAO) -- emergency governance.
 - ZIP-0028 traces from section 23 (Open Source).
 - ZIP-0030 traces from section 02 (Zoo Animal Utility) -- on-chain species data.
+- ZIP-0033 traces from section 19 (Zoo DAO -- Decentralized Identification Services / DIS / KYC procedures). Cross-ref Lux LP-060 (DID Specification).
+- ZIP-0034 traces from section 19 (Zoo DAO -- XP, KEEPER, quests, level formula `level = (XP + 500) / 300`).
 
 ---
 
@@ -453,11 +457,20 @@ Bridge, settlement, omnichain, replication.
 | ZIP-0801 | Zoo-Hanzo Settlement Integration | Draft | `zoo-hanzo-settlement` | -- | 2025-01-15 |
 | ZIP-0802 | Zoo Omnichain Teleport Extension | Final | `zoo-omnichain-teleport` | 2021-10 | 2023-09-01 |
 | ZIP-0803 | Encrypted Streaming Replication for Zoo Services | Final | `zip-0803-encrypted-sqlite-replication` | -- | 2026-04-09 |
+| ZIP-0804 | Zoo L1 Graduation | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
+| ZIP-0805 | Zoo DEX (V2/V3 Native, V4 Lux DEX Precompile) | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
+| ZIP-0806 | Zoo AI Desktop | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
+| ZIP-0807 | zoo-bot — Pure-Go Agentic Bot Framework | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
+| ZIP-0808 | Zoo Bridge — Cross-Ecosystem Bridge for Zoo L1 | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
+| ZIP-0900 | Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology | Final | `zoo-3-0-full-pq`, `zoo-4-0-launch`, `zoo-dex-launch-2026-04-20` | 2021-10 | 2026-04-20 |
 
 **Provenance notes for Infrastructure:**
 
 - ZIP-0800 traces from section 22 (Bridging Blockchains). Follow-on: `zoo-bridge` (2024), `zoo-lux-bridge-protocol`, `zoo-threshold-signatures`.
 - ZIP-0802 traces from section 16 (Asset Transfer) and section 22 (Bridging Blockchains). Follow-on: `zoo-omnichain-teleport` (2023).
+- ZIP-0804 through ZIP-0808 are the Zoo 4.0 launch package, all rooted in `zoo-4-0-launch` paper (spec freeze 2026-01-15, activation 2026-02-14 alongside Lux Quasar 4.0).
+- ZIP-0808 supersedes ZIP-0800 for Zoo L1 (post-graduation) bridge operations; ZIP-0800 remains active for the 30-day L2 deprecation window only.
+- ZIP-0900 is the canonical chronology of the entire Zoo platform from the 2021-10-31 BSC era through the 2026-04-20 DEX launch. Authoritative source for any version/date questions.
 
 ---
 
@@ -648,6 +661,50 @@ AI/ML ZIPs cross-referencing Hanzo papers: **15**
 
 ---
 
+## 2025-12-15 Five-Plank Update
+
+The following ZIPs received the 2025-12-15 spec-freeze update aligning
+the corpus with Quasar 3.0 activation (2025-12-25):
+
+| ZIP | Update |
+|-----|--------|
+| ZIP-0000 | New §21.5 — five-plank architecture update (team, $113T, Quasar, Holographic DAO, democratized access) |
+| ZIP-0016 | Token-stake bound to δ = 0.10 in Holographic DAO weighting |
+| ZIP-0017 | Homomorphic / Holographic Consensus DAO with FHE tally on F-Chain (Lux LP-013), MPC custody on M-Chain (Lux LP-019), weighted-voting formula |
+| ZIP-0570 | Securities-and-DAO companion paper cross-refs, Quasar 3.0 settlement guarantee |
+
+Companion papers (in `~/work/zoo/papers`):
+
+- `zoo-2025-securities-and-dao` (new, 2025-12-15) — full treatment of all five planks.
+- `zoo-per-llm-chains` (extended §11) — per-LLM-chain-specific summary.
+- `zoo-2021-original-whitepaper` (new §10 editorial addendum) — bridge from founding vision to activation.
+
+Canonical team page: `zips/team.md` (created 2025-12-15).
+
+Lux LP cross-refs landed: LP-013 (F-Chain FHE), LP-019 (M-Chain MPC),
+LP-020 (Quasar 3.0), LP-070 (ML-DSA), LP-073 (Ringtail), LP-075 (BLS),
+LP-105 (Quasar 3.0 paper), LP-134 (A/B/M/F topology).
+
+---
+
+## Formal Proofs
+
+Machine-checked and paper proofs for ZIP-formalised constructions live
+in `~/work/zoo/proofs/`. Cross-references:
+
+| ZIP | Construction | Proof |
+|-----|--------------|-------|
+| ZIP-0103, ZIP-0206 | NFT Liquidity Protocol (2021 trade name; collateral-backed NFT lending, sustainability tax flow, marketplace settlement) | `~/work/zoo/proofs/zoo-nft-liquidity-protocol-soundness.tex` |
+| ZIP-0017, ZIP-0023, ZIP-0026, ZIP-0027 | Zoo DAO holographic-consensus governance, FHE-tallied votes, anti-Sybil bound | `~/work/zoo/proofs/zoo-dao-governance-soundness.tex` |
+| ZIP-0400--ZIP-0418 | Per-LLM training chain (deterministic gradient ordering, attribution graph integrity, byte-identical reproducibility) | `~/work/zoo/proofs/zoo-per-llm-chain-soundness.tex` |
+| ZIP-0103, ZIP-0206 (composition) | 2026-04-20 adoption of Liquidity.io's Liquidity Protocol with formal trade-name disambiguation | `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex` |
+
+The 2021 Zoo "NFT Liquidity Protocol" (Worring & Kelling, October 2021)
+predates Liquidity.io's "Liquidity Protocol" (Liquidity.io, 2026-04-01)
+by ~4.5 years; the two are formally separated by disjoint asset classes
+(ERC-721 / ZRC-721 vs. ERC-3643). See
+`zoo-adopts-liquidity-protocol.tex` Proposition 3.1.
+
 ## Related Protocols
 
 - **HIPs** (Hanzo Improvement Proposals): [github.com/hanzoai/HIPs](https://github.com/hanzoai/HIPs)
@@ -661,4 +718,4 @@ All innovations are public goods (CC0) per Zoo Labs Foundation policy.
 ---
 
 *Maintained by Zoo Labs Foundation -- oss@zoo.ngo*
-*Last updated: 2026-04-19*
+*Last updated: 2025-12-15*
