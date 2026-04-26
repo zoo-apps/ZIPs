@@ -243,14 +243,19 @@ security goal of providing a single authoritative source for the
 Zoo version history that audit teams, security researchers, and
 incident responders can reference.
 
-## Lux-Family Trifecta (4.0)
+## Zoo Chain Set (4.0)
 
-A Lux-family L1 is trifecta-complete when it carries three first-class
-subsystems: a native DEX, a Cancun-equivalent EVM, and an FHE
-substrate. Zoo 4.0 is the third network in the family to ship the
-trifecta, after Lux 4.0 (D-Chain since 1.0; promoted to C-Chain at
-4.0) and Hanzo 4.0 (HMM native AI-compute DEX). Zoo's trifecta
-specialisation:
+Zoo 4.0 is a sovereign L1 with a chain set strictly **broader** than
+the financial-rail core. It inherits most of Lux's primary chains
+(P, C, X, Q, F per LP-134), runs a white-labeled D-Chain DEX, and
+adds Zoo-specific chains (per-LLM chains, conservation chains,
+experience-ledger DSO chain). Zoo L1 also natively hosts L2/L3/L4
+tenants (per ZIP-0804). Zoo is **not** a triumvirate-only network;
+the triumvirate framing is reserved for Hanzo 4.0, where DEX+EVM+FHE
+*is* the entire chain set.
+
+Zoo's financial-rail core (the same DEX+EVM+FHE subset Hanzo carries
+as its triumvirate):
 
 1. **DEX** --- Zoo DEX V2 (constant product) and V3 (concentrated
    liquidity) with V4 as a precompile interface to the Lux DEX
@@ -266,9 +271,28 @@ specialisation:
    ERC-20 transfers. Reference: paper `zoo-4-0-launch` section 8
    (Privacy).
 
+Zoo-specific chains (beyond the financial-rail core):
+
+- **Per-LLM chains** --- one chain per frontier model; weights are
+  commitments, inference is block production. Reference: paper
+  `zoo-per-llm-chains`.
+- **Conservation chains** --- domain-specific subchains for wildlife
+  NFTs, carbon credits, and impact bonds, with the 1--3% sustainability
+  tax routed to the Foundation Treasury per ZIP-0017 / ZIP-0034.
+- **Experience-Ledger DSO chain** --- the curated experience library
+  backing training-free model adaptation.
+
+Zoo L1 does NOT run M-Chain (MPC), B-Chain (Bridge), A-Chain
+(Attestation/AI), or Z-Chain (ZK rollups); those remain Lux-primary
+infrastructure that Zoo accesses **natively** via the Lux primary
+network — same Quasar cert lanes, same subject-binding, same
+finality, no wrapped assets, no cross-chain hop tax. The boundary
+between Zoo's chain set and Lux primary is cert-lane subject-binding,
+not a bridge.
+
 Cross-reference: LP-900 (Lux chronology), HIP-900 (Hanzo chronology),
 PIP-900 (Pars chronology). All four networks co-activated their 4.0
-(Pars 2.0) trifecta on 2026-02-14.
+(Pars 2.0) major version on 2026-02-14.
 
 ## Copyright
 
