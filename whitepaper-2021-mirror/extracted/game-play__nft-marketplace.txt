@@ -1,0 +1,13 @@
+[H1] NFT Marketplace [/H]
+
+Our proprietary, integrated marketplace is the home for exclusive Zoo Labs NFT Animals and NFT Eggs.
+The Zoo Marketplace will offer users the chance to purchase items using either cryptocurrency, like the $ZOO Token, or through the use of Credit/Debit Cards directly into our marketplace. Designed with usability in mind the Zoo team wanted to involve the most seamless checkout flow with either crypto or fiat to eliminate the most confusing terminology for the "newbies" in DeFi. Once a purchase is made the seller will be paid out in whatever currency they listed their NFT for regardless of the payment method used.
+Users can also use their Credit/Debit Cards to purchase $ZOO directly, removing one of the most prohibitive elements of the transaction process and opening-up investment to many new individuals.
+Our Marketplace will also facilitate “Asset Transfers,” allowing one user to transfer their NFT + its stored value to another through a mutually agreed upon transaction. If a user sells or trades an NFT with another user, they are also transferring the full collateral amount of the NFT to the user you are transacting with.
+
+[[FIGURE||https://zoolabs.gitbook.io/whitepaper/~gitbook/image?url=https%3A%2F%2F459349871-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpsFKBNsed52OPxRZuUhD%252Fuploads%252F5ArFSBOYHouyw2yHTmYL%252FScreen%2520Shot%25202022-03-01%2520at%25206.46.44%2520PM.png%3Falt%3Dmedia%26token%3D22851b20-1bd0-469c-9018-1b9cf09cd4f4&width=768&dpr=3&quality=100&sign=dc553871&sv=2]]
+
+[H2] 
+
+Leaderboard [/H]
+You will be able to compare your ZOO statistics with friends, family, and with every NFT holder globally. Our leadership board will also allow you to make an offer bid on any NFT regardless of whether it is listed on the marketplace or not. Items will be shown based on the NFTs total value or the users cumulative NFT collection value.
