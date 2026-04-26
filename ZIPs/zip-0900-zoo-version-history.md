@@ -1,22 +1,22 @@
----
-zip: 0900
-title: Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology
-author: Antje Worring, Zach Kelling
-type: Informational
-status: Final
-category: Meta
-created: 2025-12-15
-updated: 2026-04-20
----
-
 # ZIP-0900: Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology
+
+| Field | Value |
+|---|---|
+| **Number** | 0900 |
+| **Title** | Zoo Version History --- 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology |
+| **Status** | Final |
+| **Type** | Informational |
+| **Category** | Meta |
+| **Author** | Antje Worring, Zach Kelling |
+| **Created** | 2025-12-15 |
+| **Updated** | 2026-04-20 |
 
 ## Abstract
 
 This ZIP is the canonical chronology of the Zoo platform: the five
 locked version milestones, their dates, the papers that document them,
 and the cross-references to the relevant Lux Improvement Proposals
-(LPs) and to subsequent adoption records. It exists so
+(LPs) and to the Liquidity Protocol adoption record. It exists so
 that any future contributor or partner can answer the question "what
 was Zoo and what did Zoo ship at version N?" with a single authoritative
 source.
@@ -29,9 +29,9 @@ source.
 |---|---|---|---|---|
 | **1.0** | BSC era (original) | **2021-10-31** | [`zoo-2021-original-whitepaper`](../../papers/zoo-2021-original-whitepaper) | Original Antje Worring vision; coined the term "NFT Liquidity Protocol"; wildlife conservation NFTs as productive collateral. |
 | **2.0** | Lux L2 EVM PQ re-launch | **2024-10** | [`zoo-evm-l2-architecture`](../../papers/zoo-evm-l2-architecture) | Re-launch on the Lux Network as an EVM-compatible Layer 2; 20 native precompiles including NIST PQC standards (ML-DSA, SLH-DSA, ML-KEM); first-pass post-quantum stack. |
-| **3.0** | Full PQ era | **2025-10-31** | [`zoo-3-0-full-pq`](../../papers/zoo-3-0-full-pq) | Complete post-quantum hardening: every signature, every commitment, every proof in PQ-safe schemes (Corona Ring-LWE + ML-DSA-65 + BLS12-381 fast path). Triple-cert inheritance from Lux Quasar 3.0 (LP-020). DAO migration, NFT  PQ, zLLM commitments PQ, bridge committee re-keying. |
+| **3.0** | Full PQ era | **2025-10-31** | [`zoo-3-0-full-pq`](../../papers/zoo-3-0-full-pq) | Complete post-quantum hardening: every signature, every commitment, every proof in PQ-safe schemes (Corona Ring-LWE + ML-DSA-65 + BLS12-381 fast path). Triple-cert inheritance from Lux Quasar 3.0 (LP-020). DAO migration, NFT Liquidity Protocol PQ, zLLM commitments PQ, bridge committee re-keying. |
 | **4.0** | GPU-native sovereign L1 | **2026-02-14** | [`zoo-4-0-launch`](../../papers/zoo-4-0-launch) | Graduation from Lux L2 application to sovereign Lux L1 with its own validator set, Quasar-certified consensus, and independent economic security. 100% GPU-powered consensus, EVM, AMM matching, AI mining, and FHE. Quasar 4.0 inheritance. |
-| **Zoo DEX** | Native securities + Liquidity Protocol | **2026-04-20** | [`zoo-dex-launch-2026-04-20`](../../papers/zoo-dex-launch-2026-04-20) | $113T digital-securities market access via tokenised equities, fixed income, RWA, and derivatives. Liquidity Protocol adoption ((external regulated-tokenization partner) launched it 2026-04-01; integration adopted across Lux ecosystem 2026-04-20). Robinhood-style retail UX with sub-1.1s T+0 settlement. |
+| **Zoo DEX** | Native securities + Liquidity Protocol | **2026-04-20** | [`zoo-dex-launch-2026-04-20`](../../papers/zoo-dex-launch-2026-04-20) | $113T digital-securities market access via tokenised equities, fixed income, RWA, and derivatives. Liquidity Protocol adoption ( launched it 2026-04-01; Lux/Hanzo/Zoo/Pars adopted it 2026-04-20). Robinhood-style retail UX with sub-1.1s T+0 settlement. |
 
 ### Per-version detail
 
@@ -83,7 +83,7 @@ Zoo 3.0 closed the remaining classical edges. By the end of 2025:
 - **zLLM commitments** for training artefacts, governance votes, and
   inference receipts adopted PQ-safe Merkle accumulators with
   ML-DSA-signed roots.
-- **NFT  loans** are now Corona-signed loan
+- **NFT Liquidity Protocol loans** are now Corona-signed loan
   agreements with PQ-attested liquidation oracles.
 - **DAO key migration** rotated treasury custody, contract-upgrade
   authority, and proposal-signing keys to threshold PQ.
@@ -138,7 +138,8 @@ Headline properties:
   perpetual futures, dated futures, European options. All settle on
   Zoo D-Chain (a white-label resell of the Lux D-Chain template per
   LP-134) with sub-1.1s Quasar 4.0 finality.
-- **Liquidity Protocol integration.** External regulated-tokenization providers integrate via the standard adapter interface
+- **Liquidity Protocol integration.**  launched the
+  formal Liquidity Protocol on 2026-04-01 with a soundness proof
   alongside; Lux, Hanzo, Zoo, and Pars adopted it on 2026-04-20.
   Zoo's adoption document is at
   `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex`.
@@ -186,16 +187,16 @@ paper:
 
 | Date | Actor | Action |
 |---|---|---|
-| **2026-04-01** | (external regulated-tokenization partner) | Formal launch of the  with soundness proof. |
-| **2026-04-20** | Lux | Adopts the  on Lux C-Chain and Lux D-Chain. |
-| **2026-04-20** | Hanzo | Adopts the  on Hanzo AI Chain marketplace flow. |
-| **2026-04-20** | Zoo | Adopts the  on Zoo D-Chain via the regulated securities-partner precompile. |
-| **2026-04-20** | Pars | Adopts the  on Pars's regulated markets. |
+| **2026-04-01** |  | Formal launch of the Liquidity Protocol with soundness proof. |
+| **2026-04-20** | Lux | Adopts the Liquidity Protocol on Lux C-Chain and Lux D-Chain. |
+| **2026-04-20** | Hanzo | Adopts the Liquidity Protocol on Hanzo AI Chain marketplace flow. |
+| **2026-04-20** | Zoo | Adopts the Liquidity Protocol on Zoo D-Chain via the Liquidity precompile. |
+| **2026-04-20** | Pars | Adopts the Liquidity Protocol on Pars's regulated markets. |
 
 The proof artifact for Zoo's specific adoption is at
-`~/work/zoo/proofs/zoo-adopts-partner-protocol.tex`. The
-external regulated-tokenization partner maintains the formal proof of
-the protocol itself in its own repository.
+`~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex`. The
+ formal proof of the protocol itself is at
+`~/work/liquidity/proofs/`.
 
 ### Related ZIPs
 
@@ -242,24 +243,19 @@ security goal of providing a single authoritative source for the
 Zoo version history that audit teams, security researchers, and
 incident responders can reference.
 
-## Zoo Chain Set (4.0)
+## Lux-Family Trifecta (4.0)
 
-Zoo 4.0 is a sovereign L1 with a chain set strictly **broader** than
-the financial-rail core. It inherits most of Lux's primary chains
-(P, C, X, Q, F per LP-134), runs a white-labeled D-Chain DEX, and
-adds Zoo-specific chains (per-LLM chains, conservation chains,
-experience-ledger DSO chain). Zoo L1 also natively hosts L2/L3/L4
-tenants (per ZIP-0804). Zoo is **not** a triumvirate-only network;
-the triumvirate framing is reserved for Hanzo 4.0, where DEX+EVM+FHE
-*is* the entire chain set.
-
-Zoo's financial-rail core (the same DEX+EVM+FHE subset Hanzo carries
-as its triumvirate):
+A Lux-family L1 is trifecta-complete when it carries three first-class
+subsystems: a native DEX, a Cancun-equivalent EVM, and an FHE
+substrate. Zoo 4.0 is the third network in the family to ship the
+trifecta, after Lux 4.0 (D-Chain since 1.0; promoted to C-Chain at
+4.0) and Hanzo 4.0 (HMM native AI-compute DEX). Zoo's trifecta
+specialisation:
 
 1. **DEX** --- Zoo DEX V2 (constant product) and V3 (concentrated
    liquidity) with V4 as a precompile interface to the Lux DEX
-   (lx/dex). April 20, 2026 native securities launch with regulated
-   securities-partner integration. Reference: ZIP-0805 Zoo DEX, paper
+   (lx/dex). April 20, 2026 native securities launch with Liquidity
+   Protocol integration. Reference: ZIP-0805 Zoo DEX, paper
    `zoo-dex-launch-2026-04-20`.
 2. **EVM** --- GPU-native EVM (LP-009) with Zoo-specific precompiles
    for confidential ERC-20 (LP-067), NFT-fractional vault aggregator,
@@ -270,28 +266,9 @@ as its triumvirate):
    ERC-20 transfers. Reference: paper `zoo-4-0-launch` section 8
    (Privacy).
 
-Zoo-specific chains (beyond the financial-rail core):
-
-- **Per-LLM chains** --- one chain per frontier model; weights are
-  commitments, inference is block production. Reference: paper
-  `zoo-per-llm-chains`.
-- **Conservation chains** --- domain-specific subchains for wildlife
-  NFTs, carbon credits, and impact bonds, with the 1--3% sustainability
-  tax routed to the Foundation Treasury per ZIP-0017 / ZIP-0034.
-- **Experience-Ledger DSO chain** --- the curated experience library
-  backing training-free model adaptation.
-
-Zoo L1 does NOT run M-Chain (MPC), B-Chain (Bridge), A-Chain
-(Attestation/AI), or Z-Chain (ZK rollups); those remain Lux-primary
-infrastructure that Zoo accesses **natively** via the Lux primary
-network — same Quasar cert lanes, same subject-binding, same
-finality, no wrapped assets, no cross-chain hop tax. The boundary
-between Zoo's chain set and Lux primary is cert-lane subject-binding,
-not a bridge.
-
 Cross-reference: LP-900 (Lux chronology), HIP-900 (Hanzo chronology),
 PIP-900 (Pars chronology). All four networks co-activated their 4.0
-(Pars 2.0) major version on 2026-02-14.
+(Pars 2.0) trifecta on 2026-02-14.
 
 ## Copyright
 
