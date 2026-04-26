@@ -20,7 +20,7 @@ This proposal establishes Zoo (Chain ID: 122) as the canonical LP-R (Registry) i
 ## Motivation
 
 The three-chain ecosystem requires precise coordination:
-- **Lux (120)**: Settlement layer with Avalanche consensus
+- **Lux (120)**: Settlement layer with Quasar consensus
 - **Hanzo (121)**: Compute layer with GPU orchestration  
 - **Zoo (122)**: Registry layer with user interfaces
 
@@ -40,7 +40,7 @@ const CHAIN_CONFIG = {
     chainId: 120,
     name: "Lux Network",
     role: "Settlement & Finality",
-    consensus: "Avalanche (Snow)",
+    consensus: "Quasar (Nova/Nebula)",
     vm: "Multiple (C-Chain EVM compatible)",
     nativeCurrency: { name: "LUX", symbol: "LUX", decimals: 18 },
     rpcUrls: ["https://api.lux.network"],
