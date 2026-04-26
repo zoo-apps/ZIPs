@@ -42,7 +42,7 @@ validation:
   inheritSecurity: true
   
 consensus:
-  engine: snowman
+  engine: nova
   parameters: inherit
 ```
 
@@ -157,7 +157,7 @@ This allows Lux ecosystem to demonstrate and optimize both approaches.
 Zoo inherits Lux primary network security:
 - 80%+ Byzantine fault tolerance
 - Economic security from LUX staking
-- Battle-tested consensus (Snow family)
+- Battle-tested consensus (Quasar family)
 
 ### Chain-Specific Security
 
