@@ -1,0 +1,27 @@
+[H1] Zoo Animal Utility [/H]
+All Functions for First Drop
+
+Offers ✅ - NFT owners can switch on the offers button to allow any user in Zoo ecosystem to find your NFT and make an offer on your Animal. You will have an offers page where you will then be able to accept, decline or counter offer. If an offer is accepted the full ownership of the NFT will be transferred to the person who at that point will have effectively purchased the NFT from you. This means the NFT + collateral + its earned value to date will be transferred to the new owner. Furthermore the current boost level (as defined by the collateral) will remain the same. Despite the change of ownership the NFT will sustain the original utility as stated above. 
+
+Buy/Sell ✅ - You can list your NFT on the Zoo Market for a set price, or put it on auction with or without a floor price built in or both. If the selling price is met with a purchase the NFT will be sold and ownership will be transferred on chain. This means the NFT + collateral + its earned value to date will be transferred. Furthermore the current boost level the NFT is at will remain the same. Despite the change of ownership the NFT will sustain the original utility as stated above. 
+
+Collateralize ✅ - NFT owners can infinitely collateralize their Animals for further rewards, aka Boosts to be earned by using almost any currency, fiat or crypto. The collateral is locked into the NFT and can only be released if the NFT is burned, however owners can also sell the NFT with its collateral value for the perceived value or more. 
+
+Boosts ✅ - Boosts are determined by collateral added. Another reward in addition to the daily reward that comes with the animal. Daily reward + (collateral x boost x days/365)
+
+$10 - $99 is a 1.1x boost
+$100 - $999 is a 1.2x boost
+$1,000 - $9,999 is a 1.3x boost
+$10,000+ is a 1.4x boost
+
+Earns ✅ - Each NFT Animal has a set daily reward. Even if you never “feed” your animal it will earn value on a daily basis. If you do add collateral and effectively collateralize your animal the daily reward will be amplified (Principal + Collateral Added) x Boosts x Assume Market + (daily earning amount x days.) You can see the estimated earning potential over time with the Zoo Reward Calculator.
+
+Create Pool ✅ - Essentially, a pool is just a set price you determine for two or more NFTs you own and now want to put for sale as a collection. Once the price of the pool is set anyone can purchase the pool from you if they exchange the value of its price with you. The price will be displayed in the preferred currency (as set by pool owner). Furthermore the user can pay in any currency crypto or fiat, after payment is sent it is converted to $ZOO and paid out to you. Once sale is initiated it can no longer be reversed, but can again be relisted. 
+
+Breeding ✅ - If you are able to breed two of the same adult species you will mint an NFT Egg of that species status, wether Endangered, Rare or Sublime. There are only 7 generations of animals allowed, therefore only 6 breed-able generations. 
+
+Hatch Eggs 🐣 - If you hatch an egg you will be able to unveil what animal is inside your egg. You will get an animal that is the same status of the parents, i.e. Endangered, Rare or Sublime. Once an Egg has been hatched the Egg NFT is burned forever and a new Baby Animal NFT is born, which could be fed more crypto or fiat aka ‘collateralize’ to mint the teen version and eventually the adult version. 
+
+Burns 🔥 - Burn your Zoo NFT to get back the rewards earned so far and the collateral that you locked into it. Zoo sustainability tax will be applied. 
+
+Metaverse - Future versions of Zoo will include metaverse land where your animals will be able to live in. There will also be a app that allows you to place your animals into any physical setting with VR. Furthermore one can utilize the NFT file formats (FBX and WEBGL) to upload their animals into any type of metaverse landscape! 
