@@ -524,6 +524,40 @@ From ZIP-500, applied throughout:
 - **Lux LP-760**: Lux Network Impact Thesis
 - **Hanzo HIP-295**: Hanzo AI Impact Thesis
 
+### 2025-12-15 Update — Securities, Quasar 3.0, and Holographic DAO
+
+The impact thesis is extended by the companion paper
+`papers/zoo-2025-securities-and-dao` (spec freeze 2025-12-15,
+activation 2025-12-25). Five planks are added:
+
+1. **Updated team and mission** — founder Antje Worring (original
+   2021-10-31 author); chief scientist Zach Kelling; mission updated
+   to "open AI protocol for research aligned with environment-saving,
+   endangered AI, and the intersection of AI, blockchain, metaverse
+   and gaming." See `zips/team.md`.
+2. **$113 trillion digital securities** — Zoo positions as the open
+   AI / wildlife / metaverse layer over Lux (chain) + Liquidity
+   (regulated trading). Robinhood-style capabilities:
+   zero-commission, fractional shares, instant settlement, 24/7
+   markets, tokenized RWA.
+3. **Quantum-secure settlement** — every securities trade and Zoo
+   block settles under Quasar 3.0 (Lux LP-020) with three independent
+   hardness assumptions: BLS12-381 (LP-075), Ringtail Ring-LWE
+   (LP-073), and ML-DSA-65 via Z-Chain Groth16 (LP-070).
+4. **Homomorphic / Holographic Consensus DAO** — FHE vote tally on
+   F-Chain (LP-013), threshold custody on M-Chain (LP-019), weighted
+   voting (advocacy α=0.20, involvement β=0.30, contribution γ=0.40,
+   token stake δ=0.10), nested sub-DAOs that inherit meta-DAO
+   topology.
+5. **Democratized end-to-end information access** — open weights
+   + lineage on per-LLM chains, public TEE-attested inference receipts
+   on Hanzo AI Chain (A-Chain anchor per LP-134), zero-knowledge
+   selective disclosure on Z-Chain.
+
+Cross-references: Lux LP-013, LP-019, LP-020, LP-070, LP-073, LP-075,
+LP-105, LP-134; Hanzo AI Chain whitepaper; Zoo papers
+`zoo-per-llm-chains` (§11) and `zoo-2025-securities-and-dao`.
+
 ## One-Paragraph Summary
 
 > Zoo Labs Foundation anchors the Lux-Hanzo-Zoo ecosystem in a life-first mission—ensuring that technology and capital serve the flourishing of all life, not just human economic interests. As a 501(c)(3) non-profit, we provide ethical boundaries for the ecosystem while delivering measurable conservation outcomes: species monitored and protected, habitats conserved and restored, and communities engaged as true partners with full consent and fair benefit sharing. We leverage Hanzo AI for species identification, habitat monitoring, and threat detection, while ensuring all technology deployments meet our five principles: life-first, community partnership, scientific rigor, long-term stewardship, and non-extraction. The result is conservation that is credible, effective, and just—proving that protecting all life and creating economic value are not trade-offs but complements.
@@ -533,6 +567,7 @@ From ZIP-500, applied throughout:
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 2025-12-17 | Initial draft |
+| 1.1 | 2025-12-15 | Added 2025-12-15 update section: securities-and-DAO companion paper cross-refs, Quasar 3.0 settlement guarantee, holographic consensus DAO weighted-voting formula. |
 
 ## Copyright
 

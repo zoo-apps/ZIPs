@@ -156,10 +156,73 @@ Emergency actions have minimal quorum but require 80% supermajority, enabling ra
 - **Voter apathy**: Delegation allows active participants to represent passive holders
 - **Centralization risk**: No single address may hold more than 5% of delegated voting power (enforced at contract level)
 
+## 2025-12-15 Update: Homomorphic / Holographic Consensus DAO
+
+The DAO described above is the on-chain Solidity surface. As of the
+2025-12-15 spec freeze and 2025-12-25 Quasar 3.0 activation, the Zoo
+DAO additionally operates as a **homomorphic / holographic consensus
+DAO**:
+
+- **Homomorphic**: votes are tallied while encrypted under FHE on
+  Lux F-Chain (Lux LP-013). Individual ballots remain private; only
+  the aggregate is decrypted, by the M-Chain MPC threshold custodial
+  (Lux LP-019), after the voting window closes.
+- **Holographic**: every sub-DAO (per-LLM chain, research vertical,
+  regional chapter) inherits the meta-DAO governance topology and is
+  structurally a small copy of the whole. Sub-DAOs propose and
+  ratify locally; cross-shard issues escalate to the meta-DAO.
+
+### Weighted voting (replaces pure token-weighted)
+
+```
+weight(p) = α·advocacy + β·involvement + γ·contribution + δ·token_stake
+α + β + γ + δ = 1
+```
+
+Default initial weights at activation (2025-12-25):
+
+| Axis | Symbol | Default | Source |
+|------|--------|---------|--------|
+| Advocacy | α | 0.20 | Z-Chain attestation-rooted social signal |
+| Involvement | β | 0.30 | A-Chain contribution-graph attestation (Lux LP-134) |
+| Contribution | γ | 0.40 | Reproducibility attestation (ZIP-0606) |
+| Token stake | δ | 0.10 | Locked $ZOO; bounded to prevent plutocracy |
+
+The weights themselves are governed by the meta-DAO via homomorphic
+weighted vote.
+
+### Anti-Sybil
+
+- Advocacy must be on attestation-rooted social platforms; un-rooted
+  posts do not count.
+- Involvement is computed from TEE-attested commits and reviews on
+  Lux A-Chain (Lux LP-134).
+- Contribution requires reproducibility attestation per ZIP-0606.
+- Token stake is bounded at δ = 0.10 to prevent plutocracy.
+
+### Quantum-secure governance certificates
+
+Every governance vote outcome is settled under Quasar 3.0
+(Lux LP-020), composing BLS12-381 (Lux LP-075), Ringtail Ring-LWE
+(Lux LP-073), and ML-DSA-65 (Lux LP-070) signatures. Governance keys
+are held in M-Chain threshold custody (Lux LP-019).
+
+### Cross-references
+
+- Companion paper: `papers/zoo-2025-securities-and-dao` (full
+  treatment, §4).
+- Companion paper: `papers/zoo-per-llm-chains` (§11).
+
 ## References
 
 - [ZIP-0000: Zoo Ecosystem Architecture](./zip-0000-zoo-ecosystem-architecture-framework.md)
 - [ZIP-0016: ZOO Token Economics](./zip-0016-zoo-token-economics.md)
+- [ZIP-0026: Ecosystem Reputation System](./zip-0026-ecosystem-reputation-system.md)
+- [ZIP-0570: Zoo Labs Impact Thesis](./zip-0570-zoo-labs-impact-thesis.md)
+- [ZIP-0606: Reproducibility Attestation](./zip-0606-reproducibility-attestation.md)
+- Lux LP-013 (F-Chain FHE), LP-019 (M-Chain MPC), LP-020 (Quasar 3.0),
+  LP-070 (ML-DSA), LP-073 (Ringtail), LP-075 (BLS), LP-134 (A/B/M/F
+  topology)
 - [OpenZeppelin Governor](https://docs.openzeppelin.com/contracts/governance)
 - [Compound Governor Bravo](https://compound.finance/docs/governance)
 

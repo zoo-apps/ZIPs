@@ -1,0 +1,61 @@
+[H1] Gen 0 NFT Drop [/H]
+Zoo Labs introduces an enhanced reward system with unique daily rewards to engage and reward the Zoo community, fostering a sustainable and democratic ecosystem governed by the Zoo DAO.
+
+In our highly anticipated Gen 0 NFT drop, we are thrilled to introduce an enhanced reward system that aims to create an engaging and rewarding experience for our Zoo community. At Zoo Labs, we believe in providing consistent value to our collectors, and daily rewards play a crucial role in achieving that.
+Each Gen 0 animal NFT comes with its own unique set of daily rewards, designed to incentivize active participation and offer ongoing benefits to our collectors. Whether it's additional $ZOO tokens, exclusive NFTs, or other enticing in-game rewards, our daily rewards system ensures that there's always something to look forward to.
+Boosts, a powerful feature within the Zoo ecosystem, have a direct impact on the daily rewards. By adding collateral to the animals they own, known as "Feeding," players can boost their daily rewards. These boosts amplify the potential rewards earned, providing an additional incentive for collectors to enhance the value of their animals over time.
+It's important to note that the initial rewards are carved out during the Gen 0 NFT drop, with 50% of the entire token supply allocated towards rewards. This allocation sets the foundation for a robust and sustainable reward system that benefits our community. However, we want to emphasize that any further rewards, reward modifications, or the duration of the reward period are subject to the decisions made by the Zoo DAO.
+The Zoo DAO, governed by community members, plays a vital role in shaping the ecosystem and ensuring its long-term sustainability. As a democratic entity, the DAO has the power to propose and vote on changes to the reward system. This ensures that the community's voice is heard and that the reward structure remains aligned with the evolving needs and aspirations of our collectors.
+It's important to note that the daily rewards for each Gen 0 animal have a finite duration. Specifically, the daily rewards will continue for a period of two years after the animal is minted. This time frame allows for a meaningful and engaging reward experience while maintaining a healthy ecosystem that adapts to evolving dynamics.
+As we move forward with the Gen 0 NFT drop, we remain committed to refining and optimizing the daily rewards system based on feedback from our community. We believe that by creating a transparent and inclusive governance structure through the Zoo DAO, we can collectively shape the future of the reward system, ensuring it remains vibrant, fair, and aligned with the interests of our valued collectors.
+Join us in the Gen 0 NFT drop as we unveil an exciting array of animals with their own unique daily rewards. Experience the thrill of boosted bonuses, actively participate in the Zoo ecosystem, and contribute to the ongoing evolution of our reward system. Together, we can forge a dynamic and rewarding journey that extends far beyond the initial mint, creating a lasting and fulfilling experience for all our collectors.
+
+[H2] 
+
+A Guide to Breeding and Hatching in ZOO Labs [/H]
+As the non-fungible token (NFT) market continues to grow, ZOO Labs offers collectors an opportunity to diversify their digital assets with unique NFT animals. This article explores the process of breeding and hatching NFT animal eggs, providing insights into how collectors can expand their collections and potentially increase the value of their investments.
+
+[H2] 
+
+Breeding Basics: Understanding the Costs and Rewards [/H]
+In ZOO Labs' ecosystem, breeding requires two adult NFT animals of the same species but can be of any generation. The cost of breeding is determined by the original egg price (OEP), which varies based on the rarity of the animal. For instance, a Sublime egg costs 1 ETH, a Rare egg is priced at 0.5 ETH, and an Endangered egg is valued at 0.05 ETH.
+Upon successful breeding, an egg is minted and can be hatched for free or sold on the marketplace. Hatching yields a baby animal that can be grown into a teen by locking in collateral, a process known as feeding. This step not only increases the animal's value but can also earn collectors a boost for each feed.
+
+[H2] 
+
+Progressing through Growth Stages [/H]
+To advance a baby animal to the teen stage, collectors must lock in collateral equal to the OEP. Transforming a teen into an adult requires collateral equivalent to 2x the OEP. Breeding fees, which amount to 3x the OEP, are directed to the decentralized autonomous organization (DAO) rather than staking collateral.
+
+[H2] 
+
+Generational Limits and Breeding Privileges [/H]
+Each egg generation has a limit of one baby, one teen, and one adult that can be minted. Adults with breeding privileges can breed with another adult of the same species to mint a subsequent egg generation. However, there are restrictions on the number of generations allowed from the initial drop: the first generation can breed seven times, the second generation six times, and so on, until the seventh generation, which has no breeding privileges.
+It is crucial to note that adult animals can be sold with or without remaining breeding privileges. If a first-generation animal is bred only twice and burned after 20 days, no further offspring can be produced from that animal.
+
+[H2] 
+
+Upcoming Developments and Enhancements [/H]
+The ZOO Labs project is continually evolving, with the highly anticipated Zoo Labs virtual reality (VR) platform expected to launch soon. This immersive VR environment will enable collectors to interact with their animals like never before, feeding, breeding, and caring for them in an entirely new dimension.
+Breeding in the ZOO Labs NFT ecosystem offers collectors a chance to expand their animal collection and potentially increase the value of their investments. With a well-thought-out strategy and a touch of luck, collectors may find themselves hatching rare and valuable NFT animals that enhance their digital portfolios.
+
+[H2] 
+
+Breeding Rules and Allowances: [/H]
+Animals can breed with the same species and generation.
+The breeding privileges are determined by the generation of the animal.
+First-generation adult animals have 7 breeding allowances.
+Each subsequent generation has one less breeding allowance than the previous generation.
+Animals can only breed with another adult of the same species and generation if both have breeding privileges remaining.
+
+The rarity category of the animal determines its daily allowance based on age:
+* 
+
+Sublime Animals: Baby - 1 $ZOO, Teen - 2 $ZOO, Adult - 3 $ZOO
+* 
+
+Rare Animals: Baby - 0.25 $ZOO, Teen - 0.5 $ZOO, Adult - 1 $ZOO
+* 
+
+Endangered Animals: Baby - 0.05 $ZOO, Teen - 0.1 $ZOO, Adult -0.2 $ZOO
+Remember, breeding privileges are based on the generation of the animal, while the rarity category determines the daily allowance based on the age of the animal.
+Enjoy breeding and nurturing your adorable animals in Zoo Labs!

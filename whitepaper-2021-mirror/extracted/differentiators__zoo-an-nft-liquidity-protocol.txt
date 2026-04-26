@@ -1,0 +1,11 @@
+[H1] ZOO: An NFT Liquidity Protocol [/H]
+
+ZOO is a liquidity protocol for NFTs, in the way that Uniswap or PancakeSwap is for tokens.
+We add new animals to the Zoo ecosystem by deploying new “Drop Contracts”, which define the Animal NFTs content. Once an Egg NFT hatches, an Animal NFT of the same status is minted and begins to earn $ZOO Tokens according to its staked collateral and the outlined daily reward, determined by its rarity/species. 
+Based on rarity, age, and how much collateral is added to each NFT; each NFT is effectively an LP that can be burned to receive the underlying assets (collateral + rewards earned.)
+Before freeing your animal a.k.a burning the NFT, $ZOO and practically any currency can be added as liquidity to your animal NFT to increase its value. When users add collateral to their NFT Animal or participate in transactions on the Zoo ecosystem a small fee will be taken to be donated to the Zoo Labs Foundation. Our economics have been designed to cater to the interests of collectors and charities alike while slowly supporting buy pressure through the gamification of the Zoo game, increasing the value of the total ecosystem.
+
+Pools
+Users can list NFTs as a pool on the marketplace. By placing the NFTs in a pool the users can determine the value of the entire set of NFTs by setting the price of the pool. Once a pool is created other users can purchase the pool for the value. The buyer must send the amount to the owner to effectivley transfer ownership.
+
+[[FIGURE||https://zoolabs.gitbook.io/whitepaper/~gitbook/image?url=https%3A%2F%2F459349871-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpsFKBNsed52OPxRZuUhD%252Fuploads%252F3TUI9FFrpDY8zLi9E5qf%252Fliquidityprotocolgif.gif%3Falt%3Dmedia%26token%3D3c3e89b5-3278-4255-9ee9-087651aeea5a&width=768&dpr=3&quality=100&sign=8946718e&sv=2]]
