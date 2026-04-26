@@ -1,0 +1,48 @@
+[H1] Collateral Backed NFTs [/H]
+
+[[FIGURE||https://zoolabs.gitbook.io/whitepaper/~gitbook/image?url=https%3A%2F%2F459349871-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpsFKBNsed52OPxRZuUhD%252Fuploads%252FjI6GHT63Eq6Tl1UYmJH9%252FUntitled%25202.png%3Falt%3Dmedia%26token%3Db2eedc4a-3d9f-4d8d-8733-f0f96bb959c2&width=768&dpr=3&quality=100&sign=acfc328a&sv=2]]
+
+[H2] 
+
+Staked Collateral [/H]
+As you collateralize your Animal NFT or Egg you are locking in value into your NFT. The NFTs intrinsic value is based on the scarcity and your collateral is multiplied by the APY of your animal for additional rewards. You can then more than likely resell your NFT for a higher value than the price purchased + your collateral + your rewards earned. Or you can just burn the NFT and get back the collateral value + the rewards. However, the only way to get back your staked collateral and rewards earned is to burn the NFT or sell it on the Zoo Marketplace.
+Zoo is designed to easily add collateral or stake any currency on any of the Zoo Labs NFTs by "feeding," "breeding," or by minting an older NFT version of the animal. 
+
+[H3] 
+
+Releasing Collateral [/H]
+Once a user stakes collateral into their NFT that value is locked in. This means that they have deposited that amount into our cute NFT animal piggy banks. The collateral is now earning APY based on the NFTS rarity, which furthermore determines its rewards yield %. As a user earns rewards, the rewards become apart of the collateral which increase the NFTs reward. In order to liquidate your collateral and its rewards the user has two options: he/she can 
+A.) Sell and transfer the NFT animal for the value of the NFT + its intrinsic value. When the user sells their NFT on the marketplace not only do they get back its staked value but also have the opportunity to make more based on its intrinsic value which is determined by the rarity within ecosystem. Therefor if an NFT is scarce the ROI will be higher vs. an NFT that is widely available. 
+or
+B.) The user can burn the NFT directly returning the staked value + rewards earned to date. When the NFT is burned the allotment to mint older animals (if possible) is gone forever as the NFT itself is gone for ever removing one of its species from the deflationary ecosystem of its own species. If you choose to burn your NFT a 20% tax will be imposed where 10% will go to the DAO and 10% will go back to the liquidity pool.
+
+[H3] 
+
+Rewards [/H]
+Every NFT is a representation of an endangered species. The ecosystem represents the animal kingdom of endangered species, over 18,000. The amount of NFTs we release and put into circulation is dependent on how rare and endangered these animals are in the real world. Our first drop will consistent of 1,800 hatchable eggs with 3 varieties of separate rarities. These NFTs earn rewards and extra boosts off of collateral staked. When hatched each egg reveals an animal which earns rewards for a year.
+
+[H2] 
+
+Feeding aka adding Collateral [/H]
+First you incubate an egg which will hatch into an Origin Baby Animal. Similar to Tamagotchi users can “care” for their pets by feeding them and see their animals age up. As mentioned earlier the “feeding” action is defined by adding any currency to your NFT and locking it in until you decide to burn the NFT or sell it to another user. With any Animal you can continue to feed it and eventually mint an older version. You just have to feed it the same value as its base cost.
+There are 7 generations of NFTs in the Zoo ecosystem. It starts with an egg, a baby then a teen, and finally an adult. If a user collects two adults they can breed them to mint a new baby animal. Of each Origin Egg you can mint 1,500+ animals, collect them all or sell them on the Zoo Marketplace. You can also breed the animals if you collect the same species of adults that still have breeds left. The Origin Animals can breed 7 times and each generation after will have 1 less breeds possible. The ultimate objective of the game is to collect the highest yielding and most rare NFT within the Zoo ecosystem.
+
+[H2] 
+
+Boosts [/H]
+What are boosts? 
+Boosts are determined by collateral added. Another reward in addition to the daily reward that comes with the animal. Daily reward + (collateral x boost x days/365)
+
+$10 - $99 is a 1.1x boost
+$100 - $999 is a 1.2x boost
+$1,000 - $9,999 is a 1.3x boost
+$10,000+ is a 1.4x boost
+
+[H2] 
+
+Breeding [/H]
+
+NFT Animals can be bred with other NFT Animals once they reach their adult form, achieved by “feeding” the NFT Animal a specified amount of crypto.
+Each NFT Animal can be bred up to 7 times, and you may breed any two adult animals of the same species with one another to produce an NFT Egg.
+You must breed two adult versions of the same species of NFT Animal in order to successfully produce offspring, which will come in the form of a totally random NFT Egg that may contain any one of the animals from that NFT Drop, including potentially the rarest!
+To breed two adult NFT Animals, the user must select each animal in the user interface within the d’App, and then initiate the process by “feeding” the designated amount of $ZOO tokens (. This will mint a random NFT Egg, which the user can sell on our marketplace for profit, hold onto and sell later, transfer to any other user, or incubate and hatch into the random NFT Animal within.
