@@ -114,11 +114,33 @@ The burn mechanism creates a natural equilibrium: as the network becomes more us
 - **Emergency pause** can halt emissions if a critical vulnerability is discovered
 - Token distribution contract should be deployed behind a proxy with a 48-hour upgrade delay
 
+## 2025-12-15 Update — Token Stake in Holographic DAO
+
+Under the Holographic Consensus DAO (ZIP-0017 update, 2025-12-15),
+locked $ZOO stake contributes only the δ axis of the weighted-voting
+formula:
+
+```
+weight(p) = α·advocacy + β·involvement + γ·contribution + δ·token_stake
+```
+
+Default δ = 0.10. This deliberately bounds plutocracy: the maximum
+share of governance weight a purely-token-rich participant can obtain
+is 10%. The other 90% is gated by attestation-rooted advocacy
+(Z-Chain), TEE-attested involvement (A-Chain per Lux LP-134), and
+reproducibility-attested contribution (ZIP-0606). $ZOO retains its
+roles for staking-for-yield, grant backing, premium data access, and
+gas-on-Zoo-L2 — but governance weight is no longer purely
+token-weighted.
+
+See companion paper `papers/zoo-2025-securities-and-dao` §4.
+
 ## References
 
 - [ZIP-0000: Zoo Ecosystem Architecture](./zip-0000-zoo-ecosystem-architecture-framework.md)
 - [ZIP-0002: Genesis Airdrop](./zip-0002-genesis-airdrop-to-original-zoo-token-victims.md)
 - [ZIP-0015: Zoo L2 Chain Architecture](./zip-0015-zoo-l2-chain-architecture.md)
+- [ZIP-0017: DAO Governance Framework](./zip-0017-dao-governance-framework.md)
 - [ZIP-0700: ZRC-20 Fungible Token Standard](./zip-0700-zrc-20-fungible-token-standard.md)
 - [EIP-1559: Fee Market Change](https://eips.ethereum.org/EIPS/eip-1559)
 

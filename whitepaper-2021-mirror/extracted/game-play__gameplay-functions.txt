@@ -1,0 +1,18 @@
+[H1] Gameplay: Functions [/H]
+ZOO NFT Eggs and Animals Drops, can be hatched, fed, or grown into an older NFT Animals, unlocking rare and valuable treasures within the ZOO ecosystem.
+
+[H2] 
+
+Pre-Drop Whitelist [/H]
+The ZOO experience begins with our NFT Eggs and an NFT Egg Drop. Each ZOO NFT Egg Drop will feature a series of animals from egg, to juvenile, adolescent & mature forms. These drops may be themed based upon something related to the natural world, a cultural celebration, current events, partnerships and licensing agreements, or any number of other potential sources of inspiration. In the time before each NFT Egg Drop, new or existing users will have the opportunity to purchase one random NFT Egg, of potentially any available rarity tier, for the price of the most common Egg. When the NFT Eggs are distributed to the presale purchasers, their egg type and its related value will be revealed. Some lucky users will end up with our rarest and most valuable NFT Egg for the price of our lowest cost and most common NFT Egg!
+
+[H2] 
+
+Original Egg Price [/H]
+The original price of the three varieties of Eggs determines the cost to mint the future animals. The original price of the eggs will be as follows: 
+Sublime Egg, most rare 5% of distribution will be 1 ETH. 
+Rare Egg, second most rare 15% of distribution will be 0.5 ETH. 
+The Endangered Egg, the most common being 85% of the distribution will be 0.1 ETH. 
+Once a user has purchased their NFT Egg and it resides in their wallet, they may choose to hatch their egg into a baby NFT Animal according to each drop and its rarity tiers. To mint the teen version, the user must “feed” the NFT 1 x the original price of the original price of its Egg. When doing this, the user isn’t spending those tokens – they are staking them into the NFT. 
+After their NFT Animal has hatched and they have had the chance to experience it in its teen form the user can choose to “feed” the NFTs original base price again but now 2x, to make their NFT Animal grow into its adolescent form, hence minting another NFT. Not only will you have another NFT but you will also now have collateral in the adult NFT worth 2x the original price of its Egg. Now you can find another adult of the same species and breed them resulting in a new egg of the same rarity by paying the breeding fee which is 3x the price of the original egg. 
+From this point forward, the user can continue to feed their NFT Animal crypto, both $ZOO and virtually any other cryptocurrency, to stake the tokens into the NFT Animal’s liquidity pool which results in the Boosts, see Boosts in Collateral Backed Segment. 

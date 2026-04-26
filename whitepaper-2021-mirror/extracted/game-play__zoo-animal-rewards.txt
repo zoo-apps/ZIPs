@@ -1,0 +1,170 @@
+[H1] Zoo Animal Rewards [/H]
+All the animals and game properties for the V1 drop.
+
+[H2] 
+
+Red Wolf [/H]
+PROPERTIES 
+Generations Possible : (1-7)
+Status ✅: Sublime 
+Daily Reward 
+Baby: 1 $ZOO Teen: 2 $ZOO Adult: 3 $ZOO
+Original Price for Sublime Egg = 1 ETH
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 1 ETH, (1x Original Egg Price) 
+Mint Adult: 2 ETH, (2x Original Egg Price) 
+Breed Adult: 3 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+Red Wolves, also known as Canis rufus, are the rarest animals in the Zoo ecosystem, with only an estimated 35 or fewer individuals remaining in the wild. This majestic creature is derived from the Sublime Egg and is highly coveted, which means it earns the most daily rewards then any other animal.
+The Red Wolf will only have 7 generations, with the first generation able to breed 7 times, the second generation able to breed 6 times, and so on, until the seventh generation which will have no more breeding privileges.
+Use the reward calculator to understand the potential earning outlook if you would purchase this NFT. You can also add further collateral to increase its value. Keep in mind that different interactions within the Zoo ecosystem may be subject to a Sustainability Tax.
+
+Utility ✅
+Offers, Buy / Sell, Collateralize, Boosts, Earns, Create Pool, Breeding, Hatch Eggs, Burns 🔥, Metaverse
+
+[H2] 
+
+Amur Leopard [/H]
+
+PROPERTIES 
+Generation : (1-7)
+Status ✅: Rare 
+Daily Reward (bold maturity of specific NFT) 
+Baby: .25 $ZOO Teen: 0.5 $ZOO Adult: 1 $ZOO
+Original Price for Rare Egg = 0.5 ETH
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 0.5 ETH, (1x Original Egg Price) 
+Mint Adult: 1 ETH, (2x Original Egg Price) 
+Breed Adult: 1.5 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+The Amur Leopard, also known as Panthera Pardus Orientalis, is one of the rarest cats in the world, with an estimated population of under 70 individuals left in the wild. This beautiful creature is one of the two animals derived from the Rare Egg and is highly sought after, being the second most rare in the ecosystem.
+The Amur Leopard will only have 7 generations, with the first generation able to breed 7 times, the second generation able to breed 6 times, and so on, until the seventh generation which will have no more breeding privileges.
+Use the reward calculator to understand the potential earning outlook if you would purchase this NFT. You can also add further collateral to increase its value. Keep in mind that different interactions within the Zoo ecosystem may be subject to a Sustainability Tax.
+
+Utility ✅
+Offers, Buy / Sell, Collateralize, Boosts, Earns, Create Pool, Breeding, Hatch Eggs, Burns 🔥, Metaverse
+
+[H2] 
+
+Nubian Giraffe [/H]
+
+PROPERTIES 
+Generation : (1-7)
+Status ✅: Rare 
+Daily Reward (bold maturity of specific NFT) 
+Baby: .25 $ZOO Teen: 0.5 $ZOO Adult: 1 $ZOO
+Original Price for Rare Egg = 0.5 ETH
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 0.5 ETH, (1x Original Egg Price) 
+Mint Adult: 1 ETH, (2x Original Egg Price) 
+Breed Adult: 1.5 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+The Nubian Giraffe is in danger with less than 2,645 individuals left in the wild lands of Ethiopia, Kenya, Uganda, South Sudan, and Sudan. Their population has dropped a whole 40% in the last three decades, because of habitat loss caused by expanding agriculture, conflicts with humans, civil unrest, and poaching for their meat, pelts, and tails.
+It's one of the two creatures that come from the Rare Egg, making it part of the second rarest kind in the Zoo game.
+Only seven generations of the Nubian Giraffe, also known as Giraffa camelopardalis, will be allowed. The first generation can breed seven times, the second six, and so on until the sixth generation can breed once, and the seventh won't have any breeding privileges.
+If you purchase this NFT, you can use the reward calculator to see your potential earnings. You can also calculate the difference in value if you add more collateral while you own it. Remember, some interactions within the Zoo ecosystem may be subject to a Sustainability Tax.
+
+[H2] 
+
+Javan Rhinoceros [/H]
+
+Generation : (1-7)
+Status ✅: Endangered 
+Daily Reward 
+Baby: 0.05 $ZOO Teen: 0.1 $ZOO Adult: $0.02 $ZOO 
+Original Price for Endangered Egg = 0.05 ETH
+
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 0.05 ETH, (1x Original Egg Price) 
+Mint Adult: 0.1 ETH, (2x Original Egg Price) 
+Breed Adult: 0.15 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+The Javan Rhinoceros was once widely spread throughout Southeast Asia, India, and China, but now it is critically endangered with only one known population in the wild and none in captivity.
+One of the four animals derived from the Endangered Egg, making it the most common rarity in the Zoo game.
+There will only be allowed 7 generations of the Javan Rhinoceros, aka Rhinoceros sondaicus. The first generation will be able to breed 7x, the second generation will be able to breed 6x, the third generation will be able to breed 5x… the sixth generation will be able to breed 1x and the 7th generation won't have any more breeding privileges.
+Use the reward calculator to understand the potential earning outlook if you would purchase this NFT. You will also be able to use this calculator to understand the difference in value if you add further collateral once this NFT is in your possession. Different interactions within the Zoo ecosystem may be susceptible to a Sustainability Tax.
+Utility ✅: 
+Offers, Buy / Sell, Collateralize, Boosts, Earns, Create Pool, Breeding, Hatch Eggs, Burns 🔥, Metaverse
+
+[H2] 
+
+Pygmy Hippo [/H]
+Generation : (1-7)
+Status ✅: Endangered 
+Daily Reward 
+Baby: 0.05 $ZOO Teen: 0.1 $ZOO Adult: $0.02 $ZOO 
+Original Price for Endangered Egg = 0.05 ETH
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 0.05 ETH, (1x Original Egg Price) 
+Mint Adult: 0.1 ETH, (2x Original Egg Price) 
+Breed Adult: 0.15 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+The Pygmy Hippopotamus is a rare and elusive creature found only in the dense forests of West Africa, mainly in Liberia, with a small number of individuals also found in Sierra Leone, Guinea, and the Ivory Coast. Despite being adapted to life in the water, it is not as aquatic as its larger cousin, the Hippopotamus.
+It is one of the four animals derived from the Endangered Egg, which makes it the most common in that rarity category in the Zoo game. There will only be allowed 7 generations of the Pygmy Hippopotamus, aka Choeropsis liberiensis. The first generation will be able to breed 7x, the second generation will be able to breed 6x, the third generation will be able to breed 5x… the sixth generation will be able to breed 1x and the 7th generation won't have any more breeding privileges.
+You can use the reward calculator to see how much you could potentially earn if you purchase this NFT. The calculator can also help you understand how adding more collateral to the NFT could affect its value. Keep in mind that different interactions within the Zoo ecosystem may be subject to a Sustainability Tax.
+Utility ✅: 
+Offers, Buy / Sell, Collateralize, Boosts, Earns, Create Pool, Breeding, Hatch Eggs, Burns 🔥, Metaverse
+
+[H2] 
+
+Siberian Tiger [/H]
+Generation : (1-7)
+Status ✅: Endangered 
+Daily Reward 
+Baby: 0.05 $ZOO Teen: 0.1 $ZOO Adult: $0.02 $ZOO 
+Original Price for Endangered Egg = 0.05 ETH
+
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 0.05 ETH, (1x Original Egg Price) 
+Mint Adult: 0.1 ETH, (2x Original Egg Price) 
+Breed Adult: 0.15 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+The Siberian Tiger, also known as the Amur tiger, is a magnificent creature native to the eastern regions of Russia, and is considered an endangered species. There are only around 500 of them left in the wild due to poaching, habitat loss and hunting.
+One of the two animals derived from the Rare Egg, making it part of the second most common rarity in the Zoo game.
+There will only be allowed 7 generations of the Siberian Tiger, aka Panthera tigris altaica. The first generation will be able to breed 7x, the second generation will be able to breed 6x, the third generation will be able to breed 5x… the sixth generation will be able to breed 1x and the 7th generation won't have any more breeding privileges.
+Use the reward calculator to understand the potential earning outlook if you would purchase this NFT. You will also be able to use this calculator to understand the difference in value if you add further collateral once this NFT is in your possession. Different interactions within the Zoo ecosystem may be susceptible to a Sustainability Tax.
+
+Utility ✅: 
+Offers, Buy / Sell, Collateralize, Boosts, Earns, Create Pool, Breeding, Hatch Eggs, Burns 🔥, Metaverse
+
+[H2] 
+
+Emperor Penguin [/H]
+Generation : (1-7)
+Status ✅: Endangered 
+Daily Reward 
+Baby: 0.001 $ZOO Teen: 0.01 $ZOO Adult: $0.1 $ZOO 
+Original Price for Endangered Egg = 0.05 ETH
+
+Price to mint: 
+Hatch to Baby: Free
+Mint Teen: 0.05 ETH, (1x Original Egg Price) 
+Mint Adult: 0.1 ETH, (2x Original Egg Price) 
+Breed Adult: 0.15 ETH, (3x Original Egg Price)
+Boosts Allowed: 1.1-1.4x 
+
+DESCRIPTION ✅
+The Emperor Penguin is one of the most distinctive and largest penguin species. Their only habitat is Antarctica. They are threatened by climate change, which causes a significant loss of their icy home.
+This species is one of the four creatures obtained from the Endangered Egg, making it a common rarity in the Zoo game.
+There will only be allowed 7 generations of the Emperor Penguin, also known as Aptenodytes forsteri. The first generation will be able to breed 7x, the second generation will be able to breed 6x, the third generation will be able to breed 5x… the sixth generation will be able to breed 1x and the 7th generation won't have any more breeding privileges.
+Use the reward calculator to understand the potential earning outlook if you would purchase this NFT. You will also be able to use this calculator to understand the difference in value if you add further collateral once this NFT is in your possession. Different interactions within the Zoo ecosystem may be susceptible to a Sustainability Tax.
+Utility ✅: 
+Offers, Buy / Sell, Collateralize, Boosts, Earns, Create Pool, Breeding, Hatch Eggs, Burns 🔥, Metaverse
