@@ -1,15 +1,15 @@
-# ZIP-0900: Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology
+---
+zip: 0900
+title: Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology
+author: Antje Worring, Zach Kelling
+type: Informational
+status: Final
+category: Meta
+created: 2025-12-15
+updated: 2026-04-20
+---
 
-| Field | Value |
-|---|---|
-| **Number** | 0900 |
-| **Title** | Zoo Version History --- 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology |
-| **Status** | Final |
-| **Type** | Informational |
-| **Category** | Meta |
-| **Author** | Antje Worring, Zach Kelling |
-| **Created** | 2025-12-15 |
-| **Updated** | 2026-04-20 |
+# ZIP-0900: Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology
 
 ## Abstract
 
