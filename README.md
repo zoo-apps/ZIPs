@@ -27,8 +27,8 @@ A Zoo Improvement Proposal (ZIP) is a design document that provides information 
 
 - 📖 New to ZIPs? Begin with ZIP-0, which provides an overview of the Zoo ecosystem
 - 🚀 Create a new ZIP: Use the provided template to scaffold a proposal draft
-- 📋 View all ZIPs: See [docs/INDEX.md](./docs/INDEX.md) for a complete list
-- 🔍 Check status: See [docs/STATUS.md](./docs/STATUS.md) for current status
+- 📋 View all ZIPs: See [INDEX.md](./INDEX.md) for a complete list
+- 🔍 Check status: Each ZIP's current status appears in the [ZIP Index](#zip-index) table below, and in its YAML frontmatter
 
 ## Core Research Papers
 
