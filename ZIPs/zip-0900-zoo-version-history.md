@@ -16,7 +16,7 @@ updated: 2026-04-20
 This ZIP is the canonical chronology of the Zoo platform: the five
 locked version milestones, their dates, the papers that document them,
 and the cross-references to the relevant Lux Improvement Proposals
-(LPs) and to the Liquidity Protocol adoption record. It exists so
+(LPs) and to subsequent adoption records. It exists so
 that any future contributor or partner can answer the question "what
 was Zoo and what did Zoo ship at version N?" with a single authoritative
 source.
@@ -31,7 +31,7 @@ source.
 | **2.0** | Lux L2 EVM PQ re-launch | **2024-10** | [`zoo-evm-l2-architecture`](../../papers/zoo-evm-l2-architecture) | Re-launch on the Lux Network as an EVM-compatible Layer 2; 20 native precompiles including NIST PQC standards (ML-DSA, SLH-DSA, ML-KEM); first-pass post-quantum stack. |
 | **3.0** | Full PQ era | **2025-10-31** | [`zoo-3-0-full-pq`](../../papers/zoo-3-0-full-pq) | Complete post-quantum hardening: every signature, every commitment, every proof in PQ-safe schemes (Ringtail Ring-LWE + ML-DSA-65 + BLS12-381 fast path). Triple-cert inheritance from Lux Quasar 3.0 (LP-020). DAO migration, NFT Liquidity Protocol PQ, zLLM commitments PQ, bridge committee re-keying. |
 | **4.0** | GPU-native sovereign L1 | **2026-02-14** | [`zoo-4-0-launch`](../../papers/zoo-4-0-launch) | Graduation from Lux L2 application to sovereign Lux L1 with its own validator set, Quasar-certified consensus, and independent economic security. 100% GPU-powered consensus, EVM, AMM matching, AI mining, and FHE. Quasar 4.0 inheritance. |
-| **Zoo DEX** | Native securities + Liquidity Protocol | **2026-04-20** | [`zoo-dex-launch-2026-04-20`](../../papers/zoo-dex-launch-2026-04-20) | $113T digital-securities market access via tokenised equities, fixed income, RWA, and derivatives. Liquidity Protocol adoption (Liquidity.io launched it 2026-04-01; Lux/Hanzo/Zoo/Pars adopted it 2026-04-20). Robinhood-style retail UX with sub-1.1s T+0 settlement. |
+| **Zoo DEX** | Native securities + Liquidity Protocol | **2026-04-20** | [`zoo-dex-launch-2026-04-20`](../../papers/zoo-dex-launch-2026-04-20) | $113T digital-securities market access via tokenised equities, fixed income, RWA, and derivatives. Liquidity Protocol adoption ((external regulated-tokenization partner) launched it 2026-04-01; integration adopted across Lux ecosystem 2026-04-20). Robinhood-style retail UX with sub-1.1s T+0 settlement. |
 
 ### Per-version detail
 
@@ -138,8 +138,7 @@ Headline properties:
   perpetual futures, dated futures, European options. All settle on
   Zoo D-Chain (a white-label resell of the Lux D-Chain template per
   LP-134) with sub-1.1s Quasar 4.0 finality.
-- **Liquidity Protocol integration.** Liquidity.io launched the
-  formal Liquidity Protocol on 2026-04-01 with a soundness proof
+- **Liquidity Protocol integration.** External regulated-tokenization providers integrate via the standard adapter interface
   alongside; Lux, Hanzo, Zoo, and Pars adopted it on 2026-04-20.
   Zoo's adoption document is at
   `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex`.
@@ -187,7 +186,7 @@ paper:
 
 | Date | Actor | Action |
 |---|---|---|
-| **2026-04-01** | Liquidity.io | Formal launch of the Liquidity Protocol with soundness proof. |
+| **2026-04-01** | (external regulated-tokenization partner) | Formal launch of the Liquidity Protocol with soundness proof. |
 | **2026-04-20** | Lux | Adopts the Liquidity Protocol on Lux C-Chain and Lux D-Chain. |
 | **2026-04-20** | Hanzo | Adopts the Liquidity Protocol on Hanzo AI Chain marketplace flow. |
 | **2026-04-20** | Zoo | Adopts the Liquidity Protocol on Zoo D-Chain via the Liquidity precompile. |
@@ -195,7 +194,7 @@ paper:
 
 The proof artifact for Zoo's specific adoption is at
 `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex`. The
-Liquidity.io formal proof of the protocol itself is at
+(external regulated-tokenization partner) formal proof of the protocol itself is at
 `~/work/liquidity/proofs/`.
 
 ### Related ZIPs

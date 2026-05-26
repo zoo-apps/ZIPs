@@ -697,10 +697,10 @@ in `~/work/zoo/proofs/`. Cross-references:
 | ZIP-0103, ZIP-0206 | NFT Liquidity Protocol (2021 trade name; collateral-backed NFT lending, sustainability tax flow, marketplace settlement) | `~/work/zoo/proofs/zoo-nft-liquidity-protocol-soundness.tex` |
 | ZIP-0017, ZIP-0023, ZIP-0026, ZIP-0027 | Zoo DAO holographic-consensus governance, FHE-tallied votes, anti-Sybil bound | `~/work/zoo/proofs/zoo-dao-governance-soundness.tex` |
 | ZIP-0400--ZIP-0418 | Per-LLM training chain (deterministic gradient ordering, attribution graph integrity, byte-identical reproducibility) | `~/work/zoo/proofs/zoo-per-llm-chain-soundness.tex` |
-| ZIP-0103, ZIP-0206 (composition) | 2026-04-20 adoption of Liquidity.io's Liquidity Protocol with formal trade-name disambiguation | `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex` |
+| ZIP-0103, ZIP-0206 (composition) | 2026-04-20 adoption record | `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex` |
 
 The 2021 Zoo "NFT Liquidity Protocol" (Worring & Kelling, October 2021)
-predates Liquidity.io's "Liquidity Protocol" (Liquidity.io, 2026-04-01)
+is a coined trade-name from Worring & Kelling
 by ~4.5 years; the two are formally separated by disjoint asset classes
 (ERC-721 / ZRC-721 vs. ERC-3643). See
 `zoo-adopts-liquidity-protocol.tex` Proposition 3.1.
