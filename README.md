@@ -59,7 +59,18 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 | [ZIP-0012](./ZIPs/zip-0012-lp-integration-chain-agnostic-ai-standards.md) | LP (Lux Proposals) Integration - Chain-Agnostic AI Standards | Standards Track | Draft |
 | [ZIP-0013](./ZIPs/zip-0013-lp-standards-conformance-and-chain-interoperability.md) | LP Standards Conformance and Chain Interoperability | Standards Track | Final |
 | [ZIP-0014](./ZIPs/zip-0014-zoo-kms-integration-via-lux-kms.md) | Zoo KMS Integration via Lux KMS | Infrastructure | Active |
+| [ZIP-0031](./ZIPs/zip-0031-brand-sovereignty-and-federation-discovery.md) | Adopts LP-0010 — Brand Sovereignty and Federation Discovery | Meta | Final |
+| [ZIP-0032](./ZIPs/zip-0032-onchain-federation-registry.md) | Adopts LP-0011 — Onchain Federation Registry | Standards Track | Draft |
 | [ZIP-0042](./ZIPs/zip-0042-cross-ecosystem-interoperability-standard.md) | Cross-Ecosystem Interoperability Standard | Standards Track | Draft |
+
+> **Adoption pointers.** ZIP-0031 and ZIP-0032 are thin adoption documents
+> that record Zoo-specific notes (GHCR namespace isolation, academic
+> attribution exemption, Zoo subnet chainId, canonical `appId` map for
+> DeSci primitives — species, bonds, models) and point at the canonical
+> [LP-0010](https://github.com/luxfi/lps/blob/main/LPs/lp-0010-brand-sovereignty-and-federation-discovery.md)
+> and [LP-0011](https://github.com/luxfi/lps/blob/main/LPs/lp-0011-onchain-federation-registry.md)
+> for the normative spec. Spec changes land in the LPs first; this repo
+> only records Zoo's adoption commits.
 
 ## ZIP Process
 
