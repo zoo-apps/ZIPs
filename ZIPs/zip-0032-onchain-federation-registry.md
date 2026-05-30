@@ -49,6 +49,7 @@ This document records Zoo subnet activation, the canonical Zoo `appId` map (cove
 - **Bridge-shim cross-chain registration**: `zooai/bridge-shim` registered on the Zoo subnet under `(zoo, bridge)` is distinct from any `(lux, bridge)` registration on Lux mainnet — different brand, different domain, different `wellKnownHash`. Cross-brand consumers MUST query each `(brandId, appId)` independently.
 - **Conservation / impact data integrity**: attestation-bearing apps SHOULD separate stable metadata (covered by `wellKnownHash`) from live data (served at a separate URL referenced from the metadata). Unexplained `wellKnownHash` mismatches on routine audit SHOULD be treated as a critical finding given Zoo's grant-funding and regulatory implications.
 - **Liquidity blocklist**: the Zoo subnet's federation precompile MUST reject registrations with `brandId == bytes32("liquidity")` (same hardcoded blocklist constant as HIP-0304); Liquidity's federation registry lives on Liquid EVM (chainId 8675309) and is not bridged into Zoo.
+- **v0.2 Registry/Resolver split**: Zoo subnet implementations MUST deploy BOTH precompiles atomically — `0x0000000000000000000000000000000000011001` (`FederationRegistry` resolver) AND `0x0000000000000000000000000000000000011002` (`BrandConfigStore`). Partial deployment is rejected by node bootstrap. The resolver address is unchanged from v0.1 so existing federation aggregator clients keep working without code changes.
 
 ## Reference implementation (Zoo)
 
