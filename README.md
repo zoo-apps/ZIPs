@@ -61,16 +61,21 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 | [ZIP-0014](./ZIPs/zip-0014-zoo-kms-integration-via-lux-kms.md) | Zoo KMS Integration via Lux KMS | Infrastructure | Active |
 | [ZIP-0031](./ZIPs/zip-0031-brand-sovereignty-and-federation-discovery.md) | Adopts LP-0010 — Brand Sovereignty and Federation Discovery | Meta | Final |
 | [ZIP-0032](./ZIPs/zip-0032-onchain-federation-registry.md) | Adopts LP-0011 — Onchain Federation Registry | Standards Track | Draft |
-| [ZIP-0042](./ZIPs/zip-0042-cross-ecosystem-interoperability-standard.md) | Cross-Ecosystem Interoperability Standard | Standards Track | Draft |
+| [ZIP-0042](./ZIPs/zip-0042-cross-ecosystem-interoperability-standard.md) | Adopts LP-3512 + HIP-0101 — Cross-Ecosystem Interoperability | Standards Track | Draft |
 
-> **Adoption pointers.** ZIP-0031 and ZIP-0032 are thin adoption documents
-> that record Zoo-specific notes (GHCR namespace isolation, academic
-> attribution exemption, Zoo subnet chainId, canonical `appId` map for
-> DeSci primitives — species, bonds, models) and point at the canonical
-> [LP-0010](https://github.com/luxfi/lps/blob/main/LPs/lp-0010-brand-sovereignty-and-federation-discovery.md)
-> and [LP-0011](https://github.com/luxfi/lps/blob/main/LPs/lp-0011-onchain-federation-registry.md)
-> for the normative spec. Spec changes land in the LPs first; this repo
-> only records Zoo's adoption commits.
+> **Adoption pointers.** ZIP-0031, ZIP-0032, and ZIP-0042 are thin
+> adoption documents that record Zoo-specific notes (GHCR namespace
+> isolation, academic attribution exemption, Zoo subnet chainId,
+> canonical `appId` map for DeSci primitives — species, bonds,
+> models — and cross-ecosystem `appId` extension, AI-attestation
+> hooks via LP-5000, strict-PQ rules for attestation-bearing flows)
+> and point at the canonical
+> [LP-0010](https://github.com/luxfi/lps/blob/main/LPs/lp-0010-brand-sovereignty-and-federation-discovery.md),
+> [LP-0011](https://github.com/luxfi/lps/blob/main/LPs/lp-0011-onchain-federation-registry.md),
+> [LP-3512](https://github.com/luxfi/lps/blob/main/LPs/lp-3512-warp-cross-chain-messaging-precompile.md),
+> and [HIP-0101](https://github.com/hanzoai/HIPs/blob/main/HIPs/hip-0101-hanzo-lux-bridge-protocol-integration.md)
+> for the normative spec. Spec changes land in the LPs / HIPs first;
+> this repo only records Zoo's adoption commits.
 
 ## ZIP Process
 

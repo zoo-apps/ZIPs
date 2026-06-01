@@ -164,7 +164,7 @@ Network architecture, consensus, EVM, PQ crypto, tokenomics, governance.
 | ZIP-0030 | On-Chain Species Registry | Draft | -- | 2021-10 | 2025-01-15 |
 | ZIP-0033 | Zoo Decentralized Identification Service (DID) | Draft | -- | 2021-10 | 2025-12-15 |
 | ZIP-0034 | Zoo XP & Quests Protocol | Draft | -- | 2021-10 | 2025-12-15 |
-| ZIP-0042 | Cross-Ecosystem Interoperability Standard | Draft | -- | -- | 2025-01-15 |
+| ZIP-0042 | Adopts LP-3512 + HIP-0101 — Cross-Ecosystem Interoperability | Draft | LP-3512, HIP-0101 | -- | 2025-01-15 / 2026-06-01 |
 
 **Provenance notes for Core Protocol:**
 
