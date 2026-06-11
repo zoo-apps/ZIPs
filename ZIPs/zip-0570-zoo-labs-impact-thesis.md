@@ -536,7 +536,7 @@ activation 2025-12-25). Five planks are added:
    endangered AI, and the intersection of AI, blockchain, metaverse
    and gaming." See `zips/team.md`.
 2. **$113 trillion digital securities** — Zoo positions as the open
-   AI / wildlife / metaverse layer over Lux (chain) + Liquidity
+   AI / wildlife / metaverse layer over Lux (chain) + a regulated securities partner
    (regulated trading). Robinhood-style capabilities:
    zero-commission, fractional shares, instant settlement, 24/7
    markets, tokenized RWA.

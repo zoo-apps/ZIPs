@@ -86,7 +86,7 @@ which provides TEE-attested identity rooted in hardware enclaves.
 | 0 | Self-asserted (anon) | Read-only DAO; basic NFT mint; no KEEPER |
 | 1 | Email + phone + ZK age proof | XP earn; quest participation; KEEPER stake |
 | 2 | Doc-verified (KYC) | Treasury proposal; pool listing; cross-chain bridge |
-| 3 | KYC + accredited | Securities-track features (via Liquidity perimeter, see LP-134) |
+| 3 | KYC + accredited | Securities-track features (via the regulated securities partner perimeter, see LP-134) |
 
 KYC verification happens off-chain through partnered providers; the
 resulting credential hash is anchored on-chain as a verifiable

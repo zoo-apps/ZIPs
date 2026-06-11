@@ -29,7 +29,7 @@ source.
 |---|---|---|---|---|
 | **1.0** | BSC era (original) | **2021-10-31** | [`zoo-2021-original-whitepaper`](../../papers/zoo-2021-original-whitepaper) | Original Antje Worring vision; coined the term "NFT Liquidity Protocol"; wildlife conservation NFTs as productive collateral. |
 | **2.0** | Lux L2 EVM PQ re-launch | **2024-10** | [`zoo-evm-l2-architecture`](../../papers/zoo-evm-l2-architecture) | Re-launch on the Lux Network as an EVM-compatible Layer 2; 20 native precompiles including NIST PQC standards (ML-DSA, SLH-DSA, ML-KEM); first-pass post-quantum stack. |
-| **3.0** | Full PQ era | **2025-10-31** | [`zoo-3-0-full-pq`](../../papers/zoo-3-0-full-pq) | Complete post-quantum hardening: every signature, every commitment, every proof in PQ-safe schemes (Corona Ring-LWE + ML-DSA-65 + BLS12-381 fast path). Triple-cert inheritance from Lux Quasar 3.0 (LP-020). DAO migration, NFT Liquidity Protocol PQ, zLLM commitments PQ, bridge committee re-keying. |
+| **3.0** | Full PQ era | **2025-10-31** | [`zoo-3-0-full-pq`](../../papers/zoo-3-0-full-pq) | Complete post-quantum hardening: every signature, every commitment, every proof in PQ-safe schemes (Corona Ring-LWE + ML-DSA-65 + BLS12-381 fast path). Triple-cert inheritance from Lux Quasar 3.0 (LP-020). DAO migration, NFT  PQ, zLLM commitments PQ, bridge committee re-keying. |
 | **4.0** | GPU-native sovereign L1 | **2026-02-14** | [`zoo-4-0-launch`](../../papers/zoo-4-0-launch) | Graduation from Lux L2 application to sovereign Lux L1 with its own validator set, Quasar-certified consensus, and independent economic security. 100% GPU-powered consensus, EVM, AMM matching, AI mining, and FHE. Quasar 4.0 inheritance. |
 | **Zoo DEX** | Native securities + Liquidity Protocol | **2026-04-20** | [`zoo-dex-launch-2026-04-20`](../../papers/zoo-dex-launch-2026-04-20) | $113T digital-securities market access via tokenised equities, fixed income, RWA, and derivatives. Liquidity Protocol adoption ((external regulated-tokenization partner) launched it 2026-04-01; integration adopted across Lux ecosystem 2026-04-20). Robinhood-style retail UX with sub-1.1s T+0 settlement. |
 
@@ -83,7 +83,7 @@ Zoo 3.0 closed the remaining classical edges. By the end of 2025:
 - **zLLM commitments** for training artefacts, governance votes, and
   inference receipts adopted PQ-safe Merkle accumulators with
   ML-DSA-signed roots.
-- **NFT Liquidity Protocol loans** are now Corona-signed loan
+- **NFT  loans** are now Corona-signed loan
   agreements with PQ-attested liquidation oracles.
 - **DAO key migration** rotated treasury custody, contract-upgrade
   authority, and proposal-signing keys to threshold PQ.
@@ -186,11 +186,11 @@ paper:
 
 | Date | Actor | Action |
 |---|---|---|
-| **2026-04-01** | (external regulated-tokenization partner) | Formal launch of the Liquidity Protocol with soundness proof. |
-| **2026-04-20** | Lux | Adopts the Liquidity Protocol on Lux C-Chain and Lux D-Chain. |
-| **2026-04-20** | Hanzo | Adopts the Liquidity Protocol on Hanzo AI Chain marketplace flow. |
-| **2026-04-20** | Zoo | Adopts the Liquidity Protocol on Zoo D-Chain via the Liquidity precompile. |
-| **2026-04-20** | Pars | Adopts the Liquidity Protocol on Pars's regulated markets. |
+| **2026-04-01** | (external regulated-tokenization partner) | Formal launch of the  with soundness proof. |
+| **2026-04-20** | Lux | Adopts the  on Lux C-Chain and Lux D-Chain. |
+| **2026-04-20** | Hanzo | Adopts the  on Hanzo AI Chain marketplace flow. |
+| **2026-04-20** | Zoo | Adopts the  on Zoo D-Chain via the regulated securities-partner precompile. |
+| **2026-04-20** | Pars | Adopts the  on Pars's regulated markets. |
 
 The proof artifact for Zoo's specific adoption is at
 `~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex`. The
@@ -258,8 +258,8 @@ as its triumvirate):
 
 1. **DEX** --- Zoo DEX V2 (constant product) and V3 (concentrated
    liquidity) with V4 as a precompile interface to the Lux DEX
-   (lx/dex). April 20, 2026 native securities launch with Liquidity
-   Protocol integration. Reference: ZIP-0805 Zoo DEX, paper
+   (lx/dex). April 20, 2026 native securities launch with regulated
+   securities-partner integration. Reference: ZIP-0805 Zoo DEX, paper
    `zoo-dex-launch-2026-04-20`.
 2. **EVM** --- GPU-native EVM (LP-009) with Zoo-specific precompiles
    for confidential ERC-20 (LP-067), NFT-fractional vault aggregator,
