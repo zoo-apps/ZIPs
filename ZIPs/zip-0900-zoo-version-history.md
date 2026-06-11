@@ -193,9 +193,9 @@ paper:
 | **2026-04-20** | Pars | Adopts the Liquidity Protocol on Pars's regulated markets. |
 
 The proof artifact for Zoo's specific adoption is at
-`~/work/zoo/proofs/zoo-adopts-liquidity-protocol.tex`. The
-(external regulated-tokenization partner) formal proof of the protocol itself is at
-`~/work/liquidity/proofs/`.
+`~/work/zoo/proofs/zoo-adopts-partner-protocol.tex`. The
+external regulated-tokenization partner maintains the formal proof of
+the protocol itself in its own repository.
 
 ### Related ZIPs
 
