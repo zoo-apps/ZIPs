@@ -305,7 +305,7 @@ the ecosystem architecture is canonically extended along five planks:
    environment-saving, endangered AI, and the intersection of AI,
    blockchain, metaverse and gaming."
 2. **$113T digital-securities positioning** — Zoo as open AI / wildlife /
-   metaverse layer; Lux as regulated chain infrastructure; Liquidity
+   metaverse layer; Lux as regulated chain infrastructure; a regulated securities partner
    as exclusive partner for retail-scale securities trading
    (regulated ATS, broker-dealer, transfer agent perimeter).
 3. **Quasar 3.0 quantum-secure settlement** — three independent

@@ -71,7 +71,7 @@ Zoo Labs Foundation operates inside a deliberately layered ecosystem.
 - **Hanzo AI Inc.** (Techstars '17, `~/work/hanzo`) — operates the Hanzo AI
   Chain inference and commerce marketplace, the per-call attestation ledger
   (A-Chain), and the Zen LM frontier-model co-development program.
-- **Liquidity** — Zoo's exclusive partner for retail-scale digital
+- **A regulated securities partner** — Zoo's exclusive partner for retail-scale digital
   securities trading. Brings the regulated ATS / broker-dealer / transfer-agent
   stack that lets Zoo Labs Foundation ship Robinhood-style capabilities
   without operating the regulated perimeter itself.
@@ -108,7 +108,7 @@ contribution-graph attestation pipeline (`A-Chain` per Lux LP-134).
 3. **Validators / operators** — register on Lux Cloud (Lux LP-136),
    stake-lock, and pass A-Chain attestation handshake.
 4. **Conservation partners** — contact the foundation at `partners@zoo.ngo`.
-5. **Securities issuers** — onboard via Liquidity (Zoo's exclusive partner
+5. **Securities issuers** — onboard via a regulated securities partner (Zoo's exclusive partner
    for the regulated trading stack).
 
 ---
