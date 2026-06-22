@@ -463,6 +463,8 @@ Bridge, settlement, omnichain, replication.
 | ZIP-0807 | zoo-bot — Pure-Go Agentic Bot Framework | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
 | ZIP-0808 | Zoo Bridge — Cross-Ecosystem Bridge for Zoo L1 | Draft | `zoo-4-0-launch` | -- | 2025-12-15 |
 | ZIP-0900 | Zoo Version History — 1.0 / 2.0 / 3.0 / 4.0 / DEX Launch Canonical Chronology | Final | `zoo-3-0-full-pq`, `zoo-4-0-launch`, `zoo-dex-launch-2026-04-20` | 2021-10 | 2026-04-20 |
+| ZIP-0901 | Beluga L3 Thinking-Chain Architecture | Draft | `beluga-l3-whitepaper` | -- | 2026-06-21 |
+| ZIP-0902 | Proof-of-Thought Receipts on Zoo | Draft | `beluga-l3-whitepaper` | -- | 2026-06-21 |
 
 **Provenance notes for Infrastructure:**
 
@@ -471,6 +473,7 @@ Bridge, settlement, omnichain, replication.
 - ZIP-0804 through ZIP-0808 are the Zoo 4.0 launch package, all rooted in `zoo-4-0-launch` paper (spec freeze 2026-01-15, activation 2026-02-14 alongside Lux Quasar 4.0).
 - ZIP-0808 supersedes ZIP-0800 for Zoo L1 (post-graduation) bridge operations; ZIP-0800 remains active for the 30-day L2 deprecation window only.
 - ZIP-0900 is the canonical chronology of the entire Zoo platform from the 2021-10-31 BSC era through the 2026-04-20 DEX launch. Authoritative source for any version/date questions.
+- ZIP-0901 and ZIP-0902 are the **Thinking Chain** pair. ZIP-0901 specifies Beluga (BLG), Zoo's L3, as the first Thinking-Chain prototype — Tier-1 deterministic in-consensus int8 inference (zen-nano via Lux `0x0303`) plus Tier-2 off-chain A-Chain provider-quorum settlement, under binding constitutional rules and human-in-the-loop levels. ZIP-0902 specifies the Proof-of-Thought (PoT) receipt — the settlement object Beluga consumes. Both root in the `beluga-l3-whitepaper` (normative spec; the whitepaper carries BLG economics). They are the Zoo half of a four-artifact set authored in parallel with the Lux *Thinking Chains* LP, the Hanzo *Cognitive Sidecar / Hanzo Engine Provider* HIP, and the Zoo *Thinking Chains* paper (sibling numbers assigned in parallel). Substrate: `lux/precompile/inference`, `lux/precompile/aivmbridge`, `lux/chains/aivm`, `lux/precompile/modelregistry`, `hanzo/engine`.
 
 ---
 
