@@ -313,7 +313,7 @@ Conversational AI, semantic memory, multimodal, Zen model family, HLLM, GRPO, DS
 | ZIP-0416 | Vision-Language Models (Zen-VL) | Final | `zen-vl_whitepaper` | 2024-04 | 2024-04-01 |
 | ZIP-0417 | Real-Time Conversational AI (Zen-Live) | Final | `zen-live_whitepaper` | 2024-05 | 2024-05-01 |
 | ZIP-0418 | Hamiltonian Large Language Models (HLLM) | Final | `zoo-hamiltonian-llm` | 2024-06 | 2024-06-01 |
-| ZIP-0419 | Proof of AI Consensus (PoAI) | Final | `zoo-poai-consensus` | 2024-06 | 2024-06-15 |
+| ZIP-0419 | Proof of AI (PoAI) | Final | `zoo-poai-consensus` | 2024-06 | 2024-06-15 |
 | ZIP-0420 | 7680-Dimensional Embeddings (Zen-Reranker) | Final | `zen-reranker` | 2024-07 | 2024-07-01 |
 | ZIP-0421 | Training-Free Preference Optimization (GRPO) | Final | `hllm-training-free-grpo` | 2024-08 | 2024-08-01 |
 | ZIP-0422 | Computer Use Framework (Operative) | Final | `hanzo-operative` | 2024-09 | 2024-09-01 |
@@ -597,7 +597,7 @@ All features below originate from this document. The whitepaper establishes:
 - ZIP-0416: Vision-Language Models (Zen-VL)
 - ZIP-0417: Real-Time Conversational AI (Zen-Live)
 - ZIP-0418: Hamiltonian Large Language Models (HLLM, HIP-0004)
-- ZIP-0419: Proof of AI Consensus (PoAI, ZIP-002)
+- ZIP-0419: Proof of AI (PoAI, ZIP-002)
 - ZIP-0420: 7680-Dimensional Embeddings (Zen-Reranker)
 - ZIP-0421: Training-Free Preference Optimization (GRPO, 99.8% cost reduction)
 - ZIP-0422: Computer Use Framework (Operative)
