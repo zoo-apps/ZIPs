@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate-zips:
-    runs-on: ubuntu-latest
+    runs-on: zoo-build-linux-amd64
     
     steps:
     - uses: actions/checkout@v3
@@ -71,7 +71,7 @@ jobs:
         cat zip-index.md
 
   security-check:
-    runs-on: ubuntu-latest
+    runs-on: zoo-build-linux-amd64
     
     steps:
     - uses: actions/checkout@v3
@@ -95,7 +95,7 @@ jobs:
         fi
 
   build-docs:
-    runs-on: ubuntu-latest
+    runs-on: zoo-build-linux-amd64
     
     steps:
     - uses: actions/checkout@v3
