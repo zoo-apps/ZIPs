@@ -164,6 +164,11 @@ Network architecture, consensus, EVM, PQ crypto, tokenomics, governance.
 | ZIP-0030 | On-Chain Species Registry | Draft | -- | 2021-10 | 2025-01-15 |
 | ZIP-0033 | Zoo Decentralized Identification Service (DID) | Draft | -- | 2021-10 | 2025-12-15 |
 | ZIP-0034 | Zoo XP & Quests Protocol | Draft | -- | 2021-10 | 2025-12-15 |
+| ZIP-0035 | ZOO Supply and the 50/50 Foundation Split | Draft | -- | 2021-10 | 2026-07-02 |
+| ZIP-0036 | Zoo DAO Safe & Zoo Z Safe -- Foundation Ownership | Draft | -- | -- | 2026-07-02 |
+| ZIP-0037 | Azorius Sub-DAO Structure | Draft | -- | 2021-10 | 2026-07-02 |
+| ZIP-0038 | ZOO Token History Reconciliation (BSC/Old-Mainnet/EVM/LZOO) | Draft | -- | -- | 2026-07-02 |
+| ZIP-0039 | ZOO Migration and Re-Mint Mechanism | Draft | -- | -- | 2026-07-02 |
 | ZIP-0042 | Cross-Ecosystem Interoperability Standard | Draft | -- | -- | 2025-01-15 |
 
 **Provenance notes for Core Protocol:**
@@ -178,6 +183,7 @@ Network architecture, consensus, EVM, PQ crypto, tokenomics, governance.
 - ZIP-0017 traces from section 19 (Zoo DAO). Follow-on: `zoo-dao-governance` (2022), `zoo-dao-operating-system`.
 - ZIP-0018 traces from section 19 (Zoo DAO) -- treasury component.
 - ZIP-0019 traces from section 17 (Zoo Animal Rewards). Follow-on: `zoo-fund-validator-rewards`.
+- ZIP-0035..0039 are the **2026-07 canonical tokenomics + governance + reconciliation series** (one-concept-per-ZIP, pedagogical order): 0035 fixes the canonical 2T supply + 50/50 split (supersedes the 1B/10B figures in ZIP-0016/0002); 0036 the two Gnosis Safes + Foundation ownership (verified deterministic addresses); 0037 the Azorius sub-DAO topology (concretizes ZIP-0017); 0038 the on-chain history evidence (BSC V1/V2/V3, old mainnet, Zoo EVM 200200, LZOO); 0039 the staged snapshot→Merkle-claim migration (preserve-genesis, unclaimed→Z Safe). All on-chain steps STAGED — Zoo EVM 200200 not yet bootstrapped.
 - ZIP-0022 traces from sections 16 (Asset Transfer) and 22 (Bridging Blockchains). Follow-on: `zoo-bridge` (2024).
 - ZIP-0023 traces from section 24 (Partnerships).
 - ZIP-0026 traces from section 19 (Zoo DAO) -- reputation component.
