@@ -72,8 +72,8 @@ consensus:
 
 | Network | Chain ID | RPC Endpoint |
 |---------|----------|--------------|
-| Mainnet | 200200 | `https://api.zoo.network/ext/bc/zoo/rpc` |
-| Testnet | 200201 | `https://testnet.zoo.network/ext/bc/zootest/rpc` |
+| Mainnet | 200200 | `https://api.zoo.network/v1/bc/zoo/rpc` |
+| Testnet | 200201 | `https://testnet.zoo.network/v1/bc/zootest/rpc` |
 
 ### Validation Model
 
