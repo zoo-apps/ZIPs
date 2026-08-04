@@ -186,7 +186,7 @@ The Zoo SDK (ZIP-0028) transparently handles meta-transactions:
 
 ```typescript
 const client = new ZooClient({
-  rpcUrl: "https://api.zoo.network/ext/bc/zoo/rpc",
+  rpcUrl: "https://api.zoo.network/v1/bc/zoo/rpc",
   relayUrl: "https://relay.zoo.network",  // Meta-transaction relay
   gasless: true,  // Enable gasless mode for sponsored actions
 });
