@@ -9,7 +9,6 @@ node_modules/
 *.tsbuildinfo
 
 AGENTS.md
-CLAUDE.md
 GEMINI.md
 GROK.md
 QWEN.md
