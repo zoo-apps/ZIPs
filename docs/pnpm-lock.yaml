@@ -11,6 +11,9 @@ importers:
 
   .:
     dependencies:
+      '@hanzo/design':
+        specifier: ^0.5.21
+        version: 0.5.21
       '@hanzo/docs':
         specifier: 16.2.7
         version: 16.2.7(c35ba27c5ecc7e61aa4afa01487ac163)
@@ -728,6 +731,10 @@ packages:
         optional: true
       prettier:
         optional: true
+
+  '@hanzo/design@0.5.21':
+    resolution: {integrity: sha512-E2g6DZCn2IUf2AQKqPMwlVV5fz2wvIpAagFRLx33gIsJfmpyubFnx0LINjFs7UoMI1ajnwSa73k7rPteVSemUw==}
+    hasBin: true
 
   '@hanzo/docs-cli@1.1.1':
     resolution: {integrity: sha512-xLtG0cVeU5c2jJmdcTco4wXjlTB1juVovQiH7bjz5kthBbv98tANXg3iVIbRG5W9ls95/eGBcodMqBMOX9p9Yw==}
@@ -3571,6 +3578,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validator@13.15.26:
@@ -4108,6 +4116,8 @@ snapshots:
   '@fumari/json-schema-to-typescript@2.0.0':
     dependencies:
       js-yaml: 4.1.1
+
+  '@hanzo/design@0.5.21': {}
 
   '@hanzo/docs-cli@1.1.1':
     dependencies:
