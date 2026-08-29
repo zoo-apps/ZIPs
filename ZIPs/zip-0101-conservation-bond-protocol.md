@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [conservation, bonds, defi, yield, wildlife]
 requires: [0, 100]
 ---
-
 # ZIP-101: Conservation Bond Protocol
 
 ## Abstract
