@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [gaming, multiplayer, p2p, conservation, networking]
 requires: [0, 4, 300, 301]
 ---
-
 # ZIP-303: Multiplayer Conservation Game Protocol
 
 ## Abstract

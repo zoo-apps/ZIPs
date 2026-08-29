@@ -14,7 +14,6 @@ requires: [14, 42, 800, 808, 819]
 related-lps: [LP-170, LP-171, LP-177, LP-178]
 related-hips: [HIP-0079, HIP-0084, HIP-0098, HIP-0101, HIP-0102, HIP-0103]
 ---
-
 # ZIP-0818: Bridge PQ-Only Profile
 
 ## Abstract

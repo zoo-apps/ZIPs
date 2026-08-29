@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [peer-review, zero-knowledge, reputation, anti-collusion, open-science]
 requires: [540, 600, 603]
 ---
-
 # ZIP-604: Decentralized Peer Review
 
 ## Abstract

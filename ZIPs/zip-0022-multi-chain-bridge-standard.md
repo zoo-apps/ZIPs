@@ -12,7 +12,6 @@ follow-on: [zoo-bridge, zoo-lux-bridge-protocol, zoo-threshold-signatures]
 created: 2025-01-15
 tags: [bridge, cross-chain, interoperability, warp]
 ---
-
 # ZIP-0022: Multi-Chain Bridge Standard
 
 ## Abstract

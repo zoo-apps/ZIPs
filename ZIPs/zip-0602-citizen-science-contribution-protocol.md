@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [citizen-science, reputation, attestation, sybil-resistance, incentives]
 requires: [540, 600, 601]
 ---
-
 # ZIP-602: Citizen Science Contribution Protocol
 
 ## Abstract

@@ -4,18 +4,17 @@ title: Zoo KMS Integration via Lux KMS
 author: Zoo Labs Foundation
 type: Infrastructure
 category: Core
-status: Active
+status: Final
 created: 2025-11-22
-requires: ZIP-13
+requires: [12]
 references: LP-325, HIP-005
-repository: https://github.com/zooai/zoo-kms-integration
+repository: https://github.com/zooai/kms
 ---
-
 # ZIP-014: Zoo KMS Integration via Lux KMS
 
 ## Abstract
 
-This proposal specifies that Zoo Network (Chain ID: 122) re-uses Lux KMS ([LP-325](https://github.com/luxfi/lps/blob/main/LPs/lp-325.md)) for Hardware Security Module (HSM) integration without additional custom extensions. Zoo validators, semantic learning nodes, and experience library encryption all utilize the base Lux KMS infrastructure for cryptographic operations.
+This proposal specifies that Zoo Network (Chain ID: 200200) re-uses Lux KMS ([LP-325](https://github.com/luxfi/lps/blob/main/LPs/lp-325.md)) for Hardware Security Module (HSM) integration without additional custom extensions. Zoo validators, semantic learning nodes, and experience library encryption all utilize the base Lux KMS infrastructure for cryptographic operations.
 
 ## Motivation
 
@@ -25,8 +24,8 @@ Zoo Network requires secure key management for:
 
 1. **Validator Keys**: DPoS consensus requires BLS threshold signatures for block production
 2. **Experience Library Encryption**: User experience data (memories, preferences, learned behaviors) must be encrypted at rest
-3. **Cross-Chain Bridges**: Secure signing for LP-401 bridge messages to Lux (120) and Hanzo (121)
-4. **DID Management**: Lux ID (did:lux:122:...) registry private keys
+3. **Cross-Chain Bridges**: Secure signing for LP-401 bridge messages to Lux (96369) and Hanzo (36963)
+4. **DID Management**: Lux ID (did:lux:200200:...) registry private keys
 5. **TEE Attestation**: Verifying compute receipts from Hanzo TEE environments
 
 ### Why Zoo Re-Uses Lux KMS Directly
@@ -51,7 +50,7 @@ Zoo Network requires secure key management for:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│              Zoo Network (Chain 122)                        │
+│              Zoo Network (Chain 200200)                     │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
 │  │   DPoS       │  │  Experience  │  │   LP-401     │      │
 │  │  Validators  │  │   Library    │  │   Bridge     │      │
@@ -214,7 +213,7 @@ type ZooBridge struct {
 
 // Sign LP-401 bridge message (to Lux or Hanzo)
 func (b *ZooBridge) SignBridgeMessage(
-    targetChain uint64,  // 120 (Lux) or 121 (Hanzo)
+    targetChain uint64,  // 96369 (Lux) or 36963 (Hanzo)
     message []byte,
 ) ([]byte, error) {
     // Use BLS signature for bridge consensus
@@ -266,8 +265,8 @@ experience_library:
 
 # Bridge configuration
 bridge:
-  lux_chain_id: 120
-  hanzo_chain_id: 121
+  lux_chain_id: 96369
+  hanzo_chain_id: 36963
   bridge_key_id: zoo-bridge-001
 ```
 

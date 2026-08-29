@@ -14,7 +14,6 @@ requires: [14, 15, 809, 810, 811]
 related-lps: [LP-168, LP-169, LP-170, LP-171]
 related-hips: [HIP-0077, HIP-0078, HIP-0079, HIP-0084]
 ---
-
 # ZIP-0812: Pulsar-M — Threshold ML-DSA DKG & Signing
 
 ## Abstract

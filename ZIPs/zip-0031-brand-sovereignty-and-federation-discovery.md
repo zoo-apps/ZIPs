@@ -6,11 +6,10 @@ type: Meta
 category: Governance
 status: Final
 created: 2026-05-29
-requires: ZIP-0017
+requires: [17]
 references: LP-0010
 tags: [brand, white-label, federation, governance, pointer]
 ---
-
 # ZIP-0031: Zoo adopts LP-0010 — Brand Sovereignty and Federation Discovery
 
 ## Abstract

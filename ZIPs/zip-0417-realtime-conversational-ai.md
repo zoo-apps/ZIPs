@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-voice-clone"
 created: 2024-05-01
 tags: [real-time-ai, zen-live, voice-conversation, streaming, low-latency]
-requires: [0400, 0408, 0413]
+requires: [400, 408, 413]
 references: HIP-0024
 license: CC BY 4.0
 ---
-
 # ZIP-0417: Real-Time Conversational AI (Zen-Live)
 
 ## Abstract

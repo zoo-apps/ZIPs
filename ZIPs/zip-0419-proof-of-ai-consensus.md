@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-06
@@ -21,12 +21,10 @@ follow-on:
 created: 2024-06-15
 amended: 2026-06-24
 tags: [poai, proof-of-ai, consensus, validation, ai-compute, governance, post-quantum, blockchain]
-requires: [0403, 0407]
+requires: [403, 434]
 references: ZIP-002
-repository: https://github.com/zooai/poai
 license: CC BY 4.0
 ---
-
 # ZIP-0419: Proof of AI (PoAI)
 
 ## Abstract

@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [streaming, donations, micro, defi, conservation]
 requires: [0, 100, 700]
 ---
-
 # ZIP-112: Micro-Donation Streaming
 
 ## Abstract

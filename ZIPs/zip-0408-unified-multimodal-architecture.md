@@ -18,12 +18,11 @@ follow-on:
   - "zen/papers/zen3-omni_whitepaper"
 created: 2023-03-01
 tags: [multimodal, jin, vision-language, audio, unified-transformer, cross-modal]
-requires: [0406]
+requires: [406]
 references: HIP-0010
 repository: https://github.com/hanzoai/jin
 license: CC BY 4.0
 ---
-
 # ZIP-0408: Unified Multimodal Architecture (Jin)
 
 ## Abstract

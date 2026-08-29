@@ -14,7 +14,6 @@ requires: [14, 809, 810]
 related-lps: [LP-168, LP-169, LP-172]
 related-hips: [HIP-0077, HIP-0078, HIP-0084, HIP-0085]
 ---
-
 # ZIP-0813: Wallet PQ Account Type
 
 ## Abstract

@@ -14,7 +14,6 @@ requires: [14, 813, 814]
 related-lps: [LP-174, LP-179]
 related-hips: [HIP-0085, HIP-0086, HIP-0087, HIP-0104]
 ---
-
 # ZIP-0815: PQ Permit
 
 ## Abstract

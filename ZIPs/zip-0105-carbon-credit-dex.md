@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [carbon, dex, amm, climate, credits, trading]
 requires: [0, 100]
 ---
-
 # ZIP-105: Carbon Credit DEX
 
 ## Abstract

@@ -13,7 +13,6 @@ requires: [700, 701, 702, 800, 804]
 related-lps: [LP-018, LP-019, LP-073, LP-134]
 related-papers: [zoo-3-0-launch]
 ---
-
 # ZIP-0808: Zoo Bridge
 
 ## Abstract

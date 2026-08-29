@@ -18,12 +18,11 @@ follow-on:
   - "zen/papers/zen4-coder_whitepaper"
 created: 2024-03-01
 tags: [code-generation, zen-code, programming, refactoring, code-analysis]
-requires: [0413]
+requires: [413]
 references: HIP-0022
-repository: https://github.com/hanzoai/zen-coder
+repository: https://github.com/zenlm/zen-coder
 license: CC BY 4.0
 ---
-
 # ZIP-0415: Code Intelligence at Scale (Zen-Code)
 
 ## Abstract

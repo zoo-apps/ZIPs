@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [nft, non-fungible, conservation, wildlife, zrc-721, provenance]
 requires: [15, 100, 700]
 ---
-
 # ZIP-0701: ZRC-721 Non-Fungible Token Standard
 
 ## Abstract

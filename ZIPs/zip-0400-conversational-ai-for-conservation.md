@@ -23,7 +23,6 @@ references: HIP-0001
 repository: https://github.com/hanzoai/chat
 license: CC BY 4.0
 ---
-
 # ZIP-0400: Conversational AI for Conservation
 
 ## Abstract

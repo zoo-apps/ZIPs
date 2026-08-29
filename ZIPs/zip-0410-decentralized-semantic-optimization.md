@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2023-09
@@ -18,12 +18,10 @@ follow-on:
   - "zen/papers/zen-dso-protocol"
 created: 2023-09-01
 tags: [dso, decentralized-training, semantic-gradients, differential-privacy, federated-learning]
-requires: [0401, 0407, 0409]
+requires: [401, 409, 434]
 references: HIP-0002, HIP-0067, LP-7000
-repository: https://github.com/zooai/dso-protocol
 license: CC BY 4.0
 ---
-
 # ZIP-0410: Decentralized Semantic Optimization (DSO)
 
 ## Abstract

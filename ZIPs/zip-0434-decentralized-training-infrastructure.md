@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2025-09
@@ -20,12 +20,11 @@ follow-on:
   - "zen/papers/zen-distributed-training"
 created: 2025-09-01
 tags: [decentralized-training, gym, training-infrastructure, distributed-compute, orchestration]
-requires: [0407, 0410, 0419, 0424]
+requires: [410, 419, 424, 434]
 references: ZIP-001
-repository: https://github.com/zooai/gym
+repository: https://github.com/zoo-apps/gym
 license: CC BY 4.0
 ---
-
 # ZIP-0434: Decentralized Training Infrastructure
 
 ## Abstract

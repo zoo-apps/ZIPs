@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [vaults, yield, conservation, erc4626, dao]
 requires: [0, 100, 101]
 ---
-
 # ZIP-102: Impact Yield Vaults
 
 ## Abstract

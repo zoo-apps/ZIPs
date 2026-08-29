@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2023-06
@@ -17,12 +17,10 @@ follow-on:
   - "zen/papers/zen-reward-modeling"
 created: 2023-06-01
 tags: [aso, active-learning, semantic-optimization, reward-modeling, rlhf]
-requires: [0401, 0405]
+requires: [401, 405]
 references: HIP-0002
-repository: https://github.com/hanzoai/aso
 license: CC BY 4.0
 ---
-
 # ZIP-0409: Active Semantic Optimization (ASO)
 
 ## Abstract

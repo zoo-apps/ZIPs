@@ -18,12 +18,11 @@ follow-on:
   - "zen/papers/zen-context-extension"
 created: 2021-10-15
 tags: [semantic-memory, experience-ledger, ai-memory, persistent-state, knowledge-graph]
-requires: [0400]
+requires: [400]
 references: HIP-0002
-repository: https://github.com/zooai/experience-ledger
+repository: https://github.com/zooai/brain
 license: CC BY 4.0
 ---
-
 # ZIP-0401: Persistent Semantic Memory
 
 ## Abstract

@@ -11,9 +11,8 @@ traces-from: "Whitepaper section 21 (NFTs That Make You Smile)"
 follow-on: [zoo-agent-nft]
 created: 2025-01-15
 tags: [nft, dynamic, metadata, ai, conservation]
-requires: [0, 200, 201]
+requires: [0, 201, 701]
 ---
-
 # ZIP-204: Dynamic Metadata for Living NFTs
 
 ## Abstract

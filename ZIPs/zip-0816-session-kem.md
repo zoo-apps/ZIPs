@@ -14,7 +14,6 @@ requires: [14, 809]
 related-lps: [LP-022, LP-072, LP-175]
 related-hips: [HIP-0077, HIP-0088]
 ---
-
 # ZIP-0816: Session KEM
 
 ## Abstract

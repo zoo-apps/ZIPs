@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen3-vl_whitepaper"
 created: 2024-04-01
 tags: [vision-language, zen-vl, multimodal, image-understanding, document-ai]
-requires: [0408, 0413]
+requires: [408, 413]
 references: HIP-0023
 license: CC BY 4.0
 ---
-
 # ZIP-0416: Vision-Language Models (Zen-VL)
 
 ## Abstract

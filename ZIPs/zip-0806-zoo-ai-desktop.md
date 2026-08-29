@@ -12,7 +12,6 @@ tags: [desktop, local-ai, privacy, zen-models, mining, mcp, tauri]
 related-lps: [LP-013, LP-134]
 related-papers: [zoo-3-0-launch, zoo-per-llm-chains, hanzo-ai-chain]
 ---
-
 # ZIP-0806: Zoo AI Desktop
 
 ## Abstract

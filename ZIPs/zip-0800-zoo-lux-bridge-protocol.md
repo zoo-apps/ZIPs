@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [bridge, cross-chain, lux, teleport, mpc, interoperability]
 requires: [15, 42, 100, 700, 701]
 ---
-
 # ZIP-0800: Zoo-Lux Bridge Protocol
 
 ## Abstract

@@ -9,7 +9,6 @@ originated: 2021-10
 traces-from: "Whitepaper section 15 (Gen 0 NFT Drop)"
 created: 2024-12-20
 ---
-
 # ZIP-2: Genesis Airdrop to Original ZOO Token Victims
 
 ## Abstract

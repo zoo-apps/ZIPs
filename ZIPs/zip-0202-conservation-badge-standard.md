@@ -8,9 +8,8 @@ type: Standards Track
 category: NFT
 created: 2025-01-15
 tags: [nft, soulbound, sbt, badges, conservation, impact]
-requires: [200, 500, 501]
+requires: [500, 501, 701]
 ---
-
 # ZIP-202: Conservation Badge Standard
 
 ## Abstract

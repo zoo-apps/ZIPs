@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2022-09
@@ -18,12 +18,10 @@ follow-on:
   - "zen/papers/zen-vision-architecture"
 created: 2022-09-01
 tags: [multimodal-ai, computer-vision, species-identification, acoustic-monitoring, satellite-imagery]
-requires: [0405]
+requires: [405]
 references: eBird, Merlin
-repository: https://github.com/zooai/multimodal-conservation
 license: CC BY 4.0
 ---
-
 # ZIP-0406: Multi-Modal Conservation AI
 
 ## Abstract

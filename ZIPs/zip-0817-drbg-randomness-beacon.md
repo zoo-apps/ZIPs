@@ -14,7 +14,6 @@ requires: [14, 811, 812]
 related-lps: [LP-149, LP-170, LP-171, LP-176]
 related-hips: [HIP-0073, HIP-0079, HIP-0084, HIP-0089]
 ---
-
 # ZIP-0817: DRBG / Randomness Beacon
 
 ## Abstract

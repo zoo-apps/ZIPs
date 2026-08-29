@@ -13,7 +13,6 @@ requires: [700, 701, 702, 804]
 related-lps: [LP-009, LP-132, LP-134, LP-137]
 related-papers: [zoo-3-0-launch]
 ---
-
 # ZIP-0805: Zoo DEX
 
 ## Abstract

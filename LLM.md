@@ -1,65 +1,74 @@
 # Zoo Improvement Proposals (ZIPs) — Agent Knowledge Base
 
-**Repository**: github.com/zooai/zips
+**Repository**: github.com/zoo-apps/ZIPs
 **Site**: zips.zoo.ngo
 
-## Purpose (one-liner)
+## Purpose
 
-Formal proposals for the Zoo Labs Foundation L2 (on Lux). ZIPs mirror
-the canonical Hanzo HIPs for Zoo's specific use of the Lux platform.
+The specification corpus for Zoo Labs Foundation — an open AI research
+network doing DeAI and DeSci. A ZIP says what Zoo is, not what anyone
+once thought it would be. Historical narrative, migration paths and
+compatibility shims do not belong here; delete them when you find them.
 
-## Post-E2E-PQ State (current)
+## One source of truth
 
-Twelve ZIPs landed this session, mirroring the Hanzo HIPs and Lux LPs
-for the E2E-PQ proposal set.
+A ZIP's frontmatter is the only place its facts live. Everything else is
+derived:
 
-### ZIPs that landed this session
+- `scripts/index.py` reads the frontmatter and rewrites the README table.
+- `docs/lib/source.ts` reads `ZIPs/*.md` directly with gray-matter and
+  builds the site pages from it.
 
-| ZIP | Mirrors HIP | Mirrors LP | Topic |
-|-----|-------------|------------|-------|
-| ZIP-0809 | HIP-0077 | LP-168 | Mesh Identity |
-| ZIP-0810 | HIP-0078 | LP-169 | Z-Chain |
-| ZIP-0811 | HIP-0079 | LP-170 | Q-Chain |
-| ZIP-0812 | HIP-0084 | LP-171 | Pulsar-M DKG |
-| ZIP-0813..0820 | HIP-0085..0104 | LP-172..179 | E2E PQ coverage |
+There is no hand-maintained index, no `zip-index.json`, and no second
+copy of the table. If you find one, it is drift — delete it.
 
-### Recent significant commits
+`scripts/index.py --check` is what CI runs. It refuses when a ZIP has no
+frontmatter, carries a status outside the vocabulary, disagrees with its
+own filename, shares a number with another ZIP, `requires:` a ZIP that
+does not exist, or when the corpus has shrunk below the floor recorded in
+the script. Raise the floor when you add ZIPs.
 
-| SHA | Impact |
-|-----|--------|
-| `d1cdd90` | ZIP-0813..0820 — mirror HIP-0085..104 |
-| `93c72f8` | ZIP-0809..0812 — mirror HIP-0077/0078/0079/0084 for Zoo |
-| `6847056` | fix(ZIP-0900): YAML front matter — required by validate-zips |
-| `ba350fc` | ZIP-0033 DID, ZIP-0034 XP+quests, ZIP-0804..0900 launch + chronology |
-| `6edb753` | ZIP-0900: chain-set framing + native Lux primary access |
+## Status vocabulary
 
-### Cross-repo coherence
-- This repo's ZIPs MIRROR `hanzoai/hips` HIP-0077..0104, adapted for
-  Zoo's L2 architecture on Lux.
-- Body text uses Zoo-specific paths and naming where applicable; all
-  cross-references point back to the canonical Hanzo HIPs.
-- All three repos (HIPs / LPs / ZIPs) share the same red-finding
-  closure list (F92-F112).
+Three values. `Draft` — proposed, no implementation found, or an
+experiment. `Final` — the thing it specifies exists in code, and
+`repository:` names where. `Living` — never finalises: policy,
+registries, indexes.
 
-### Active versions
-- No semver tag scheme; proposals are content-addressed by ZIP number.
-- Latest landed: ZIP-0820.
+Zoo is a research network, so `Draft` is an ordinary resting place. Do
+not promote a ZIP to `Final` without naming the code, and do not leave it
+at `Final` once that code is gone.
 
-### Cross-repo dependencies
-- `hanzoai/hips` → authoritative HIP text (Zoo mirrors).
-- `luxfi/lps` → Lux network mirror for the same proposal set.
-- `luxfi/consensus`, `luxfi/node`, `luxfi/crypto` → reference
-  implementations the proposals describe.
+## Frontmatter fields
 
-### Where to look for X
-- ZIP front matter validator: `scripts/validate-zips`
-- Index: `INDEX.md`
-- Authoritative text: `ZIPs/zip-XXXX.md`
+- `requires:` — a list of ZIP **numbers**, `[12, 100]`. Nothing else.
+- `related-hips:` / `related-lps:` / `mirrors:` — cross-estate pointers.
+  Never put `HIP-*` or `LP-*` in `requires:`.
+- `repository:` — the repo that implements the ZIP. Only on a `Final`
+  ZIP, and only if the repo actually exists.
 
-## Rules
+## Facts worth not getting wrong
 
-1. Mirror, don't fork: text changes in HIP-XXXX should propagate to
-   ZIP-XXXX with the same revision number.
-2. `validate-zips` requires YAML front matter; CI will fail without it.
-3. Per CLAUDE.md: never bump ZIP numbers backwards; never duplicate ZIP
-   numbers across repos.
+- Zoo is an **L2** on the Lux primary network: no validator set of its
+  own, `CreateChainTx` on the Lux P-chain, no `ConvertNetworkToL1Tx`.
+  ZIP-0015 records this; `zooai/universe` `chain.yaml` is where it is
+  declared. ZIP-0804 proposes graduating to a sovereign L1 and has not
+  happened.
+- Zoo's own EVM chain ID is **200200** (testnet 200201, devnet 200202,
+  localnet 200203). Lux is 96369, Hanzo is 36963. A ZIP asserting the
+  120/121/122 map is quoting a scheme that was never adopted.
+- C-Chain is Lux Network's primary EVM. Zoo has its own EVM, not C-Chain.
+- Zoo images are `ghcr.io/zooai/*`. Never `luxfi` or `hanzoai`.
+- ZIP-0809..0820 pin Zoo's profile over Hanzo HIP-0077..0104; the
+  primitives live in `luxfi/crypto` and `luxfi/pulsar`. Mirror, do not
+  fork — a mirror pins Zoo-specific facts and cites the HIP for the wire
+  format.
+
+## Site
+
+`docs/` is a Next app (`@hanzo/docs`, fumadocs) exported static to
+`docs/out`. Type comes from `@hanzo/design/tokens/fonts.css` — Zen, via
+the token layer, declared nowhere else. Build it with
+`pnpm install --ignore-workspace && pnpm build` from `docs/`; the
+`--ignore-workspace` matters on any box where a parent directory is a
+pnpm workspace root, or install silently no-ops.

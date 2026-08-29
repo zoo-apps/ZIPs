@@ -14,7 +14,6 @@ tags: [gaming, ai, wildlife, behavior, federated-learning, computer-vision]
 requires: [0, 4, 300]
 references: [LP-7000, HIP-0081, HIP-0080, HIP-0082]
 ---
-
 # ZIP-302: AI Wildlife Behavior Engine
 
 ## Abstract

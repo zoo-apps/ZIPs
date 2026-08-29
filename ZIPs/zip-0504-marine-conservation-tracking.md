@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [wildlife, marine, iot, tracking, ocean, conservation]
 requires: [0, 500, 501, 502, 510]
 ---
-
 # ZIP-504: Marine Conservation Tracking
 
 ## Abstract

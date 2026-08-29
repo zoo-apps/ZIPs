@@ -6,12 +6,9 @@ type: Standards Track
 category: Core
 status: Draft
 created: 2025-01-09
-requires: ZIP-3, ZIP-7, ZIP-8, ZIP-9, ZIP-12
-supersedes: ZIP-1, ZIP-3
-repository: https://github.com/zooai/zoo-models
+requires: [7, 8, 10, 12, 427]
 license: CC BY 4.0
 ---
-
 # ZIP-10: Zoo Launch Models - Eco-1, Coder-1, and Nano-1
 
 ## Abstract
@@ -622,7 +619,7 @@ contract ZooModelRegistry {
     // Implements LP-301 (ILPJob) and LP-303 (ILPRoyalties)
     
     struct ModelRegistration {
-        string modelLuxId;          // did:lux:122:0x... for the model
+        string modelLuxId;          // did:lux:200200:0x... for the model
         bytes32 modelHash;          // Content-addressed model identifier
         string[] architectures;     // ["z-JEPA", "v-JEPA-v2", "BitDelta"]
         uint256 parameterCount;     // 72B, 32B, or 3B
@@ -660,12 +657,12 @@ class ZooModelJob:
     def submit_inference_job(
         self,
         model_name: str,  # "Eco-1", "Coder-1", or "Nano-1"
-        user_lux_id: str,  # did:lux:122:0x...
+        user_lux_id: str,  # did:lux:200200:0x...
         input_data: Dict
     ) -> JobSpec:
         
         job = JobSpec(
-            chainId=122,  # Zoo chain
+            chainId=200200,  # Zoo chain
             modelHash=self.get_model_hash(model_name),
             requesterLuxId=user_lux_id,
             providerLuxId=self.get_provider_lux_id(),

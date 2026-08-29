@@ -6,12 +6,10 @@ type: Standards Track
 category: Core
 status: Draft
 created: 2025-01-09
-requires: ZIP-7, ZIP-8, ZIP-9, ZIP-10, ZIP-11
+requires: [7, 8, 10, 11, 427]
 implements: LP-100 through LP-205
-repository: https://github.com/zooai/lp-integration
 license: CC BY 4.0
 ---
-
 # ZIP-12: LP (Lux Proposals) Integration - Chain-Agnostic AI Standards
 
 ## Abstract
@@ -194,7 +192,7 @@ contract LuxIDRegistry {
 
 ```solidity
 struct JobSpec {
-    uint256 chainId;          // Zoo chain ID (122)
+    uint256 chainId;          // Zoo chain ID (200200)
     bytes32 modelHash;        // Eco-1, Coder-1, or Nano-1
     bytes32 deltaHash;        // BitDelta adapter
     bytes32 inputCommit;      // Input commitment
@@ -203,7 +201,7 @@ struct JobSpec {
     uint64 deadline;          // Execution deadline
     bytes privacy;            // DP epsilon, retention
     bytes extra;              // Additional options
-    string requesterLuxId;    // did:lux:122:0x...
+    string requesterLuxId;    // did:lux:200200:0x...
 }
 
 contract ZooJobSubmitter {
@@ -232,8 +230,8 @@ contract ZooJobSubmitter {
 
 ```solidity
 struct ComputeReceipt {
-    uint256 srcChainId;       // Zoo (122)
-    uint256 dstChainId;       // Hanzo (121)
+    uint256 srcChainId;       // Zoo (200200)
+    uint256 dstChainId;       // Hanzo (36963)
     uint256 jobId;            // Job identifier
     bytes32 modelHash;        // Model used
     bytes32 deltaHash;        // Adapter used
@@ -244,8 +242,8 @@ struct ComputeReceipt {
     uint64 finishedAt;        // End timestamp
     bytes metering;           // Resource usage
     Citation[] citations;     // Source citations
-    string workerLuxId;       // did:lux:121:0x...
-    string requesterLuxId;    // did:lux:122:0x...
+    string workerLuxId;       // did:lux:36963:0x...
+    string requesterLuxId;    // did:lux:200200:0x...
 }
 
 struct Citation {
@@ -262,7 +260,7 @@ struct Citation {
 
 ```solidity
 struct PersonaCredential {
-    string subjectLuxId;      // did:lux:122:0x... (user)
+    string subjectLuxId;      // did:lux:200200:0x... (user)
     int16 O;                  // Openness (-100 to 100)
     int16 C;                  // Conscientiousness
     int16 E;                  // Extraversion
@@ -311,7 +309,7 @@ struct TrainingCampaign {
     address token;            // LX token address
     bytes32 policyHash;       // Training policy
     bytes evalRefs;           // Evaluation criteria
-    string sponsorLuxId;      // did:lux:122:0x...
+    string sponsorLuxId;      // did:lux:200200:0x...
 }
 
 contract Eco1TrainingCampaign {
@@ -441,7 +439,7 @@ class ZooWallet implements LPWallet {
 async function avatarTutorSession() {
     // 1. User creates Lux ID
     const userLuxId = await createLuxId(chainId, userAddress);
-    // "did:lux:122:0xUser123..."
+    // "did:lux:200200:0xUser123..."
     
     // 2. Issue persona credential for avatar
     const persona = await issuePersona(userLuxId, {
@@ -454,7 +452,7 @@ async function avatarTutorSession() {
     
     // 3. Submit learning job
     const jobSpec: JobSpec = {
-        chainId: 122,  // Zoo
+        chainId: 200200,  // Zoo
         modelHash: ECO1_HASH,
         deltaHash: STUDENT_BITDELTA_HASH,
         inputCommit: hash(question),
@@ -512,7 +510,7 @@ interface JobSpec {
 const user = "0x123...";
 
 // After: Lux IDs
-const userLuxId = "did:lux:122:0x123...";
+const userLuxId = "did:lux:200200:0x123...";
 ```
 
 ## Implementation Roadmap

@@ -6,11 +6,10 @@ type: Standards Track
 category: Governance
 status: Draft
 created: 2026-07-02
-requires: ZIP-0036
+requires: [36]
 references: ZIP-0017, LP (Lux) DAO Governance Framework, Zodiac, Azorius (Fractal), Hats Protocol
 tags: [dao, sub-dao, azorius, zodiac, governance, holographic]
 ---
-
 # ZIP-0037: Azorius Sub-DAO Structure
 
 ## Abstract

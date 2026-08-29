@@ -6,11 +6,10 @@ type: Standards Track
 category: Interface
 status: Draft
 created: 2026-05-29
-requires: ZIP-0031
+requires: [31]
 references: LP-0011
 tags: [federation, registry, brand, white-label, discovery, precompile, post-quantum, pointer]
 ---
-
 # ZIP-0032: Zoo adopts LP-0011 — Onchain Federation Registry
 
 ## Abstract

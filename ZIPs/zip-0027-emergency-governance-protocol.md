@@ -12,7 +12,6 @@ follow-on: [zoo-dao-emergency-protocol]
 created: 2025-01-15
 tags: [governance, emergency, security, conservation-crisis]
 ---
-
 # ZIP-0027: Emergency Governance Protocol
 
 ## Abstract

@@ -5,7 +5,7 @@ tags: [impact, vision, ecosystem, thesis, conservation]
 description: Unified impact thesis for Zoo Labs Foundation and its role in the Lux-Hanzo-Zoo ecosystem.
 author: Zoo Labs Foundation (@zoolabs)
 discussions-to: https://github.com/zoolabs/zips/discussions
-status: Draft
+status: Living
 type: Meta
 originated: 2021-10
 traces-from: "Whitepaper sections 01 (Mission) and 06 (Zoo Foundation)"
@@ -13,7 +13,6 @@ follow-on: [zoo-fund-impact-thesis, zoo-foundation-mission]
 created: 2025-12-17
 requires: [500]
 ---
-
 # ZIP-570: Zoo Labs Impact Thesis
 
 ## Executive Summary

@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [carbon, offsets, tokenization, defi, climate]
 requires: [0, 100, 105, 700]
 ---
-
 # ZIP-108: Carbon Offset Tokenization
 
 ## Abstract

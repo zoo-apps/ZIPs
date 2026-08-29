@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [desci, open-access, publishing, peer-review, science]
 requires: [0, 600, 603, 604]
 ---
-
 # ZIP-605: Open Access Publication Protocol
 
 ## Abstract

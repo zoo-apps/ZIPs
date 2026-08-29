@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [wildlife, anti-poaching, alerts, decentralized, monitoring]
 requires: [0, 405, 500, 501, 510]
 ---
-
 # ZIP-503: Anti-Poaching Alert Network
 
 ## Abstract

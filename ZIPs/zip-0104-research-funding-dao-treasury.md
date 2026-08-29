@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [dao, treasury, desci, research, grants, governance]
 requires: [0, 100]
 ---
-
 # ZIP-104: Research Funding DAO Treasury
 
 ## Abstract

@@ -3,12 +3,11 @@ zip: 500
 title: ESG Principles for Conservation Impact
 author: Zoo Labs Foundation
 type: Meta
-status: Draft
+status: Living
 originated: 2021-10
 traces-from: "Whitepaper sections 01 (Mission) and 03 (Sustainability)"
 created: 2025-12-16
 ---
-
 # ZIP-500: ESG Principles for Conservation Impact
 
 ## Abstract

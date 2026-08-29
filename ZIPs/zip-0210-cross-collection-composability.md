@@ -8,9 +8,8 @@ type: Standards Track
 category: NFT
 created: 2025-01-15
 tags: [nft, composability, bundling, cross-collection, interoperability]
-requires: [0, 100, 200, 703]
+requires: [0, 100, 701, 703]
 ---
-
 # ZIP-210: Cross-Collection Composability
 
 ## Abstract

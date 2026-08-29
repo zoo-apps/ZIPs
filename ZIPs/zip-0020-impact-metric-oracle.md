@@ -9,7 +9,6 @@ category: Core
 created: 2025-01-15
 tags: [oracle, conservation, impact, measurement]
 ---
-
 # ZIP-0020: Impact Metric Oracle
 
 ## Abstract

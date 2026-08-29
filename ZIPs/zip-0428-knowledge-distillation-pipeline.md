@@ -18,11 +18,10 @@ follow-on:
   - "zen/papers/zen4-mini_whitepaper"
 created: 2025-03-01
 tags: [distillation, knowledge-transfer, model-compression, small-models, edge-deployment]
-requires: [0413, 0414]
+requires: [413, 414]
 references: HIP-0037
 license: CC BY 4.0
 ---
-
 # ZIP-0428: Knowledge Distillation Pipeline
 
 ## Abstract

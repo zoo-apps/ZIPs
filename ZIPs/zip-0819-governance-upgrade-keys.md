@@ -14,7 +14,6 @@ requires: [14, 17, 27, 812]
 related-lps: [LP-070, LP-071, LP-171, LP-178]
 related-hips: [HIP-0084, HIP-0098]
 ---
-
 # ZIP-0819: Governance / Upgrade Keys
 
 ## Abstract
