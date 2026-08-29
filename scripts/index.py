@@ -49,10 +49,29 @@ def frontmatter(path):
     return data
 
 
-def requires(value):
-    if not value:
+def requires(value, name, faults):
+    """requires: is a bracketed list of ZIP numbers and nothing else.
+
+    Without the shape check a stray `requires: "LP-0011"` reads as ZIP-11,
+    resolves against a real ZIP and passes -- which is how it survived here.
+    Cross-estate pointers belong in related-hips: / related-lps: / mirrors:.
+    """
+    if value is None:
         return []
-    return [int(n) for n in re.findall(r'\d+', value)]
+    value = value.strip()
+    for prefix in ('HIP', 'LP', 'ZIP'):
+        if prefix in value.upper():
+            faults.append(f'{name}: requires: holds {prefix}-, which belongs in '
+                          f'related-hips: / related-lps: / mirrors:')
+            return []
+    if not (value.startswith('[') and value.endswith(']')):
+        faults.append(f'{name}: requires: {value!r} is not a [list] of ZIP numbers')
+        return []
+    inner = value[1:-1].strip()
+    if inner and not re.fullmatch(r'\d+(\s*,\s*\d+)*', inner):
+        faults.append(f'{name}: requires: {value!r} is not a [list] of ZIP numbers')
+        return []
+    return [int(n) for n in re.findall(r'\d+', inner)]
 
 
 def read():
@@ -82,7 +101,7 @@ def read():
 
     known = set(seen)
     for number, name, data in zips:
-        for needed in requires(data.get('requires')):
+        for needed in requires(data.get('requires'), name, faults):
             if needed not in known:
                 faults.append(f'{name}: requires ZIP-{needed:04d}, which does not exist')
 
