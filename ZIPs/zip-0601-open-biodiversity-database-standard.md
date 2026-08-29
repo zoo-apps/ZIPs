@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [biodiversity, ipfs, open-data, gbif, conservation]
 requires: [540, 560, 600]
 ---
-
 # ZIP-601: Open Biodiversity Database Standard
 
 ## Abstract

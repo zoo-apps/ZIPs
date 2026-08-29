@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2022-06
@@ -18,12 +18,10 @@ follow-on:
   - "zen/papers/zen-training-methodology"
 created: 2022-06-01
 tags: [conservation-ai, species-models, ecological-reasoning, domain-llm, fine-tuning]
-requires: [0400]
+requires: [400]
 references: IUCN-Red-List
-repository: https://github.com/zooai/conservation-llm
 license: CC BY 4.0
 ---
-
 # ZIP-0405: Conservation-Aware Language Models
 
 ## Abstract

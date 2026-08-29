@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [insurance, parametric, conservation, oracle, wildlife]
 requires: [0, 100, 501]
 ---
-
 # ZIP-109: Wildlife Insurance Protocol
 
 ## Abstract

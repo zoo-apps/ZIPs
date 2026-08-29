@@ -12,7 +12,6 @@ follow-on: [zoo-dao-grants-program]
 created: 2025-01-15
 tags: [grants, funding, research, community]
 ---
-
 # ZIP-0023: Community Grant Program
 
 ## Abstract

@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [dao, governance, quadratic-voting, grants, funding]
 requires: [0, 540, 600]
 ---
-
 # ZIP-603: Research DAO Governance
 
 ## Abstract

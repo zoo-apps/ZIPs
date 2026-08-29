@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [amm, defi, conservation, swap, liquidity]
 requires: [0, 100, 105]
 ---
-
 # ZIP-106: Automated Market Maker for Conservation
 
 ## Abstract

@@ -10,9 +10,8 @@ originated: 2021-10
 traces-from: "Whitepaper section 02 (Zoo Animal Utility)"
 created: 2025-01-15
 tags: [nft, adoption, sponsorship, dynamic-metadata, wildlife]
-requires: [200, 500]
+requires: [500, 701]
 ---
-
 # ZIP-201: Species Adoption Certificate Protocol
 
 ## Abstract

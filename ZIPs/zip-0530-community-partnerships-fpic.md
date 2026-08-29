@@ -5,14 +5,13 @@ tags: [conservation, community, indigenous, ethics]
 description: Framework for ethical community partnerships and Free, Prior, and Informed Consent.
 author: Zoo Labs Foundation (@zoolabs)
 discussions-to: https://github.com/zoolabs/zips/discussions
-status: Draft
+status: Living
 type: Meta
 originated: 2021-10
 traces-from: "Whitepaper sections 05 (Supporting Non-Profits) and 24 (Partnerships)"
 created: 2025-12-17
 requires: [500]
 ---
-
 # ZIP-530: Community Partnerships & FPIC
 
 ## Abstract

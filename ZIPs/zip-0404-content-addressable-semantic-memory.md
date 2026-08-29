@@ -17,12 +17,11 @@ follow-on:
   - "zen/papers/zen-embeddings-retrieval"
 created: 2022-03-15
 tags: [content-addressing, semantic-memory, ipfs, knowledge-graph, vector-store]
-requires: [0401]
+requires: [401]
 references: IPFS, CIDv1
-repository: https://github.com/zooai/semantic-memory
+repository: https://github.com/zooai/brain
 license: CC BY 4.0
 ---
-
 # ZIP-0404: Content-Addressable Semantic Memory System
 
 ## Abstract

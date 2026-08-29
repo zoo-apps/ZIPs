@@ -11,7 +11,6 @@ traces-from: "Whitepaper section 23 (Open Source)"
 created: 2025-01-15
 tags: [sdk, developer-tools, api, client-library]
 ---
-
 # ZIP-0028: Zoo SDK Specification
 
 ## Abstract

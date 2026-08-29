@@ -19,11 +19,10 @@ follow-on:
   - "zen/papers/zen-guard-stream_whitepaper"
 created: 2025-05-01
 tags: [ai-safety, guardrails, content-filter, zen-guard, jailbreak-prevention]
-requires: [0413]
+requires: [413]
 references: HIP-0039
 license: CC BY 4.0
 ---
-
 # ZIP-0430: AI Safety Framework (Zen-Guard)
 
 ## Abstract

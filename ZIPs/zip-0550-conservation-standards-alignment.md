@@ -3,11 +3,10 @@ zip: 550
 title: Conservation Standards Alignment Matrix
 author: Zoo Labs Foundation
 type: Meta
-status: Draft
+status: Living
 created: 2025-12-16
 requires: [500]
 ---
-
 # ZIP-550: Conservation Standards Alignment Matrix
 
 ## Abstract

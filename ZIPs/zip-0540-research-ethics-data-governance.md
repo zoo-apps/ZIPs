@@ -5,12 +5,11 @@ tags: [research, ethics, data, governance]
 description: Framework for ethical research practices and responsible data governance in conservation.
 author: Zoo Labs Foundation (@zoolabs)
 discussions-to: https://github.com/zoolabs/zips/discussions
-status: Draft
+status: Living
 type: Meta
 created: 2025-12-17
 requires: [500, 530]
 ---
-
 # ZIP-540: Research Ethics & Data Governance
 
 ## Abstract

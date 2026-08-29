@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [bonds, habitat, restoration, outcomes, defi]
 requires: [0, 100, 101, 501, 520]
 ---
-
 # ZIP-113: Habitat Restoration Bonds
 
 ## Abstract

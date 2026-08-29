@@ -10,9 +10,8 @@ originated: 2021-10
 traces-from: "Whitepaper sections 02 (Zoo Animal Utility) and 15 (Gen 0 NFT Drop)"
 created: 2025-01-15
 tags: [nft, endangered, iucn, collection, dynamic]
-requires: [0, 100, 200, 204, 501]
+requires: [0, 100, 204, 501, 701]
 ---
-
 # ZIP-208: Endangered Species Collection
 
 ## Abstract

@@ -9,12 +9,10 @@ originated: 2021-10
 traces-from: "Whitepaper sections 09 (AR App) and 12 (Metaverse Companion)"
 follow-on: [zoo-spatial-web-agents]
 created: 2025-01-09
-requires: ZIP-3, ZIP-10, ZIP-12
+requires: [10, 12]
 references: IEEE 2874 Spatial Web, Active Inference Theory, DID Standards
-repository: https://github.com/zooai/spatial-ai
 license: CC BY 4.0
 ---
-
 # ZIP-11: Spatial Web, Active Inference, and Agent-to-Agent Economies for Zoo AI
 
 ## Abstract
@@ -277,7 +275,7 @@ class A2AEconomy:
         # Lux ID registry on-chain (LP-205)
         self.lux_id_registry = LuxIDRegistry(
             blockchain="lux",
-            chain_id=122,  # Zoo chain
+            chain_id=200200,  # Zoo chain
             standard="LP-200",
         )
         
@@ -299,9 +297,9 @@ class A2AEconomy:
         """
         Register agent with Lux ID and initial resources
         """
-        # Create Lux ID (did:lux:122:0x...)
+        # Create Lux ID (did:lux:200200:0x...)
         lux_id = self.lux_id_registry.create_did(
-            chain_id=122,
+            chain_id=200200,
             address=agent.address,
             document_hash=self.create_agent_did_document(agent),
             service_endpoints=[
@@ -346,7 +344,7 @@ class A2AEconomy:
     
     def request_service(
         self,
-        requester_lux_id: str,  # did:lux:122:0x...
+        requester_lux_id: str,  # did:lux:200200:0x...
         service_type: str,
         requirements: Dict,
     ):
@@ -832,11 +830,11 @@ class SpatialJobSpec:
     
     def submit_spatial_job(
         self,
-        agent_lux_id: str,  # did:lux:122:0x...
+        agent_lux_id: str,  # did:lux:200200:0x...
         spatial_data: Dict
     ) -> JobSpec:
         return JobSpec(
-            chainId=122,
+            chainId=200200,
             modelHash=self.spatial_model_hash,
             requesterLuxId=agent_lux_id,
             functionCall="spatial_inference",
@@ -887,7 +885,7 @@ contract SpatialInferencePool {
     // Implements LP-308 (ILPInferencePool)
     
     struct SpatialPool {
-        string poolLuxId;           // did:lux:122:0x... for the pool
+        string poolLuxId;           // did:lux:200200:0x... for the pool
         string[] memberLuxIds;      // Agent members
         uint256 computeCapacity;    // Total GPU capacity
         uint256 spatialResolution;  // Voxel/point resolution
@@ -921,7 +919,7 @@ contract SpatialInferencePool {
 - **Spatial Domains**: Registered with IEEE Spatial Web Working Group
 
 ### Lux ID (LP-200)
-- **DID Method**: did:lux:122:0x... for all agent identities
+- **DID Method**: did:lux:200200:0x... for all agent identities
 - **Registry Contract**: LP-205 on-chain registry
 - **Verifiable Credentials**: Agent capabilities and reputation
 - **DID Document**: LP-compliant format with service endpoints

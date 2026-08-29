@@ -3,14 +3,13 @@ zip: 0000
 title: Zoo Ecosystem Architecture & Framework
 author: Zoo Team
 type: Meta
-status: Final
+status: Living
 originated: 2021-10
 traces-from: "Whitepaper sections 01 (Mission), 04 (Market), 06 (Foundation), 18 (Roadmap)"
 follow-on: [zoo-foundation-mission, zoo-network-architecture]
 created: 2024-12-20
 updated: 2025-01-07
 ---
-
 # ZIP-0: Zoo Ecosystem Architecture & Framework
 
 ## Abstract

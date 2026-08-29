@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-08
@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-alignment"
 created: 2024-08-01
 tags: [grpo, preference-optimization, rlhf, alignment, cost-reduction]
-requires: [0409, 0413]
+requires: [409, 413]
 references: HIP-0030
 license: CC BY 4.0
 ---
-
 # ZIP-0421: Training-Free Preference Optimization (GRPO)
 
 ## Abstract

@@ -14,7 +14,6 @@ tags: [gaming, simulation, digital-twin, conservation, habitat]
 requires: [0, 4]
 references: [LP-3600, LP-3601, LP-7000, HIP-0082]
 ---
-
 # ZIP-300: Virtual Habitat Simulation Protocol
 
 ## Abstract

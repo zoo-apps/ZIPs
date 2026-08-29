@@ -13,7 +13,6 @@ tags: [gaming, conservation, play-to-earn, education, funding]
 requires: [0, 4, 300]
 references: [LP-7000, ZIP-500, ZIP-501]
 ---
-
 # ZIP-301: Play-to-Conserve Game Mechanics
 
 ## Abstract

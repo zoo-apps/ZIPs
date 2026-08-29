@@ -5,7 +5,7 @@ tags: [conservation, species, monitoring, technology]
 description: Framework for species protection initiatives and monitoring programs.
 author: Zoo Labs Foundation (@zoolabs)
 discussions-to: https://github.com/zoolabs/zips/discussions
-status: Draft
+status: Living
 type: Meta
 originated: 2021-10
 traces-from: "Whitepaper section 03 (Sustainability)"
@@ -13,7 +13,6 @@ follow-on: [zoo-wildlife-tracking]
 created: 2025-12-17
 requires: [500, 501]
 ---
-
 # ZIP-510: Species Protection & Monitoring
 
 ## Abstract

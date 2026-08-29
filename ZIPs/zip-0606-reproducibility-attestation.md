@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [desci, reproducibility, attestation, verification, science]
 requires: [0, 540, 600, 604, 605]
 ---
-
 # ZIP-606: Reproducibility Attestation
 
 ## Abstract

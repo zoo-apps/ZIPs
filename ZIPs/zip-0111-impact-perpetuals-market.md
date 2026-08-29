@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [perpetuals, futures, defi, conservation, indices]
 requires: [0, 100, 109, 501]
 ---
-
 # ZIP-111: Impact Perpetuals Market
 
 ## Abstract

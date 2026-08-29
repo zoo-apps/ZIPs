@@ -6,9 +6,10 @@ type: Standards Track
 category: Security
 status: Final
 created: 2024-12-20
-requires: LP-100, HIP-5
+requires: []
+related-hips: [HIP-5]
+related-lps: [LP-100]
 ---
-
 # ZIP-5: Post-Quantum Security for DeFi & NFTs
 
 ## Abstract

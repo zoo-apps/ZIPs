@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [token, fungible, conservation, defi, zrc-20]
 requires: [15, 100]
 ---
-
 # ZIP-0700: ZRC-20 Fungible Token Standard
 
 ## Abstract

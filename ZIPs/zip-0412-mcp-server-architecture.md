@@ -17,12 +17,11 @@ follow-on:
   - "zen/papers/zen-agent"
 created: 2023-12-01
 tags: [mcp, tool-use, agent-tools, model-context-protocol, function-calling]
-requires: [0400, 0408]
+requires: [400, 408]
 references: MCP-Spec
 repository: https://github.com/hanzoai/mcp
 license: CC BY 4.0
 ---
-
 # ZIP-0412: MCP Server Architecture
 
 ## Abstract

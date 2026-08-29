@@ -8,9 +8,8 @@ type: Standards Track
 category: ZRC
 created: 2026-04-09
 tags: [encryption, replication, sqlite, zapdb, age, pq, s3, infrastructure]
-requires: [0000, 0005, 0800]
+requires: [0, 5, 800]
 ---
-
 # ZIP-0803: Encrypted Streaming Replication for Zoo Services
 
 ## Abstract

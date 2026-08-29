@@ -12,7 +12,6 @@ follow-on: [zoo-dao-reputation-system]
 created: 2025-01-15
 tags: [reputation, soulbound, identity, contributors]
 ---
-
 # ZIP-0026: Ecosystem Reputation System
 
 ## Abstract

@@ -12,7 +12,6 @@ follow-on: [zoo-tokenomics]
 created: 2025-01-15
 tags: [tokenomics, zoo-token, conservation, inflation]
 ---
-
 # ZIP-0016: ZOO Token Economics
 
 ## Abstract

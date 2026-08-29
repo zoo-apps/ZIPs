@@ -10,9 +10,8 @@ originated: 2021-10
 traces-from: "Whitepaper section 11 (Feeding, Growing, Breeding)"
 created: 2025-01-15
 tags: [nft, breeding, simulation, education, genetics]
-requires: [0, 100, 200, 300]
+requires: [0, 100, 300, 701]
 ---
-
 # ZIP-207: Breeding Simulation NFT
 
 ## Abstract

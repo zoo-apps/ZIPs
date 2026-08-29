@@ -9,7 +9,6 @@ category: Core
 created: 2025-01-15
 tags: [meta-transactions, gasless, relay, conservation]
 ---
-
 # ZIP-0029: Gasless Transactions for Conservation
 
 ## Abstract

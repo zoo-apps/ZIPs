@@ -8,9 +8,8 @@ type: Standards Track
 category: NFT
 created: 2025-01-15
 tags: [nft, photography, wildlife, gps, verification]
-requires: [0, 100, 200]
+requires: [0, 100, 701]
 ---
-
 # ZIP-205: Wildlife Photography NFT Standard
 
 ## Abstract

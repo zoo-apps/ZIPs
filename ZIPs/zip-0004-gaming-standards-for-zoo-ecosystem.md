@@ -8,9 +8,9 @@ status: Draft
 originated: 2021-10
 traces-from: "Whitepaper sections 07 (Gameplay) and 11 (Feeding/Growing/Breeding)"
 created: 2025-01-09
-requires: ZIP-1, ZIP-3, HIP-3
+requires: [10, 418]
+related-hips: [HIP-3]
 ---
-
 # ZIP-4: Gaming Standards for Zoo Ecosystem
 
 ## Abstract

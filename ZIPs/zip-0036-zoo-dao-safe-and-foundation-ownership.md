@@ -6,11 +6,9 @@ type: Standards Track
 category: Core
 status: Draft
 created: 2026-07-02
-requires: ZIP-0035, ZIP-0037
-references: LP (Lux) DAO Governance Framework, Gnosis Safe, Zodiac
+requires: [35, 37]
 tags: [safe, dao, foundation, ownership, multisig, treasury, staged]
 ---
-
 # ZIP-0036: Zoo DAO Safe & Zoo Z Safe — Foundation Ownership
 
 ## Abstract

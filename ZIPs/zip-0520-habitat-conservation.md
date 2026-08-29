@@ -5,7 +5,7 @@ tags: [conservation, habitat, land-use, ecosystems]
 description: Framework for habitat conservation and restoration initiatives.
 author: Zoo Labs Foundation (@zoolabs)
 discussions-to: https://github.com/zoolabs/zips/discussions
-status: Draft
+status: Living
 type: Meta
 originated: 2021-10
 traces-from: "Whitepaper section 03 (Sustainability)"
@@ -13,7 +13,6 @@ follow-on: [zoo-habitat-modeling, zoo-satellite-ecology]
 created: 2025-12-17
 requires: [500, 501]
 ---
-
 # ZIP-520: Habitat Conservation
 
 ## Abstract

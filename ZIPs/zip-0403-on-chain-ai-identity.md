@@ -17,12 +17,11 @@ follow-on:
   - "hanzo/papers/hanzo-aci"
 created: 2021-10-15
 tags: [ai-identity, on-chain-agents, autonomous-agents, ai-governance, did]
-requires: [0400, 0402]
+requires: [400, 402]
 references: HIP-0004, DID-Core
 repository: https://github.com/hanzoai/aci
 license: CC BY 4.0
 ---
-
 # ZIP-0403: On-Chain AI Identity
 
 ## Abstract

@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-12
@@ -16,12 +16,10 @@ follow-on:
   - "zen/papers/zen-vision-architecture"
 created: 2024-12-01
 tags: [satellite, remote-sensing, deforestation, habitat-monitoring, earth-observation]
-requires: [0406, 0416]
+requires: [406, 416]
 references: Sentinel-2, Landsat
-repository: https://github.com/zooai/satellite-ecology
 license: CC BY 4.0
 ---
-
 # ZIP-0425: Satellite Ecological Monitoring
 
 ## Abstract

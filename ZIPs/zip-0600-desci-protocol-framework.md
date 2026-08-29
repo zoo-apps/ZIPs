@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [desci, research, governance, funding, peer-review]
 requires: [0, 540]
 ---
-
 # ZIP-600: DeSci Protocol Framework
 
 ## Abstract

@@ -8,9 +8,8 @@ type: Standards Track
 category: NFT
 created: 2025-01-15
 tags: [nft, habitat, sponsorship, gps, monitoring]
-requires: [0, 100, 200, 501, 520]
+requires: [0, 100, 501, 520, 701]
 ---
-
 # ZIP-209: NFT-Backed Microhabitat
 
 ## Abstract

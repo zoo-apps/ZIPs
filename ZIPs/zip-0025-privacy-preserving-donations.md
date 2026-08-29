@@ -9,7 +9,6 @@ category: Core
 created: 2025-01-15
 tags: [privacy, zero-knowledge, donations, conservation]
 ---
-
 # ZIP-0025: Privacy-Preserving Donations
 
 ## Abstract

@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2021-10
@@ -18,12 +18,10 @@ follow-on:
   - "zen/papers/zen-agent-framework"
 created: 2021-10-15
 tags: [ai-nft, agent-nft, token-bound-agents, living-nfts, intelligent-tokens]
-requires: [0400, 0401]
+requires: [400, 401]
 references: ERC-6551
-repository: https://github.com/zooai/agent-nft
 license: CC BY 4.0
 ---
-
 # ZIP-0402: AI-Augmented NFTs
 
 ## Abstract
