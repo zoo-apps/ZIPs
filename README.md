@@ -206,7 +206,7 @@ from it. Three values, each meaning one thing:
 | Status | Meaning |
 |:-------|:--------|
 | `Draft` | Proposed. No implementation, or the ZIP describes an experiment rather than a shipped system. |
-| `Final` | The thing the ZIP specifies exists in code. Cite the repository in `repository:`. |
+| `Final` | The thing the ZIP specifies exists in code, and `repository:` names where. |
 | `Living` | Never finalises. Policy, registries and indexes that are amended as the ecosystem moves. |
 
 Zoo Labs Foundation is a research network, so `Draft` is an ordinary resting

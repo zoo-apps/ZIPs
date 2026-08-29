@@ -44,8 +44,9 @@ at `Final` once that code is gone.
 - `requires:` — a list of ZIP **numbers**, `[12, 100]`. Nothing else.
 - `related-hips:` / `related-lps:` / `mirrors:` — cross-estate pointers.
   Never put `HIP-*` or `LP-*` in `requires:`.
-- `repository:` — the repo that implements the ZIP. Only on a `Final`
-  ZIP, and only if the repo actually exists.
+- `repository:` — where the work lives. It must resolve; 19 of 28 of these
+  named repos that had never existed, which is how proposals came to be
+  marked Final with nothing behind them.
 
 ## Facts worth not getting wrong
 
