@@ -13,7 +13,6 @@ created: 2023-09-01
 tags: [bridge, omnichain, teleport, cross-chain, conservation, defi, solana, ton, cosmos]
 requires: [15, 42, 100, 700, 800]
 ---
-
 # ZIP-0802: Zoo Omnichain Teleport Extension
 
 ## Abstract

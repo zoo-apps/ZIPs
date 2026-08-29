@@ -3,13 +3,13 @@ zip: 15
 title: "Zoo L2 Chain Architecture"
 description: "Zoo Network operates as an L2 chain on the Lux Network, inheriting security from primary network validators"
 author: "Zoo Labs Foundation"
-status: "Final"
+status: Final
 type: "Standards Track"
 category: "Core"
 created: 2025-12-27
-requires: "LP-0011"
+requires: []
+related-lps: [LP-0011]
 ---
-
 # ZIP-0015: Zoo L2 Chain Architecture
 
 ## Abstract
