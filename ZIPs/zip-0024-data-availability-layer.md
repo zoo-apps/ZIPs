@@ -9,7 +9,6 @@ category: Core
 created: 2025-01-15
 tags: [data-availability, storage, ai-models, biodiversity]
 ---
-
 # ZIP-0024: Data Availability Layer
 
 ## Abstract

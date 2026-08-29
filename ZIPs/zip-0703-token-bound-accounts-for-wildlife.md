@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [tba, token-bound, wildlife, nft, wallet, zrc-6551, conservation]
 requires: [15, 100, 701]
 ---
-
 # ZIP-0703: Token-Bound Accounts for Wildlife NFTs
 
 ## Abstract

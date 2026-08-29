@@ -11,7 +11,6 @@ activation: 2025-12-25
 tags: [bot, agent, mcp, go, openclaw, sandbox]
 related-papers: [zoo-3-0-launch, hanzo-ai-chain]
 ---
-
 # ZIP-0807: zoo-bot
 
 ## Abstract

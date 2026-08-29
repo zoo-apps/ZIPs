@@ -3,13 +3,12 @@ zip: 902
 title: "Proof-of-Thought Receipts on Zoo"
 description: "Proof-of-Thought (PoT) receipts — the settlement object for off-chain cognitive work — specifying the AInferenceReceipt structure, canonical wire hashing, the commit-reveal provider-quorum lifecycle, eligible-set/beacon selection, slashing, and Subsampled Cognitive Consensus over structured outputs"
 author: "Zoo Labs Foundation"
-status: "Draft"
+status: Draft
 type: "Standards Track"
 category: "Core"
 created: 2026-06-21
 requires: [804]
 ---
-
 # ZIP-0902: Proof-of-Thought Receipts on Zoo
 
 ## Abstract

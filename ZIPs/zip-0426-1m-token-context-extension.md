@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2025-01
@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-hardware-optimization"
 created: 2025-01-15
 tags: [context-extension, long-context, yarn, million-tokens, rope-scaling]
-requires: [0413]
+requires: [413]
 references: HIP-0035
 license: CC BY 4.0
 ---
-
 # ZIP-0426: 1M Token Context Extension
 
 ## Abstract

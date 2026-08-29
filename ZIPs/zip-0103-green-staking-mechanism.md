@@ -12,7 +12,6 @@ created: 2025-01-15
 tags: [staking, conservation, proof-of-impact, validators, green]
 requires: [0, 100, 101]
 ---
-
 # ZIP-103: Green Staking Mechanism
 
 ## Abstract

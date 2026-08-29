@@ -12,7 +12,6 @@ created: 2025-01-15
 tags: [gaming, governance, dao, sanctuary, conservation]
 requires: [0, 4, 203, 300, 301]
 ---
-
 # ZIP-306: Virtual Sanctuary Governance
 
 ## Abstract

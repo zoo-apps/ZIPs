@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-11
@@ -16,12 +16,10 @@ follow-on:
   - "zen/papers/zen-privacy-federated"
 created: 2024-11-01
 tags: [federated-learning, wildlife-monitoring, camera-traps, distributed-training, conservation]
-requires: [0406, 0410, 0423]
+requires: [406, 410, 423]
 references: TEAM-Network
-repository: https://github.com/zooai/federated-wildlife
 license: CC BY 4.0
 ---
-
 # ZIP-0424: Federated Wildlife Monitoring
 
 ## Abstract

@@ -15,7 +15,6 @@ cross-refs:
   lux: [LP-060]
   zoo-zips: [ZIP-0017, ZIP-0026, ZIP-0034]
 ---
-
 # ZIP-0033: Zoo Decentralized Identification Service (DID)
 
 ## Abstract

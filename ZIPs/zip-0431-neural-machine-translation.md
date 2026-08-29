@@ -18,11 +18,10 @@ follow-on:
   - "zen/papers/zen-dub-live_whitepaper"
 created: 2025-06-01
 tags: [translation, nmt, zen-translator, dubbing, localization]
-requires: [0429]
+requires: [429]
 references: HIP-0040
 license: CC BY 4.0
 ---
-
 # ZIP-0431: Neural Machine Translation (Zen-Translator)
 
 ## Abstract

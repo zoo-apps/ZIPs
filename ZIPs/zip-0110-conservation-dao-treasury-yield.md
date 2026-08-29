@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [dao, treasury, yield, conservation, strategy]
 requires: [0, 100, 101, 102, 104]
 ---
-
 # ZIP-110: Conservation DAO Treasury Yield
 
 ## Abstract

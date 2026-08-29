@@ -12,7 +12,6 @@ follow-on: [zoo-fund-validator-rewards]
 created: 2025-01-15
 tags: [staking, validators, conservation, rewards]
 ---
-
 # ZIP-0019: Validator Rewards Conservation Split
 
 ## Abstract

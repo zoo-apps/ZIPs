@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-07
@@ -18,11 +18,10 @@ follow-on:
   - "zoo/papers/embedding-7680"
 created: 2024-07-01
 tags: [embeddings, reranker, semantic-search, vector-search, 7680-dim, retrieval]
-requires: [0404, 0411]
+requires: [404, 411]
 references: HIP-0025
 license: CC BY 4.0
 ---
-
 # ZIP-0420: 7680-Dimensional Embeddings (Zen-Reranker)
 
 ## Abstract

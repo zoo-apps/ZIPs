@@ -3,11 +3,10 @@ zip: 560
 title: Evidence Locker Index
 author: Zoo Labs Foundation
 type: Meta
-status: Draft
+status: Living
 created: 2025-12-16
 requires: [500, 550]
 ---
-
 # ZIP-560: Evidence Locker Index
 
 ## Abstract

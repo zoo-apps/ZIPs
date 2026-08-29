@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-10
@@ -17,12 +17,10 @@ follow-on:
   - "zen/papers/zen-privacy-federated"
 created: 2024-10-01
 tags: [fhe, privacy, homomorphic-encryption, encrypted-inference, confidential-compute]
-requires: [0410]
+requires: [410]
 references: HIP-0032
-repository: https://github.com/zooai/fhe-ai
 license: CC BY 4.0
 ---
-
 # ZIP-0423: Privacy-Preserving AI Training (FHE)
 
 ## Abstract

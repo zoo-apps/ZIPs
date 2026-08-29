@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-06
@@ -17,12 +17,10 @@ follow-on:
   - "hanzo/papers/hanzo-consensus-ai"
 created: 2024-06-01
 tags: [hllm, hamiltonian, physics-informed, energy-conservation, stable-training]
-requires: [0413]
+requires: [413]
 references: HIP-0004
-repository: https://github.com/zooai/hllm
 license: CC BY 4.0
 ---
-
 # ZIP-0418: Hamiltonian Large Language Models (HLLM)
 
 ## Abstract

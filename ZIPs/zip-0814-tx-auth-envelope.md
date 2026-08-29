@@ -14,7 +14,6 @@ requires: [14, 813]
 related-lps: [LP-168, LP-170, LP-173]
 related-hips: [HIP-0077, HIP-0079, HIP-0085, HIP-0086]
 ---
-
 # ZIP-0814: TxAuthEnvelope
 
 ## Abstract

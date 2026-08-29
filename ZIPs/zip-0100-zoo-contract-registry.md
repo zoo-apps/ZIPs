@@ -3,13 +3,12 @@ zip: 0100
 title: Zoo Contract Registry
 author: Zoo Labs Foundation
 type: Standards Track
-status: Active
+status: Living
 originated: 2021-10
 traces-from: "Whitepaper section 14 (NFT Marketplace)"
 created: 2025-12-23
 updated: 2025-12-23
 ---
-
 # ZIP-100: Zoo Contract Registry
 
 ## Abstract

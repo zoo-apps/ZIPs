@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [wildlife, reforestation, satellite, verification, carbon]
 requires: [0, 500, 501, 520]
 ---
-
 # ZIP-505: Reforestation Verification
 
 ## Abstract

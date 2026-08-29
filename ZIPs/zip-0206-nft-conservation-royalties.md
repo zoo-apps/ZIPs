@@ -11,9 +11,8 @@ traces-from: "Whitepaper sections 10 (Collateral-Backed NFTs) and 20 (NFT Liquid
 follow-on: [zoo-nft-liquidity-protocol]
 created: 2025-01-15
 tags: [nft, royalties, conservation, eip-2981, marketplace]
-requires: [0, 100, 200, 500]
+requires: [0, 100, 500, 701]
 ---
-
 # ZIP-206: NFT Conservation Royalties
 
 ## Abstract

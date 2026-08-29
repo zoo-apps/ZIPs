@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [settlement, hanzo, ai, compute, defi, inference, lux]
 requires: [15, 42, 100, 700, 800]
 ---
-
 # ZIP-0801: Zoo-Hanzo Settlement Integration
 
 ## Abstract

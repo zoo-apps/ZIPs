@@ -13,7 +13,6 @@ created: 2025-01-15
 tags: [wildlife, corridors, geospatial, mapping, conservation]
 requires: [0, 500, 501, 510]
 ---
-
 # ZIP-502: Wildlife Corridor Mapping
 
 ## Abstract

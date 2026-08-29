@@ -9,11 +9,9 @@ originated: 2021-10
 traces-from: "Whitepaper section 08 (AI Assistant)"
 follow-on: [zoo-educational-ai]
 created: 2025-01-09
-requires: ZIP-1, ZIP-3, ZIP-6, ZIP-7, ZIP-12
-repository: https://github.com/zooai/avatar-tutors
+requires: [6, 7, 10, 12, 418]
 license: CC BY 4.0
 ---
-
 # ZIP-8: Specialized Avatar Tutors for Personalized Learning with Prerequisite Scaffolding
 
 ## Abstract
@@ -474,7 +472,7 @@ class AvatarServingInfrastructure:
         Handle user request with appropriate avatar
         
         Args:
-            user_lux_id: did:lux:122:0x... (LP-200)
+            user_lux_id: did:lux:200200:0x... (LP-200)
             avatar_name: Name of the avatar tutor
             query: User's learning query
         """
@@ -742,8 +740,8 @@ Avatar tutors integrate with LP-107 PersonaCredential for personality modeling:
 ```solidity
 contract AvatarPersonaRegistry {
     struct AvatarPersona {
-        string avatarLuxId;        // did:lux:122:0x... for the avatar
-        string subjectLuxId;       // did:lux:122:0x... for the learner
+        string avatarLuxId;        // did:lux:200200:0x... for the avatar
+        string subjectLuxId;       // did:lux:200200:0x... for the learner
         uint8 O;                   // Openness (creativity, curiosity)
         uint8 C;                   // Conscientiousness (organization, persistence)
         uint8 E;                   // Extraversion (engagement style)
@@ -780,14 +778,14 @@ class AvatarComputeReceipt:
     
     def generate_receipt(
         self,
-        learner_lux_id: str,  # did:lux:122:0x...
-        avatar_lux_id: str,    # did:lux:122:0x...
+        learner_lux_id: str,  # did:lux:200200:0x...
+        avatar_lux_id: str,    # did:lux:200200:0x...
         session_data: Dict
     ) -> ComputeReceipt:
         
         receipt = ComputeReceipt(
             jobSpec=JobSpec(
-                chainId=122,  # Zoo chain
+                chainId=200200,  # Zoo chain
                 modelHash=self.get_avatar_model_hash(avatar_lux_id),
                 requesterLuxId=learner_lux_id,
                 providerLuxId=avatar_lux_id,

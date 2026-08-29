@@ -12,7 +12,6 @@ follow-on: [zoo-fund-treasury]
 created: 2025-01-15
 tags: [treasury, multisig, audit, finance]
 ---
-
 # ZIP-0018: Treasury Management Protocol
 
 ## Abstract

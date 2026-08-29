@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2025-07
@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-context-extension"
 created: 2025-07-01
 tags: [sovereign-memory, user-ownership, data-portability, local-first, self-sovereign]
-requires: [0401, 0404]
+requires: [401, 404]
 references: Web5, DID-Core
 license: CC BY 4.0
 ---
-
 # ZIP-0432: Sovereign AI Memory
 
 ## Abstract

@@ -6,11 +6,9 @@ type: Standards Track
 category: Core
 status: Draft
 created: 2026-07-02
-requires: ZIP-0016, ZIP-0036, ZIP-0038, ZIP-0039
-references: LP (Lux) DAO Governance Framework
+requires: [16, 36]
 tags: [tokenomics, zoo-token, foundation, dao, supply, canonical]
 ---
-
 # ZIP-0035: ZOO Supply and the 50/50 Foundation Split
 
 ## Abstract

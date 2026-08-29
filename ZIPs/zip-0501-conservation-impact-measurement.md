@@ -5,14 +5,13 @@ tags: [conservation, impact, metrics, biodiversity]
 description: Methodology for measuring and reporting conservation impact of Zoo Labs initiatives.
 author: Zoo Labs Foundation (@zoolabs)
 discussions-to: https://github.com/zoolabs/zips/discussions
-status: Draft
+status: Living
 type: Meta
 originated: 2021-10
 traces-from: "Whitepaper section 05 (Supporting Non-Profits)"
 created: 2025-12-17
 requires: [500]
 ---
-
 # ZIP-501: Conservation Impact Measurement
 
 ## Abstract

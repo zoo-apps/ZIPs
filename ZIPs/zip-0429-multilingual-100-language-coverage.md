@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2025-04
@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-translator_whitepaper"
 created: 2025-04-01
 tags: [multilingual, language-coverage, translation, conservation-languages, low-resource]
-requires: [0413]
+requires: [413]
 references: HIP-0038
 license: CC BY 4.0
 ---
-
 # ZIP-0429: Multilingual 100+ Language Coverage
 
 ## Abstract

@@ -12,7 +12,6 @@ follow-on: [zoo-dao-governance, zoo-dao-operating-system]
 created: 2025-01-15
 tags: [governance, dao, voting, proposals]
 ---
-
 # ZIP-0017: DAO Governance Framework
 
 ## Abstract

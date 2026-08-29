@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [lending, borrowing, defi, conservation, collateral]
 requires: [0, 100, 101]
 ---
-
 # ZIP-107: Impact Lending Protocol
 
 ## Abstract

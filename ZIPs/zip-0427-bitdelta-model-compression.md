@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-knowledge-distillation"
 created: 2025-02-01
 tags: [bitdelta, model-compression, quantization, personalization, delta-encoding]
-requires: [0413, 0414]
+requires: [413, 414]
 references: HIP-0036
 license: CC BY 4.0
 ---
-
 # ZIP-0427: BitDelta Model Compression
 
 ## Abstract

@@ -13,7 +13,6 @@ requires: [800]
 related-lps: [LP-020, LP-105, LP-132, LP-133, LP-134, LP-137]
 related-papers: [zoo-3-0-launch, zoo-per-llm-chains]
 ---
-
 # ZIP-0804: Zoo L1 Graduation
 
 ## Abstract

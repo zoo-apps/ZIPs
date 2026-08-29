@@ -11,7 +11,6 @@ traces-from: "Whitepaper section 02 (Zoo Animal Utility)"
 created: 2025-01-15
 tags: [species, registry, iucn, biodiversity, conservation]
 ---
-
 # ZIP-0030: On-Chain Species Registry
 
 ## Abstract

@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-01
@@ -18,12 +18,11 @@ follow-on:
   - "zen/papers/zen4_whitepaper"
 created: 2024-01-15
 tags: [foundation-model, zen-base, dense-transformer, gqa, language-model]
-requires: [0405, 0408]
+requires: [405, 408]
 references: HIP-0020
 repository: https://github.com/hanzoai/zen
 license: CC BY 4.0
 ---
-
 # ZIP-0413: Foundation Language Model Architecture (Zen Base)
 
 ## Abstract

@@ -9,7 +9,6 @@ category: Core
 created: 2025-01-15
 tags: [naming, identity, domains, dns]
 ---
-
 # ZIP-0021: Zoo Naming Service
 
 ## Abstract

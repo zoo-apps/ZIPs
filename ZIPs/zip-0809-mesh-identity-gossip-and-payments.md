@@ -14,7 +14,6 @@ requires: [14, 800, 804]
 related-lps: [LP-168, LP-169, LP-170, LP-171]
 related-hips: [HIP-0077, HIP-0078, HIP-0079, HIP-0084]
 ---
-
 # ZIP-0809: Mesh Identity, Gossip & Payments (PQ)
 
 ## Abstract
@@ -70,7 +69,7 @@ NIST-PQ track.
 
 - **Key derivation.** Reuses the Lux SLIP-44 derivation path
   (`m / 44' / 9000' / nid' / 0 / n` for ML-DSA identity,
-  `.../1/n` for the chain account), with `nid' = 122'` (Zoo
+  `.../1/n` for the chain account), with `nid' = 200200'` (Zoo
   Network chain ID per ZIP-0015) for the Zoo primary chain.
 - **Gossip namespace.** `zoo/mesh/v1/<nid>/<org>` published over
   the shared consensus subscription channel; records expire ≤ 5

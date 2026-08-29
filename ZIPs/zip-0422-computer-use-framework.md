@@ -17,12 +17,11 @@ follow-on:
   - "zen/papers/zen-voyager"
 created: 2024-09-01
 tags: [computer-use, operative, gui-agent, browser-automation, desktop-automation]
-requires: [0412, 0416]
+requires: [412, 416]
 references: HIP-0031
 repository: https://github.com/hanzoai/operative
 license: CC BY 4.0
 ---
-
 # ZIP-0422: Computer Use Framework (Operative)
 
 ## Abstract

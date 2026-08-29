@@ -18,12 +18,11 @@ follow-on:
   - "zen/papers/zen-reranker"
 created: 2023-10-01
 tags: [rag, search, retrieval-augmented-generation, vector-search, knowledge-grounding]
-requires: [0404, 0405]
+requires: [404, 405]
 references: HIP-0015
 repository: https://github.com/hanzoai/search
 license: CC BY 4.0
 ---
-
 # ZIP-0411: AI-Powered Search with RAG
 
 ## Abstract

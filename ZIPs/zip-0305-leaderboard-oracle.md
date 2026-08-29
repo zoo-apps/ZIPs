@@ -10,7 +10,6 @@ created: 2025-01-15
 tags: [gaming, oracle, leaderboard, achievements, on-chain]
 requires: [0, 4, 301, 303]
 ---
-
 # ZIP-305: Leaderboard Oracle
 
 ## Abstract

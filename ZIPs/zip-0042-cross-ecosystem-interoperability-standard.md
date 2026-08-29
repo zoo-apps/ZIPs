@@ -8,7 +8,6 @@ category: Core
 status: Draft
 created: 2025-01-15
 ---
-
 # ZIP-042: Cross-Ecosystem Interoperability Standard
 
 ## Abstract

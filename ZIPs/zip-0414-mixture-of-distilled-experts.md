@@ -6,7 +6,7 @@ author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
   - Zach Kelling <zach@zoo.ngo>
-status: Final
+status: Draft
 type: Standards Track
 category: AI
 originated: 2024-02
@@ -17,11 +17,10 @@ follow-on:
   - "zen/papers/zen-inference-optimization"
 created: 2024-02-15
 tags: [moe, mode, mixture-of-experts, distillation, efficient-scaling, sparse-models]
-requires: [0413]
+requires: [413]
 references: HIP-0021
 license: CC BY 4.0
 ---
-
 # ZIP-0414: Mixture of Distilled Experts (MoDE)
 
 ## Abstract

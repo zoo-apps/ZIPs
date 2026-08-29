@@ -6,9 +6,9 @@ type: Standards Track
 category: Core
 status: Draft
 created: 2025-01-09
-requires: ZIP-1, ZIP-3, ZIP-6, ZIP-12, HIP-6
+requires: [6, 10, 12, 418]
+related-hips: [HIP-6]
 ---
-
 # ZIP-7: BitDelta + DeltaSoup - Personalized and Community AI
 
 ## Abstract
@@ -166,7 +166,7 @@ def create_deltasoup(
     )
     
     # Step 4: Record contributors for royalties (using Lux ID)
-    contributors = [d.user_lux_id for d in verified_deltas]  # did:lux:122:0x...
+    contributors = [d.user_lux_id for d in verified_deltas]  # did:lux:200200:0x...
     contribution_weights = calculate_contribution_weights(verified_deltas)
     
     return ReferenceAdapter(
@@ -257,7 +257,7 @@ contract BitDeltaRegistry {
     struct BitDelta {
         bytes32 baseModelHash;
         bytes32 deltaHash;
-        string ownerLuxId;          // did:lux:122:0x... (LP-200)
+        string ownerLuxId;          // did:lux:200200:0x... (LP-200)
         uint256 compressionRatio;   // e.g., 10 for 10×
         bool isPrivate;
         PrivacyBudget privacy;
@@ -280,7 +280,7 @@ contract BitDeltaRegistry {
     event SoupCreated(uint256 soupId, bytes32 adapterHash, string[] contributorLuxIds);
     
     function publishBitDelta(
-        string calldata userLuxId,  // did:lux:122:0x...
+        string calldata userLuxId,  // did:lux:200200:0x...
         bytes32 baseModelHash,
         bytes32 deltaHash,
         uint256 compressionRatio,
@@ -344,7 +344,7 @@ class BitDeltaServingEngine:
         self.delta_cache = LRUCache(max_size=10000)  # 10K users
         self.gpu_memory = GPUMemoryPool()
     
-    def serve_request(self, user_lux_id: str, prompt):  # did:lux:122:0x...
+    def serve_request(self, user_lux_id: str, prompt):  # did:lux:200200:0x...
         # Load user's BitDelta (compressed)
         delta = self.delta_cache.get(user_lux_id)
         if not delta:

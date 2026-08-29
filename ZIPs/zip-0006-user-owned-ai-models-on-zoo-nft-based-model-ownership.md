@@ -6,9 +6,10 @@ type: Standards Track
 category: Core
 status: Draft
 created: 2024-12-20
-requires: ZIP-1, HIP-6, LP-102
+requires: [418]
+related-hips: [HIP-6]
+related-lps: [LP-102]
 ---
-
 # ZIP-6: User-Owned AI Models on Zoo - NFT-Based Model Ownership
 
 ## Abstract

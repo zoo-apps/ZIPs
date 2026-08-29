@@ -8,9 +8,8 @@ type: Standards Track
 category: Gaming
 created: 2025-01-15
 tags: [gaming, assets, interoperability, nft, portability]
-requires: [0, 4, 200, 300]
+requires: [0, 4, 300, 701]
 ---
-
 # ZIP-304: Game Asset Interoperability
 
 ## Abstract

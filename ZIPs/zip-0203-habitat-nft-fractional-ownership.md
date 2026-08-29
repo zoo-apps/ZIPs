@@ -8,9 +8,8 @@ type: Standards Track
 category: NFT
 created: 2025-01-15
 tags: [nft, fractional, habitat, conservation, community]
-requires: [0, 200]
+requires: [0, 701]
 ---
-
 # ZIP-203: Habitat NFT Fractional Ownership
 
 ## Abstract
