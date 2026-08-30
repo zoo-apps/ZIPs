@@ -183,7 +183,7 @@ enum ZooErrorCode {
 import zoo
 
 async def main():
-    client = zoo.Client("https://api.zoo.network/v1/bc/zoo/rpc")
+    client = zoo.Client("https://api.zoo.network/v1/chain/zoo/rpc")
 
     # Check conservation fund balance
     balance = await client.treasury.get_fund_balance("conservation")
