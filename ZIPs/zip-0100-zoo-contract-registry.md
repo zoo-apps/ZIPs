@@ -31,9 +31,9 @@ The Zoo ecosystem requires a single source of truth for:
 
 | Chain | Chain ID | Native Token | RPC | Explorer |
 |-------|----------|--------------|-----|----------|
-| **Zoo Mainnet** | 200200 | ZOO | `http://127.0.0.1:9630/v1/bc/zy5VXh7K.../rpc` | TBD |
+| **Zoo Mainnet** | 200200 | ZOO | `http://127.0.0.1:9630/v1/chain/zy5VXh7K.../rpc` | TBD |
 | **Zoo Testnet** | 200201 | ZOO | TBD | TBD |
-| **Lux Mainnet** | 96369 | LUX | `http://127.0.0.1:9630/v1/bc/C/rpc` | TBD |
+| **Lux Mainnet** | 96369 | LUX | `http://127.0.0.1:9630/v1/chain/C/rpc` | TBD |
 
 ### Genesis Parameters
 
