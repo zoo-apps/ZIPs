@@ -5,7 +5,7 @@ description: "Model Context Protocol server architecture enabling AI models to u
 author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
-  - Zach Kelling <zach@zoo.ngo>
+  - Zoo Labs Foundation <research@zoo.ngo>
 status: Final
 type: Standards Track
 category: AI

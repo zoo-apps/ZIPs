@@ -1,7 +1,7 @@
 ---
 zip: 0036
 title: "Zoo DAO Safe & Zoo Z Safe — Foundation Ownership"
-author: Zach Kelling (@zeekay), Zoo Labs Foundation
+author: Zoo Labs Foundation (@zeekay), Zoo Labs Foundation
 type: Standards Track
 category: Core
 status: Draft

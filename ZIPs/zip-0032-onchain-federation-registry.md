@@ -1,7 +1,7 @@
 ---
 zip: 0032
 title: "Zoo adopts LP-0011: Onchain Federation Registry"
-author: Zach Kelling (@zeekay)
+author: Zoo Labs Foundation (@zeekay)
 type: Standards Track
 category: Interface
 status: Draft

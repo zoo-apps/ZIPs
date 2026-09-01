@@ -1,7 +1,7 @@
 ---
 zip: 0035
 title: "ZOO Supply and the 50/50 Foundation Split"
-author: Zach Kelling (@zeekay), Zoo Labs Foundation
+author: Zoo Labs Foundation (@zeekay), Zoo Labs Foundation
 type: Standards Track
 category: Core
 status: Draft
