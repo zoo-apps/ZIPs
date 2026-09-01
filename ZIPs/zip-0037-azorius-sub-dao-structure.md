@@ -1,7 +1,7 @@
 ---
 zip: 0037
 title: "Azorius Sub-DAO Structure"
-author: Zach Kelling (@zeekay), Zoo Labs Foundation
+author: Zoo Labs Foundation (@zeekay), Zoo Labs Foundation
 type: Standards Track
 category: Governance
 status: Draft

@@ -5,7 +5,7 @@ description: "Intelligent agents permanently bound to NFT tokens, creating livin
 author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
-  - Zach Kelling <zach@zoo.ngo>
+  - Zoo Labs Foundation <research@zoo.ngo>
 status: Draft
 type: Standards Track
 category: AI

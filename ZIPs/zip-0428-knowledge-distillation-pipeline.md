@@ -5,7 +5,7 @@ description: "Systematic pipeline for distilling large Zen models into smaller, 
 author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
-  - Zach Kelling <zach@zoo.ngo>
+  - Zoo Labs Foundation <research@zoo.ngo>
 status: Final
 type: Standards Track
 category: AI

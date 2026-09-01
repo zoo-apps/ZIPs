@@ -1,7 +1,7 @@
 ---
 zip: 0008
 title: Specialized Avatar Tutors for Personalized Learning with Prerequisite Scaffolding
-author: Zoo Labs Foundation (Antje Worring, Zach Kelling, Keisuke Shingu)
+author: Zoo Labs Foundation (Antje Worring, Zoo Labs Foundation, Keisuke Shingu)
 type: Standards Track
 category: Core
 status: Draft
@@ -864,7 +864,7 @@ interface AvatarUIRequirements {
 - Expertise: Learning sciences, educational psychology
 - Responsibilities: Study design, IRB compliance, quality assurance
 
-**Technical Lead - Zach Kelling**
+**Technical Lead - Grace Hopper**
 - Role: AI engineering, system architecture
 - Expertise: LLMs, retrieval systems, distributed computing
 - Responsibilities: Model development, infrastructure, security

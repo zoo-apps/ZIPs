@@ -5,7 +5,7 @@ description: "Fully Homomorphic Encryption applied to AI training and inference,
 author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
-  - Zach Kelling <zach@zoo.ngo>
+  - Zoo Labs Foundation <research@zoo.ngo>
 status: Draft
 type: Standards Track
 category: AI
