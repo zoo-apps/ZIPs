@@ -530,7 +530,7 @@ The impact thesis is extended by the companion paper
 activation 2025-12-25). Five planks are added:
 
 1. **Updated team and mission** — founder Antje Worring (original
-   2021-10-31 author); chief scientist Zach Kelling; mission updated
+   2021-10-31 author); mission updated
    to "open AI protocol for research aligned with environment-saving,
    endangered AI, and the intersection of AI, blockchain, metaverse
    and gaming." See `zips/team.md`.
