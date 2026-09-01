@@ -1,7 +1,7 @@
 ---
 zip: 0031
 title: "Zoo adopts LP-0010: Brand Sovereignty and Federation Discovery"
-author: Zach Kelling (@zeekay)
+author: Zoo Labs Foundation (@zeekay)
 type: Meta
 category: Governance
 status: Final

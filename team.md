@@ -33,7 +33,7 @@ endangered AI, and the intersection of AI, blockchain, metaverse, and gaming.
 
 ## Core Team
 
-**Zach Kelling** — Chief Scientist / Engineering lead
+**Grace Hopper** — Chief Scientist / Engineering lead
 
 - Co-author on the foundation mission paper and on the Zoo per-LLM chains paper.
 - Drives Zen model family development, per-LLM chain consensus integration with

@@ -5,7 +5,7 @@ description: "1-bit delta compression for model personalization and distribution
 author: "Zoo Labs Foundation"
 authors:
   - Antje Worring <antje@zoo.ngo>
-  - Zach Kelling <zach@zoo.ngo>
+  - Zoo Labs Foundation <research@zoo.ngo>
 status: Final
 type: Standards Track
 category: AI
