@@ -38,7 +38,7 @@ endangered AI, and the intersection of AI, blockchain, metaverse, and gaming.
 - Co-author on the foundation mission paper and on the Zoo per-LLM chains paper.
 - Drives Zen model family development, per-LLM chain consensus integration with
   Lux Quasar 3.0, and the Hanzo / Lux / Zoo cross-stack.
-- Contact: `zach@zoo.ngo`.
+- Contact: `research@zoo.ngo`.
 
 **Research staff** — `research@zoo.ngo`
 
