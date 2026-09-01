@@ -299,7 +299,7 @@ As of the 2025-12-15 spec freeze and 2025-12-25 Quasar 3.0 activation,
 the ecosystem architecture is canonically extended along five planks:
 
 1. **Updated team and mission** — see `zips/team.md` for the canonical
-   team page. Founder: Antje Worring. Chief Scientist: Zach Kelling.
+   team page. Founder: Antje Worring.
    Mission: "an open AI protocol for research aligned with
    environment-saving, endangered AI, and the intersection of AI,
    blockchain, metaverse and gaming."
