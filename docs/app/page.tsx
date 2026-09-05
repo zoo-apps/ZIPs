@@ -44,12 +44,8 @@ const colorClasses: Record<string, { bg: string; border: string; text: string }>
 function StatusBadge({ status }: { status: string }) {
   const colors: Record<string, string> = {
     Draft: 'bg-yellow-500/10 text-yellow-500',
-    Review: 'bg-blue-500/10 text-blue-500',
-    'Last Call': 'bg-orange-500/10 text-orange-500',
     Final: 'bg-green-500/10 text-green-500',
-    Withdrawn: 'bg-red-500/10 text-red-500',
-    Stagnant: 'bg-gray-500/10 text-gray-500',
-    Superseded: 'bg-purple-500/10 text-purple-500',
+    Living: 'bg-blue-500/10 text-blue-500',
   };
 
   return (
@@ -123,8 +119,8 @@ export default function HomePage() {
               <div className="text-sm text-muted-foreground mt-1">Final</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-blue-500">{stats.byStatus['Review'] || 0}</div>
-              <div className="text-sm text-muted-foreground mt-1">Review</div>
+              <div className="text-3xl md:text-4xl font-bold text-blue-500">{stats.byStatus['Living'] || 0}</div>
+              <div className="text-sm text-muted-foreground mt-1">Living</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-yellow-500">{stats.byStatus['Draft'] || 0}</div>

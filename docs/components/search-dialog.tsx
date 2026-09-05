@@ -291,8 +291,8 @@ export function SearchDialog() {
                                 'rounded px-1.5 py-0.5 text-xs',
                                 result.structuredData.status === 'Final' && 'bg-green-500/10 text-green-500',
                                 result.structuredData.status === 'Draft' && 'bg-yellow-500/10 text-yellow-500',
-                                result.structuredData.status === 'Review' && 'bg-blue-500/10 text-blue-500',
-                                !['Final', 'Draft', 'Review'].includes(result.structuredData.status || '') && 'bg-muted text-muted-foreground'
+                                result.structuredData.status === 'Living' && 'bg-blue-500/10 text-blue-500',
+                                !['Final', 'Draft', 'Living'].includes(result.structuredData.status || '') && 'bg-muted text-muted-foreground'
                               )}>
                                 {result.structuredData.status}
                               </span>

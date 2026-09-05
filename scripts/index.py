@@ -26,6 +26,30 @@ HEADING = '## ZIP Index'
 #   Living  never finalises; amended as the ecosystem moves
 STATUS = ('Draft', 'Final', 'Living')
 
+# The categories in use. Nothing enforced this before, so docs/lib/source.ts
+# went on declaring a hand-written union that named six of these eleven and
+# nothing caught it. A new one is a decision about the corpus: add it here, and
+# say so in source.ts, or the run fails.
+CATEGORY = ('AI', 'Core', 'DeFi', 'Gaming', 'Governance', 'Interface', 'NFT',
+            'Research', 'Security', 'Wildlife', 'ZRC')
+
+# How far the code has got, per runtime. status: is one word for the whole
+# proposal and cannot say that Go has a thing and Rust does not; these keys can.
+# Flat and hyphenated because frontmatter() above reads one line at a time -- a
+# nested block under implementation: is invisible to it, and a claim the check
+# cannot see is a claim nothing checks.
+#
+# An ABSENT key means nobody has assessed that runtime. `none` means somebody
+# read it and found nothing. The table counts the two apart; folding the first
+# into the second reports an unread corpus as an unimplemented one.
+LANGUAGE = {'go': 'Go', 'cpp': 'C++', 'rust': 'Rust'}
+PROGRESS = ('shipped', 'partial', 'none')
+
+# Go is the reference runtime: Final says the thing a ZIP specifies exists in
+# the code, so Final alongside implementation-go: none is two claims about one
+# body of code, and one of them is wrong.
+REFERENCE_RUNTIME = 'go'
+
 # A floor, not a count. Raise it deliberately when ZIPs are added; a run that
 # sees fewer files than this has lost part of the corpus and must not write.
 FLOOR = 140
@@ -90,6 +114,18 @@ def read():
             faults.append(f"{path.name}: frontmatter zip {data['zip']} is not {number}")
         if data.get('status') not in STATUS:
             faults.append(f"{path.name}: status {data.get('status')!r} is not one of {STATUS}")
+        if data.get('category') and data['category'] not in CATEGORY:
+            faults.append(f"{path.name}: category {data['category']!r} is not one of {CATEGORY}")
+        for runtime in LANGUAGE:
+            field = f'implementation-{runtime}'
+            progress = data.get(field)
+            if progress is None:
+                continue
+            if progress not in PROGRESS:
+                faults.append(f'{path.name}: {field} {progress!r} is not one of {PROGRESS}')
+            elif runtime == REFERENCE_RUNTIME and progress == 'none' and data.get('status') == 'Final':
+                faults.append(f'{path.name}: status is Final and {field} is none; '
+                              'both are claims about the same code')
         zips.append((number, path.name, data))
 
     seen = {}
@@ -121,13 +157,28 @@ def table(zips):
     rows = [HEADING, '',
             f'{len(zips)} proposals. Generated from the ZIP frontmatter by '
             '`scripts/index.py` -- edit the ZIP, not this table.', '',
-            '| Number | Title | Type | Status |',
-            '|:-------|:------|:-----|:-------|']
+            '`status:` is one word for a whole proposal, so it cannot say that Go has '
+            'a thing and Rust does not. A ZIP may also carry '
+            + ', '.join(f'`implementation-{runtime}`' for runtime in LANGUAGE)
+            + '. An empty cell is not `none` -- it means nobody has read that runtime '
+            'yet, and the two are counted apart here.', '',
+            '| | ' + ' | '.join(PROGRESS) + ' | not assessed |',
+            '|:--|' + '--:|' * (len(PROGRESS) + 1)]
+    for runtime, label in LANGUAGE.items():
+        seen = [data.get(f'implementation-{runtime}', '') for _, _, data in zips]
+        counts = [seen.count(p) for p in PROGRESS] + [seen.count('')]
+        rows.append(f'| {label} | ' + ' | '.join(str(n) for n in counts) + ' |')
+
+    rows += ['',
+             '| Number | Title | Type | Status | ' + ' | '.join(LANGUAGE.values()) + ' |',
+             '|:-------|:------|:-----|:-------|' + ':--|' * len(LANGUAGE)]
     for number, name, data in zips:
         title = data['title']
         if len(title) > 60:
             title = title[:57] + '...'
-        rows.append(f"| [ZIP-{number:04d}](./ZIPs/{name}) | {title} | {data['type']} | {data['status']} |")
+        cells = ' | '.join(data.get(f'implementation-{runtime}') or '-' for runtime in LANGUAGE)
+        rows.append(f"| [ZIP-{number:04d}](./ZIPs/{name}) | {title} | {data['type']} "
+                    f"| {data['status']} | {cells} |")
     return '\n'.join(rows) + '\n'
 
 
