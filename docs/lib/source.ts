@@ -4,13 +4,31 @@ import matter from 'gray-matter';
 
 const ZIPS_DIR = path.join(process.cwd(), '../ZIPs');
 
+// scripts/index.py checks both of these on every run, so a ZIP carrying a word
+// outside them fails before it can render. Written by hand here, they had
+// drifted: the status union named five words no ZIP has ever carried and left
+// out Living, which eleven do, and the category union named six of the eleven
+// in use. Adding a word is a decision about the corpus -- make it there first.
+export type Status = 'Draft' | 'Final' | 'Living';
+export type Category =
+  | 'AI' | 'Core' | 'DeFi' | 'Gaming' | 'Governance' | 'Interface'
+  | 'NFT' | 'Research' | 'Security' | 'Wildlife' | 'ZRC';
+
+// How far the code has got, per runtime. An absent key is not 'none': absent
+// means nobody has read that runtime, 'none' means somebody did and found
+// nothing there.
+export type Progress = 'shipped' | 'partial' | 'none';
+
 export interface ZIPMetadata {
   zip?: number | string;
   title?: string;
   description?: string;
-  status?: 'Draft' | 'Review' | 'Last Call' | 'Final' | 'Withdrawn' | 'Stagnant' | 'Superseded';
+  status?: Status;
   type?: 'Standards Track' | 'Meta' | 'Informational';
-  category?: 'Core' | 'DeFi' | 'NFT' | 'Gaming' | 'AI' | 'ZRC';
+  category?: Category;
+  'implementation-go'?: Progress;
+  'implementation-cpp'?: Progress;
+  'implementation-rust'?: Progress;
   author?: string;
   created?: string;
   updated?: string;

@@ -42,8 +42,8 @@ export default function Layout({ children }: { children: ReactNode }) {
                   <span className="ml-1 font-medium text-yellow-500">{stats.byStatus['Draft'] || 0}</span>
                 </div>
                 <div>
-                  <span className="text-muted-foreground">Review:</span>
-                  <span className="ml-1 font-medium text-blue-500">{stats.byStatus['Review'] || 0}</span>
+                  <span className="text-muted-foreground">Living:</span>
+                  <span className="ml-1 font-medium text-blue-500">{stats.byStatus['Living'] || 0}</span>
                 </div>
               </div>
             </div>

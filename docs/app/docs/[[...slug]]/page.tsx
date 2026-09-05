@@ -29,8 +29,8 @@ function ZIPIndexPage() {
           <div className="text-xs text-muted-foreground">Final</div>
         </div>
         <div className="text-center">
-          <div className="text-2xl font-bold text-blue-500">{stats.byStatus['Review'] || 0}</div>
-          <div className="text-xs text-muted-foreground">Review</div>
+          <div className="text-2xl font-bold text-blue-500">{stats.byStatus['Living'] || 0}</div>
+          <div className="text-xs text-muted-foreground">Living</div>
         </div>
         <div className="text-center">
           <div className="text-2xl font-bold text-yellow-500">{stats.byStatus['Draft'] || 0}</div>
@@ -69,7 +69,7 @@ function ZIPIndexPage() {
                   <span className={`text-xs px-2 py-0.5 rounded-full shrink-0 ${
                     zip.data.frontmatter.status === 'Final' ? 'bg-primary/10 text-primary' :
                     zip.data.frontmatter.status === 'Draft' ? 'bg-yellow-500/10 text-yellow-500' :
-                    zip.data.frontmatter.status === 'Review' ? 'bg-blue-500/10 text-blue-500' :
+                    zip.data.frontmatter.status === 'Living' ? 'bg-blue-500/10 text-blue-500' :
                     'bg-gray-500/10 text-gray-500'
                   }`}>
                     {zip.data.frontmatter.status}
@@ -116,9 +116,7 @@ function ZIPDetailPage({ page }: { page: ZIPPage }) {
             <span className={`text-sm px-3 py-1 rounded-full shrink-0 ${
               frontmatter.status === 'Final' ? 'bg-primary/10 text-primary' :
               frontmatter.status === 'Draft' ? 'bg-yellow-500/10 text-yellow-500' :
-              frontmatter.status === 'Review' ? 'bg-blue-500/10 text-blue-500' :
-              frontmatter.status === 'Last Call' ? 'bg-orange-500/10 text-orange-500' :
-              frontmatter.status === 'Superseded' ? 'bg-purple-500/10 text-purple-500' :
+              frontmatter.status === 'Living' ? 'bg-blue-500/10 text-blue-500' :
               'bg-gray-500/10 text-gray-500'
             }`}>
               {frontmatter.status}

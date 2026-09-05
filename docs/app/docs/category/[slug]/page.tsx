@@ -62,12 +62,8 @@ export default async function CategoryPage({ params }: PageProps) {
   // Status colors for badges
   const statusColors: Record<string, string> = {
     Draft: 'bg-yellow-500/10 text-yellow-500',
-    Review: 'bg-blue-500/10 text-blue-500',
-    'Last Call': 'bg-orange-500/10 text-orange-500',
     Final: 'bg-green-500/10 text-green-500',
-    Withdrawn: 'bg-red-500/10 text-red-500',
-    Stagnant: 'bg-gray-500/10 text-gray-500',
-    Superseded: 'bg-purple-500/10 text-purple-500',
+    Living: 'bg-blue-500/10 text-blue-500',
   };
 
   // Calculate stats for this category
@@ -145,8 +141,8 @@ export default async function CategoryPage({ params }: PageProps) {
           <div className="text-xs text-muted-foreground">Final</div>
         </div>
         <div className="text-center">
-          <div className="text-2xl font-bold text-blue-500">{statsByStatus['Review'] || 0}</div>
-          <div className="text-xs text-muted-foreground">Review</div>
+          <div className="text-2xl font-bold text-blue-500">{statsByStatus['Living'] || 0}</div>
+          <div className="text-xs text-muted-foreground">Living</div>
         </div>
         <div className="text-center">
           <div className="text-2xl font-bold text-yellow-500">{statsByStatus['Draft'] || 0}</div>
