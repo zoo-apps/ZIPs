@@ -5,6 +5,7 @@ author: Zoo Team
 type: Standards Track
 category: Security
 status: Final
+implementation-go: partial
 created: 2024-12-20
 requires: []
 related-hips: [HIP-5]

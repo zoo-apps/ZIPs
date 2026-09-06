@@ -4,6 +4,7 @@ title: "Zoo AI Desktop"
 description: "Local-first private AI desktop application that hosts the Zen model family on the user's device, with optional Zoo Cloud routing for larger models"
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-rust: partial
 type: Standards Track
 category: ZRC
 created: 2025-12-15

@@ -4,6 +4,7 @@ title: "Zoo DEX (V2/V3 Native, V4 Lux DEX Precompile)"
 description: "Native Uniswap-style AMM V2 (constant product) and V3 (concentrated liquidity) on Zoo L1, plus V4 implemented as a precompile to the Lux DEX for cross-chain routing"
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: partial
 type: Standards Track
 category: ZRC
 created: 2025-12-15

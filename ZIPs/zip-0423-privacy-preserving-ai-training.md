@@ -7,6 +7,7 @@ authors:
   - Antje Worring <antje@zoo.ngo>
   - Zoo Labs Foundation <research@zoo.ngo>
 status: Draft
+implementation-go: partial
 type: Standards Track
 category: AI
 originated: 2024-10

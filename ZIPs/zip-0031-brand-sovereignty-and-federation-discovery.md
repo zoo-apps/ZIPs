@@ -5,6 +5,7 @@ author: Zoo Labs Foundation (@zeekay)
 type: Meta
 category: Governance
 status: Final
+implementation-go: partial
 created: 2026-05-29
 requires: [17]
 references: LP-0010
