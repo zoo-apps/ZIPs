@@ -4,6 +4,7 @@ title: "Beluga L3 Thinking-Chain Architecture"
 description: "Beluga (BLG), Zoo's L3, as the first Thinking Chain: a deterministic chain plus a verifiable cognitive layer, running Tier-1 in-consensus int8 inference and consuming Tier-2 off-chain provider-quorum Proof-of-Thought receipts, under binding constitutional rules"
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: partial
 type: "Standards Track"
 category: "Core"
 created: 2026-06-21

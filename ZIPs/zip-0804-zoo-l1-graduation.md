@@ -4,6 +4,7 @@ title: "Zoo L1 Graduation"
 description: "Graduate Zoo from a Lux L2 application chain to a sovereign Quasar-certified L1 with native validator set, triple-consensus finality, and chain-local privacy precompiles"
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: partial
 type: Standards Track
 category: Core
 created: 2025-12-15

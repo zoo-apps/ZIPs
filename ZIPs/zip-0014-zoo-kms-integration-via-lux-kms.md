@@ -5,6 +5,7 @@ author: Zoo Labs Foundation
 type: Infrastructure
 category: Core
 status: Final
+implementation-go: partial
 created: 2025-11-22
 requires: [12]
 references: LP-325, HIP-005

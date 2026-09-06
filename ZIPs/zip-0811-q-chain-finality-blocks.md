@@ -4,6 +4,7 @@ title: "Q-Chain — Quasar Finality Block Standard (Zoo mirror of HIP-0079)"
 description: "Zoo-side mirror of Hanzo HIP-0079. Pins the compact finality-block wire format for the Quasar consensus engine on Zoo Network. Single Pulsar-M-65 threshold sig per block; TupleHash256 transcript binding over 23 axes; Z-Chain roots anchored by hash. Heavy spec lives in HIP-0079."
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: none
 type: Standards Track
 category: Core
 network: Zoo Network

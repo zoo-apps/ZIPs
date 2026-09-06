@@ -4,6 +4,7 @@ title: "Zoo Bridge — Cross-Ecosystem Bridge for Zoo L1"
 description: "Cross-ecosystem bridge for Zoo L1 ZRC-20/721/1155 assets and native $ZOO. Built on Lux B-Chain (BVM) with M-Chain MPC threshold signing, preserving conservation metadata and token-bound account state across chains"
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: none
 type: Standards Track
 category: ZRC
 created: 2025-12-15

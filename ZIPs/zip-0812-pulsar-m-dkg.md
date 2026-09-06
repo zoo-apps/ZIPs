@@ -4,6 +4,7 @@ title: "Pulsar-M — Threshold ML-DSA DKG & Signing (Zoo mirror of HIP-0084)"
 description: "Zoo-side mirror of Hanzo HIP-0084. Pins Pulsar-M-65 as the threshold ML-DSA primitive consumed by Q-Chain finality on Zoo Network. Epoch-cadence DKG, identifiable abort, no BLS fallback. Threshold-aggregated signature verifies under unmodified FIPS 204 ML-DSA.Verify. Heavy spec lives in HIP-0084 and the NIST MPTC submission package."
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: partial
 type: Standards Track
 category: Core
 network: Zoo Network

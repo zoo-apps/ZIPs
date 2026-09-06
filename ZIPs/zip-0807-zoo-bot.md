@@ -4,6 +4,7 @@ title: "zoo-bot — Pure-Go Agentic Bot Framework"
 description: "Pure-Go re-write of the Hanzo OpenClaw bot framework: smaller binary, lower memory, faster cold start, narrower attack surface"
 author: "Zoo Labs Foundation"
 status: Draft
+implementation-go: none
 type: Standards Track
 category: ZRC
 created: 2025-12-15

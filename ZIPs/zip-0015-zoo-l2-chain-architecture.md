@@ -4,6 +4,7 @@ title: "Zoo L2 Chain Architecture"
 description: "Zoo Network operates as an L2 chain on the Lux Network, inheriting security from primary network validators"
 author: "Zoo Labs Foundation"
 status: Final
+implementation-go: partial
 type: "Standards Track"
 category: "Core"
 created: 2025-12-27

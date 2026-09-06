@@ -48,24 +48,24 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 
 | | shipped | partial | none | not assessed |
 |:--|--:|--:|--:|--:|
-| Go | 0 | 0 | 0 | 146 |
+| Go | 0 | 10 | 4 | 132 |
 | C++ | 0 | 0 | 0 | 146 |
-| Rust | 0 | 0 | 0 | 146 |
+| Rust | 0 | 1 | 0 | 145 |
 
 | Number | Title | Type | Status | Go | C++ | Rust |
 |:-------|:------|:-----|:-------|:--|:--|:--|
 | [ZIP-0000](./ZIPs/zip-0000-zoo-ecosystem-architecture-framework.md) | Zoo Ecosystem Architecture & Framework | Meta | Living | - | - | - |
 | [ZIP-0002](./ZIPs/zip-0002-genesis-airdrop-to-original-zoo-token-victims.md) | Genesis Airdrop to Original ZOO Token Victims | Standards Track | Final | - | - | - |
 | [ZIP-0004](./ZIPs/zip-0004-gaming-standards-for-zoo-ecosystem.md) | Gaming Standards for Zoo Ecosystem | Standards Track | Draft | - | - | - |
-| [ZIP-0005](./ZIPs/zip-0005-post-quantum-security-for-defi-nfts.md) | Post-Quantum Security for DeFi & NFTs | Standards Track | Final | - | - | - |
+| [ZIP-0005](./ZIPs/zip-0005-post-quantum-security-for-defi-nfts.md) | Post-Quantum Security for DeFi & NFTs | Standards Track | Final | partial | - | - |
 | [ZIP-0006](./ZIPs/zip-0006-user-owned-ai-models-on-zoo-nft-based-model-ownership.md) | User-Owned AI Models on Zoo - NFT-Based Model Ownership | Standards Track | Draft | - | - | - |
 | [ZIP-0007](./ZIPs/zip-0007-bitdelta-deltasoup-personalized-and-community-ai.md) | BitDelta + DeltaSoup - Personalized and Community AI | Standards Track | Draft | - | - | - |
 | [ZIP-0008](./ZIPs/zip-0008-specialized-avatar-tutors-for-personalized-learning-with-prerequisite-scaffolding.md) | Specialized Avatar Tutors for Personalized Learning with ... | Standards Track | Draft | - | - | - |
 | [ZIP-0010](./ZIPs/zip-0010-zoo-launch-models-eco-1-coder-1-and-nano-1.md) | Zoo Launch Models - Eco-1, Coder-1, and Nano-1 | Standards Track | Draft | - | - | - |
 | [ZIP-0011](./ZIPs/zip-0011-spatial-web-active-inference-and-agent-to-agent-economies-for-zoo-ai.md) | Spatial Web, Active Inference, and Agent-to-Agent Economi... | Standards Track | Draft | - | - | - |
 | [ZIP-0012](./ZIPs/zip-0012-lp-integration-chain-agnostic-ai-standards.md) | LP (Lux Proposals) Integration - Chain-Agnostic AI Standards | Standards Track | Draft | - | - | - |
-| [ZIP-0014](./ZIPs/zip-0014-zoo-kms-integration-via-lux-kms.md) | Zoo KMS Integration via Lux KMS | Infrastructure | Final | - | - | - |
-| [ZIP-0015](./ZIPs/zip-0015-zoo-l2-chain-architecture.md) | Zoo L2 Chain Architecture | Standards Track | Final | - | - | - |
+| [ZIP-0014](./ZIPs/zip-0014-zoo-kms-integration-via-lux-kms.md) | Zoo KMS Integration via Lux KMS | Infrastructure | Final | partial | - | - |
+| [ZIP-0015](./ZIPs/zip-0015-zoo-l2-chain-architecture.md) | Zoo L2 Chain Architecture | Standards Track | Final | partial | - | - |
 | [ZIP-0016](./ZIPs/zip-0016-zoo-token-economics.md) | ZOO Token Economics | Standards Track | Draft | - | - | - |
 | [ZIP-0017](./ZIPs/zip-0017-dao-governance-framework.md) | DAO Governance Framework | Standards Track | Draft | - | - | - |
 | [ZIP-0018](./ZIPs/zip-0018-treasury-management-protocol.md) | Treasury Management Protocol | Standards Track | Draft | - | - | - |
@@ -81,7 +81,7 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 | [ZIP-0028](./ZIPs/zip-0028-zoo-sdk-specification.md) | Zoo SDK Specification | Standards Track | Draft | - | - | - |
 | [ZIP-0029](./ZIPs/zip-0029-gasless-transactions-for-conservation.md) | Gasless Transactions for Conservation | Standards Track | Draft | - | - | - |
 | [ZIP-0030](./ZIPs/zip-0030-on-chain-species-registry.md) | On-Chain Species Registry | Standards Track | Draft | - | - | - |
-| [ZIP-0031](./ZIPs/zip-0031-brand-sovereignty-and-federation-discovery.md) | Zoo adopts LP-0010: Brand Sovereignty and Federation Disc... | Meta | Final | - | - | - |
+| [ZIP-0031](./ZIPs/zip-0031-brand-sovereignty-and-federation-discovery.md) | Zoo adopts LP-0010: Brand Sovereignty and Federation Disc... | Meta | Final | partial | - | - |
 | [ZIP-0032](./ZIPs/zip-0032-onchain-federation-registry.md) | Zoo adopts LP-0011: Onchain Federation Registry | Standards Track | Draft | - | - | - |
 | [ZIP-0033](./ZIPs/zip-0033-zoo-did.md) | Zoo Decentralized Identification Service (DID) | Standards Track | Draft | - | - | - |
 | [ZIP-0034](./ZIPs/zip-0034-zoo-xp-quests.md) | Zoo XP & Quests Protocol | Standards Track | Draft | - | - | - |
@@ -138,11 +138,11 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 | [ZIP-0416](./ZIPs/zip-0416-vision-language-models.md) | Vision-Language Models (Zen-VL) | Standards Track | Final | - | - | - |
 | [ZIP-0417](./ZIPs/zip-0417-realtime-conversational-ai.md) | Real-Time Conversational AI (Zen-Live) | Standards Track | Final | - | - | - |
 | [ZIP-0418](./ZIPs/zip-0418-hamiltonian-large-language-models.md) | Hamiltonian Large Language Models (HLLM) | Standards Track | Draft | - | - | - |
-| [ZIP-0419](./ZIPs/zip-0419-proof-of-ai-consensus.md) | Proof of AI (PoAI) | Standards Track | Draft | - | - | - |
+| [ZIP-0419](./ZIPs/zip-0419-proof-of-ai-consensus.md) | Proof of AI (PoAI) | Standards Track | Draft | partial | - | - |
 | [ZIP-0420](./ZIPs/zip-0420-7680-dimensional-embeddings.md) | 7680-Dimensional Embeddings (Zen-Reranker) | Standards Track | Draft | - | - | - |
 | [ZIP-0421](./ZIPs/zip-0421-training-free-preference-optimization.md) | Training-Free Preference Optimization (GRPO) | Standards Track | Draft | - | - | - |
 | [ZIP-0422](./ZIPs/zip-0422-computer-use-framework.md) | Computer Use Framework (Operative) | Standards Track | Final | - | - | - |
-| [ZIP-0423](./ZIPs/zip-0423-privacy-preserving-ai-training.md) | Privacy-Preserving AI Training (FHE) | Standards Track | Draft | - | - | - |
+| [ZIP-0423](./ZIPs/zip-0423-privacy-preserving-ai-training.md) | Privacy-Preserving AI Training (FHE) | Standards Track | Draft | partial | - | - |
 | [ZIP-0424](./ZIPs/zip-0424-federated-wildlife-monitoring.md) | Federated Wildlife Monitoring | Standards Track | Draft | - | - | - |
 | [ZIP-0425](./ZIPs/zip-0425-satellite-ecological-monitoring.md) | Satellite Ecological Monitoring | Standards Track | Draft | - | - | - |
 | [ZIP-0426](./ZIPs/zip-0426-1m-token-context-extension.md) | 1M Token Context Extension | Standards Track | Draft | - | - | - |
@@ -181,15 +181,15 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 | [ZIP-0801](./ZIPs/zip-0801-zoo-hanzo-settlement-integration.md) | Zoo-Hanzo Settlement Integration | Standards Track | Draft | - | - | - |
 | [ZIP-0802](./ZIPs/zip-0802-omnichain-teleport.md) | Zoo Omnichain Teleport Extension | Standards Track | Final | - | - | - |
 | [ZIP-0803](./ZIPs/zip-0803-encrypted-streaming-replication.md) | Encrypted Streaming Replication for Zoo Services | Standards Track | Final | - | - | - |
-| [ZIP-0804](./ZIPs/zip-0804-zoo-l1-graduation.md) | Zoo L1 Graduation | Standards Track | Draft | - | - | - |
-| [ZIP-0805](./ZIPs/zip-0805-zoo-dex.md) | Zoo DEX (V2/V3 Native, V4 Lux DEX Precompile) | Standards Track | Draft | - | - | - |
-| [ZIP-0806](./ZIPs/zip-0806-zoo-ai-desktop.md) | Zoo AI Desktop | Standards Track | Draft | - | - | - |
-| [ZIP-0807](./ZIPs/zip-0807-zoo-bot.md) | zoo-bot — Pure-Go Agentic Bot Framework | Standards Track | Draft | - | - | - |
-| [ZIP-0808](./ZIPs/zip-0808-zoo-bridge.md) | Zoo Bridge — Cross-Ecosystem Bridge for Zoo L1 | Standards Track | Draft | - | - | - |
+| [ZIP-0804](./ZIPs/zip-0804-zoo-l1-graduation.md) | Zoo L1 Graduation | Standards Track | Draft | partial | - | - |
+| [ZIP-0805](./ZIPs/zip-0805-zoo-dex.md) | Zoo DEX (V2/V3 Native, V4 Lux DEX Precompile) | Standards Track | Draft | partial | - | - |
+| [ZIP-0806](./ZIPs/zip-0806-zoo-ai-desktop.md) | Zoo AI Desktop | Standards Track | Draft | - | - | partial |
+| [ZIP-0807](./ZIPs/zip-0807-zoo-bot.md) | zoo-bot — Pure-Go Agentic Bot Framework | Standards Track | Draft | none | - | - |
+| [ZIP-0808](./ZIPs/zip-0808-zoo-bridge.md) | Zoo Bridge — Cross-Ecosystem Bridge for Zoo L1 | Standards Track | Draft | none | - | - |
 | [ZIP-0809](./ZIPs/zip-0809-mesh-identity-gossip-and-payments.md) | Mesh Identity, Gossip & Payments (PQ) — Zoo mirror of HIP... | Standards Track | Draft | - | - | - |
 | [ZIP-0810](./ZIPs/zip-0810-z-chain-pq-identity-rollup.md) | Z-Chain — Post-Quantum Identity & Attestation Rollup (Zoo... | Standards Track | Draft | - | - | - |
-| [ZIP-0811](./ZIPs/zip-0811-q-chain-finality-blocks.md) | Q-Chain — Quasar Finality Block Standard (Zoo mirror of H... | Standards Track | Draft | - | - | - |
-| [ZIP-0812](./ZIPs/zip-0812-pulsar-m-dkg.md) | Pulsar-M — Threshold ML-DSA DKG & Signing (Zoo mirror of ... | Standards Track | Draft | - | - | - |
+| [ZIP-0811](./ZIPs/zip-0811-q-chain-finality-blocks.md) | Q-Chain — Quasar Finality Block Standard (Zoo mirror of H... | Standards Track | Draft | none | - | - |
+| [ZIP-0812](./ZIPs/zip-0812-pulsar-m-dkg.md) | Pulsar-M — Threshold ML-DSA DKG & Signing (Zoo mirror of ... | Standards Track | Draft | partial | - | - |
 | [ZIP-0813](./ZIPs/zip-0813-wallet-pq-account-type.md) | Wallet PQ Account Type — Zoo mirror of HIP-0085 | Standards Track | Draft | - | - | - |
 | [ZIP-0814](./ZIPs/zip-0814-tx-auth-envelope.md) | TxAuthEnvelope — Zoo mirror of HIP-0086 | Standards Track | Draft | - | - | - |
 | [ZIP-0815](./ZIPs/zip-0815-pq-permit.md) | PQ Permit — Zoo mirror of HIP-0087 | Standards Track | Draft | - | - | - |
@@ -198,8 +198,8 @@ Zoo Labs Foundation publishes academic and technical papers documenting the rese
 | [ZIP-0818](./ZIPs/zip-0818-bridge-pq-only-profile.md) | Bridge PQ-Only Profile — Zoo mirror of HIP-0103 | Standards Track | Draft | - | - | - |
 | [ZIP-0819](./ZIPs/zip-0819-governance-upgrade-keys.md) | Governance / Upgrade Keys — Zoo mirror of HIP-0098 | Standards Track | Draft | - | - | - |
 | [ZIP-0820](./ZIPs/zip-0820-contract-auth-via-zchain-proof.md) | Contract Auth via Z-Chain Proof — Zoo mirror of HIP-0104 | Standards Track | Draft | - | - | - |
-| [ZIP-0901](./ZIPs/zip-0901-beluga-l3-thinking-chain-architecture.md) | Beluga L3 Thinking-Chain Architecture | Standards Track | Draft | - | - | - |
-| [ZIP-0902](./ZIPs/zip-0902-proof-of-thought-receipts-on-zoo.md) | Proof-of-Thought Receipts on Zoo | Standards Track | Draft | - | - | - |
+| [ZIP-0901](./ZIPs/zip-0901-beluga-l3-thinking-chain-architecture.md) | Beluga L3 Thinking-Chain Architecture | Standards Track | Draft | partial | - | - |
+| [ZIP-0902](./ZIPs/zip-0902-proof-of-thought-receipts-on-zoo.md) | Proof-of-Thought Receipts on Zoo | Standards Track | Draft | none | - | - |
 ## ZIP Process
 
 Write the ZIP, open a pull request, take review, land it. A ZIP is born `Draft`
