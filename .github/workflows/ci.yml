@@ -8,7 +8,7 @@ on:
 
 jobs:
   check:
-    runs-on: zoo-build-linux-amd64
+    runs-on: linux-amd64
     steps:
       - uses: actions/checkout@v4
 
@@ -24,7 +24,7 @@ jobs:
         run: python3 scripts/index.py --check
 
   site:
-    runs-on: zoo-build-linux-amd64
+    runs-on: linux-amd64
     steps:
       - uses: actions/checkout@v4
 
